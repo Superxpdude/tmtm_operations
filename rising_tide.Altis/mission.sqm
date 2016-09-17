@@ -1,0 +1,91 @@
+version=52;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=3;
+	};
+	class Camera
+	{
+		pos[]={20820.568,191.18068,19764.785};
+		dir[]={-0.87896711,-0.3345688,0.33994797};
+		up[]={-0.31206676,0.94236273,0.1206939};
+		aside[]={0.36073655,-1.6587364e-007,0.93271458};
+	};
+};
+binarizationWanted=0;
+class AddonsMetaData
+{
+};
+randomSeed=9059169;
+class ScenarioData
+{
+	author="Superxpdude";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		rainForced=1;
+		lightningsForced=1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=3;
+		class Item0
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={21875.172,11.825,20929.945};
+			};
+			title="Secure Ghost Hotel";
+			id=0;
+			atlOffset=0.00036334991;
+		};
+		class Item1
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={20602.332,51.395,20116.76};
+			};
+			title="Secure Military Outpost";
+			id=1;
+			atlOffset=-0.00040054321;
+		};
+		class Item2
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={20936.254,21.312267,19250.789};
+			};
+			title="Secure Military Base";
+			id=2;
+			atlOffset=8.1747818;
+		};
+	};
+};

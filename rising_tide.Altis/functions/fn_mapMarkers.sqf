@@ -9,7 +9,7 @@ if ((_this select 0) == 0) exitWith {};
 		_markers = [];
 		// Fill the groups list with friendly player groups
 		{
-			if (((side (leader _x)) == east) && (isPlayer (leader _x))) then {
+			if (((side (leader _x)) == west) && (isPlayer (leader _x))) then {
 				_groups pushBackUnique _x;
 			};
 		} forEach allGroups;
@@ -17,7 +17,7 @@ if ((_this select 0) == 0) exitWith {};
 		{
 			private ["_marker", "_x"];
 			_marker = createMarker [format ["%1", _x], getPosATL (leader _x)];
-			_marker setMarkerType "o_unknown";
+			_marker setMarkerType "b_unknown";
 			_marker setMarkerPos (getPosATL (leader _x));
 			_marker setMarkerText (groupID _x);
 			_marker setMarkerSize [0.75, 0.75];

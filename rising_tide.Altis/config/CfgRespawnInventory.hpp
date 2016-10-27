@@ -1,5 +1,22 @@
 class CfgRespawnInventory
 {
+	class B_G_officer_F
+	{
+		displayName = "FIA Commander";
+	};
+	class cmd_Medic
+	{
+		displayName = "Platoon Medic";
+	};
+	class sniper_Lead
+	{
+		displayName = "Lead Sniper";
+	};
+	class B_G_Sharpshooter_F
+	{
+		displayName = "Sharpshooter";
+	};
+	/*
 	class O_officer_F
 	{
 		displayName = "CSAT Commander";
@@ -170,5 +187,6 @@ class CfgRespawnInventory
 		items[] = {"ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_epinephrine","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_EntrenchingTool"};
 		linkedItems[] = {"V_HarnessO_brn","H_HelmetO_ocamo","","ItemMap","ItemCompass","ItemWatch","tf_fadak","ItemMicroDAGR", "optic_ACO_grn", "acc_flashlight"};
 	};
+	*/
 };
 

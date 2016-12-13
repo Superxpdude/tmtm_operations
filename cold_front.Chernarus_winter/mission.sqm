@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=2281;
+		nextID=2283;
 	};
 	class MarkerIDProvider
 	{
@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=65;
+		nextID=69;
 	};
 	class Camera
 	{
-		pos[]={8094.4102,512.82092,9019.3623};
+		pos[]={8118.9785,512.82092,8997.1729};
 		dir[]={0.81035429,-0.58267301,0.063855782};
 		up[]={0.5808937,0.81267822,0.045773722};
 		aside[]={0.078566857,-3.5372977e-006,-0.99701196};
@@ -14282,7 +14282,7 @@ class Mission
 			fillName="FDiagonal";
 			a=300;
 			b=200;
-			angle=113.2409;
+			angle=113.24089;
 			id=2254;
 			atlOffset=-149.18887;
 		};
@@ -14297,7 +14297,7 @@ class Mission
 			fillName="FDiagonal";
 			a=300;
 			b=200;
-			angle=112.73785;
+			angle=112.73784;
 			id=2255;
 			atlOffset=-138.65144;
 		};
@@ -14312,7 +14312,7 @@ class Mission
 			fillName="FDiagonal";
 			a=300;
 			b=200;
-			angle=101.4109;
+			angle=101.41089;
 			id=2256;
 			atlOffset=-158.41753;
 		};
@@ -14416,7 +14416,7 @@ class Mission
 			fillName="FDiagonal";
 			a=300;
 			b=200;
-			angle=104.36359;
+			angle=104.36358;
 			id=2263;
 			atlOffset=-152.08783;
 		};

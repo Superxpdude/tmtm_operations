@@ -14,6 +14,7 @@ if ((getMissionConfigValue "SXP_customLoadouts") == 1) then {
 
 	// Only load the loadout for a unit if that loadout actually exists
 	if (isClass ((getMissionConfig "CfgRespawnInventory") >> _loadout)) then {
+		removeGoggles _unit;
 		[_unit, missionConfigFile >> "CfgRespawnInventory" >> _loadout] call BIS_fnc_loadInventory;
 	};
 };

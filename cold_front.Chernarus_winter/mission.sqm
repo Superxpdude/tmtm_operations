@@ -276,6 +276,7 @@ class Mission
 {
 	class Intel
 	{
+		briefingName="COOP 51+1 - Cold Front 1.0 (HC)";
 		timeOfChanges=1800.0002;
 		startWeather=0.64999998;
 		startFog=0.49583459;
@@ -14303,7 +14304,7 @@ class Mission
 			fillName="FDiagonal";
 			a=300;
 			b=200;
-			angle=113.24088;
+			angle=113.24084;
 			id=2254;
 			atlOffset=-149.18887;
 		};
@@ -14333,7 +14334,7 @@ class Mission
 			fillName="FDiagonal";
 			a=300;
 			b=200;
-			angle=101.41087;
+			angle=101.41084;
 			id=2256;
 			atlOffset=-158.41753;
 		};
@@ -14437,7 +14438,7 @@ class Mission
 			fillName="FDiagonal";
 			a=300;
 			b=200;
-			angle=104.36356;
+			angle=104.36353;
 			id=2263;
 			atlOffset=-152.08783;
 		};

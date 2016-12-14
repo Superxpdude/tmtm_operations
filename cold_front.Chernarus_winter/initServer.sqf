@@ -20,3 +20,10 @@ _blacklistedMissionObjects = [];
 		};
 	} forEach playableUnits + switchableUnits + allMissionObjects "LandVehicle" + allMissionObjects "Man" + allMissionObjects "Air" + allMissionObjects "Reammobox_F" - _blacklistedMissionObjects - allMissionObjects "VirtualMan_F";
 } forEach allCurators;
+
+// Create tasks
+if (isNil "zeus_unit") then {
+	[true, "defend_alpha", ["Defend Artillery Base Alpha from the impending CSAT assault.", "Defend Artillery Base Alpha", "marker_arty_base"], getMarkerPos "marker_arty_base", "ASSIGNED", 0, true, "defend", true] call BIS_fnc_taskCreate;
+} else {
+	[[true, zeus_unit], "defend_alpha", ["Defend Artillery Base Alpha from the impending CSAT assault.", "Defend Artillery Base Alpha", "marker_arty_base"], getMarkerPos "marker_arty_base", "ASSIGNED", 0, true, "defend", true] call BIS_fnc_taskCreate;
+};

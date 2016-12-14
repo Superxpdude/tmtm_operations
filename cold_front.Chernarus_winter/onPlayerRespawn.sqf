@@ -2,6 +2,8 @@
 // Executes on a player's machine when they respawn
 // _this = [<newUnit>, <oldUnit>, <respawn>, <respawnDelay>]
 
+["Terminate"] call BIS_fnc_EGSpectator;
+
 _unit = _this select 0;
 if ((getMissionConfigValue "SXP_customLoadouts") == 1) then {
 	// Handle giving units their proper loadouts upon respawn.
@@ -20,7 +22,9 @@ if ((getMissionConfigValue "SXP_customLoadouts") == 1) then {
 };
 
 // Makes sure the unit is editable by all zeus modules. Needs to be run on the server
-[_unit] remoteExec ["SXP_fnc_addUnitToZeus", 2];
+if ((side player) != sideLogic) then {
+	[_unit] remoteExec ["SXP_fnc_addUnitToZeus", 2];
+};
 
 // Sets the insignia of the unit to the TMTM insignia
 [_unit, "tmtm"] remoteExec ["BIS_fnc_setUnitInsignia", 0, true];

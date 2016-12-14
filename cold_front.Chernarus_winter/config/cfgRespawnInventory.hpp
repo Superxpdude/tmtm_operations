@@ -29,7 +29,7 @@ class CfgRespawnInventory
 		displayName = "Lead Crewman";
 		uniformClass = "Blue_Snow_Camo";
 		backpack = "tf_rt1523g_black";
-		weapons[] = {"hgun_Pistol_heavy_01_F","Binocular","hlc_rifle_G36CMLIC","Throw","Put"};
+		weapons[] = {"hlc_rifle_G36CMLIC","hgun_Pistol_heavy_01_F","Binocular","Throw","Put"};
 		magazines[] = {"11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellBlue","SmokeShellBlue","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag"};
 		items[] = {"ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_morphine","ACE_morphine","ACE_epinephrine","ACE_EntrenchingTool","ToolKit","ACE_SpraypaintBlue","ACE_SpraypaintBlue"};
 		linkedItems[] = {"V_JaKdo_Plate_Winter","Blue_Snow_Helmet","G_Combat","ItemMap","ItemCompass","ItemWatch","tf_anprc152_6","ItemMicroDAGR","optic_ACO","acc_flashlight"};
@@ -39,7 +39,7 @@ class CfgRespawnInventory
 		displayName = "Crewman";
 		uniformClass = "Blue_Snow_Camo";
 		backpack = "B_JaKdo_Carryall_winter";
-		weapons[] = {"hgun_Pistol_heavy_01_F","Binocular","hlc_rifle_G36CMLIC","Throw","Put"};
+		weapons[] = {"hlc_rifle_G36CMLIC","hgun_Pistol_heavy_01_F","Binocular","Throw","Put"};
 		magazines[] = {"11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellBlue","SmokeShellBlue","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag"};
 		items[] = {"ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_morphine","ACE_morphine","ACE_epinephrine","ACE_EntrenchingTool","ToolKit","ACE_SpraypaintBlue","ACE_SpraypaintBlue"};
 		linkedItems[] = {"V_JaKdo_Plate_Winter","Blue_Snow_Helmet","G_Combat","ItemMap","ItemCompass","ItemWatch","tf_anprc152_6","ItemMicroDAGR","optic_ACO","acc_flashlight"};
@@ -49,7 +49,7 @@ class CfgRespawnInventory
 		displayName = "Squad Leader";
 		uniformClass = "Blue_Snow_Camo";
 		backpack = "tf_rt1523g_black";
-		weapons[] = {"hgun_Pistol_heavy_01_F","Rangefinder","hlc_rifle_G36MLIAG36","Throw","Put"};
+		weapons[] = {"hlc_rifle_G36MLIAG36","hgun_Pistol_heavy_01_F","Rangefinder","Throw","Put"};
 		magazines[] = {"11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellBlue","SmokeShellBlue","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell"};
 		items[] = {"ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_morphine","ACE_morphine","ACE_epinephrine","ACE_EntrenchingTool"};
 		linkedItems[] = {"V_JaKdo_Plate_Winter","Blue_Snow_Helmet","G_Combat","ItemMap","ItemCompass","ItemWatch","tf_anprc152","ItemAndroid","optic_MRCO","acc_flashlight"};

@@ -14,6 +14,10 @@ class cfgFunctions
 			class addUnitToZeus {};
 			class zeusRemoveNVGs {};
 		};
+		class mission
+		{
+			class endMission {};
+		};
 		// Don't change anything in this class
 		class system
 		{

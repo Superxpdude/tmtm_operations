@@ -23,7 +23,9 @@ _blacklistedMissionObjects = [];
 
 // Create tasks
 if (isNil "zeus_unit") then {
-	[true, "defend_alpha", ["Defend Artillery Base Alpha from the impending CSAT assault.", "Defend Artillery Base Alpha", "marker_arty_base"], getMarkerPos "marker_arty_base", "ASSIGNED", 0, true, "defend", true] call BIS_fnc_taskCreate;
+	[true, "defend_alpha", ["Defend Artillery Base Alpha from the impending CSAT assault.", "Defend Artillery Base Alpha", "marker_arty_base"], getMarkerPos "marker_arty_base", "CREATED", 0, true, "defend", true] call BIS_fnc_taskCreate;
+	[true, "defend_aar", ["Defend the Gorka Anti-Air Radar from CSAT attackers.", "Defend the Anti-Air Radar", ""], aar, "ASSIGNED", 10, true, "defend", true] call BIS_fnc_taskCreate;
 } else {
-	[[true, zeus_unit], "defend_alpha", ["Defend Artillery Base Alpha from the impending CSAT assault.", "Defend Artillery Base Alpha", "marker_arty_base"], getMarkerPos "marker_arty_base", "ASSIGNED", 0, true, "defend", true] call BIS_fnc_taskCreate;
+	[[true, zeus_unit], "defend_alpha", ["Defend Artillery Base Alpha from the impending CSAT assault.", "Defend Artillery Base Alpha", "marker_arty_base"], getMarkerPos "marker_arty_base", "CREATED", 0, true, "defend", true] call BIS_fnc_taskCreate;
+	[[true, zeus_unit], "defend_aar", ["Defend the Gorka Anti-Air Radar from CSAT attackers.", "Defend the Anti-Air Radar", ""], aar, "ASSIGNED", 10, true, "defend", true] call BIS_fnc_taskCreate;
 };

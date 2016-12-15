@@ -301,7 +301,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="COOP 51+1 - Cold Front (HC)";
+		briefingName="COOP 51+1 - Cold Front r1 (HC)";
 		timeOfChanges=1800.0002;
 		startWeather=0.64999998;
 		startFog=0.49583459;

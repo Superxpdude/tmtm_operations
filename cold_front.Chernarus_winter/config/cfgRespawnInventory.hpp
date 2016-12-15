@@ -72,7 +72,7 @@ class CfgRespawnInventory
 		weapons[] = {"hlc_rifle_g3sg1ris","hgun_Pistol_heavy_01_F","Rangefinder","Throw","Put"};
 		magazines[] = {"11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellBlue","SmokeShellBlue","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3"};
 		items[] = {"ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_morphine","ACE_morphine","ACE_epinephrine","ACE_EntrenchingTool"};
-		linkedItems[] = {"V_JaKdo_Plate_Winter","Blue_Snow_Helmet","G_Combat","ItemMap","ItemCompass","ItemWatch","tf_anprc152","ItemMicroDAGR","optic_DMS","acc_flashlight","bipod_01_blk"};
+		linkedItems[] = {"V_JaKdo_Plate_Winter","Blue_Snow_Helmet","G_Combat","ItemMap","ItemCompass","ItemWatch","tf_anprc152","ItemMicroDAGR","optic_DMS","acc_flashlight"};
 	};
 	class B_Soldier_AR_F
 	{

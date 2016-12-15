@@ -49,7 +49,7 @@ saving = 0; // Disable saving for multiplayer missions
 // https://community.bistudio.com/wiki/Arma_3_Respawn
 
 respawn = 3; // 3 is BASE respawn
-respawnDelay = 120; // Respawn delay in seconds
+respawnDelay = 300; // Respawn delay in seconds
 respawnVehicleDelay = 1800; // Vehicle respawn delay in seconds
 respawnDialog = 0; // Disables showing scoreboard when respawning
 respawnTemplates[] = {"Counter"}; // Templates used for player respawning, applies to all sides

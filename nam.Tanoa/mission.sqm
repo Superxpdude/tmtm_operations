@@ -1,0 +1,487 @@
+version=52;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=260;
+	};
+	class Camera
+	{
+		pos[]={11812.115,119.67192,3020.9949};
+		dir[]={-0.5330382,-0.55119592,0.64210188};
+		up[]={-0.35211501,0.83428919,0.42416155};
+		aside[]={0.76952314,2.5848858e-006,0.63881624};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"Desert",
+	"CUP_AirVehicles_DC3",
+	"CUP_AirVehicles_UH1H",
+	"CUP_WheeledVehicles_MTVR",
+	"CUP_WheeledVehicles_HMMWV"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=5;
+		class Item0
+		{
+			className="Desert";
+			name="Desert";
+		};
+		class Item1
+		{
+			className="CUP_AirVehicles_DC3";
+			name="CUP_AirVehicles_DC3";
+		};
+		class Item2
+		{
+			className="CUP_AirVehicles_UH1H";
+			name="CUP_AirVehicles_UH1H";
+		};
+		class Item3
+		{
+			className="CUP_WheeledVehicles_MTVR";
+			name="CUP_WheeledVehicles_MTVR";
+		};
+		class Item4
+		{
+			className="CUP_WheeledVehicles_HMMWV";
+			name="CUP_WheeledVehicles_HMMWV";
+		};
+	};
+};
+randomSeed=4844485;
+class ScenarioData
+{
+	author="Superxpdude";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		rainForced=1;
+		lightningsForced=1;
+		wavesForced=1;
+		windForced=1;
+		year=1983;
+		month=2;
+		day=5;
+		hour=12;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=21;
+		class Item0
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={11078.378,350.40701,11502.123};
+				angles[]={0.013327583,0,6.2698579};
+			};
+			title="Evac LZ";
+			id=0;
+			atlOffset=0.00039672852;
+		};
+		class Item1
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={10314.565,176.33031,10546.796};
+				angles[]={6.2805333,0,0.0026520467};
+			};
+			title="Retrieve Intel";
+			id=102;
+		};
+		class Item2
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={11116.003,103.706,9586.9414};
+			};
+			title="Destroy Weapons Cache";
+			id=103;
+			atlOffset=-0.0005645752;
+		};
+		class Item3
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={11819.02,6.9499998,13083.396};
+			};
+			title="Alternative Evac Location";
+			id=104;
+		};
+		class Item4
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={11068.455,217.62801,8471.501};
+			};
+			title="Hostile FOB";
+			description="Place a hidden intel objective here.";
+			id=105;
+			atlOffset=0.0078887939;
+		};
+		class Item5
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={10875.233,133.032,8176.3091};
+			};
+			title="Ambush Location";
+			description="Maybe have the approaching players get ambushed by the enemy force located in the FOB to the north";
+			id=106;
+			atlOffset=0.0011901855;
+		};
+		class Item6
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={11449.542,131.61301,9366.4443};
+			};
+			title="Defensive checkpoint";
+			description="Put a defensive checkpoint here to guide players through the mountain pass to the south";
+			id=107;
+			atlOffset=0.00048828125;
+		};
+		class Item7
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={11227.738,371.267,8664.7666};
+			};
+			title="Enemy scout location?";
+			id=108;
+			atlOffset=0.00036621094;
+		};
+		class Item8
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={9990.2158,235.03,8774.5313};
+			};
+			title="Roadblock";
+			id=118;
+			atlOffset=0.00018310547;
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11708.128,7.5001554,3158.6843};
+				angles[]={0.13781649,3.7542484,6.1855493};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=147;
+			type="CUP_B_C47_USA";
+			atlOffset=-0.023569584;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11749.824,7.1898394,3152.1797};
+				angles[]={0,3.7609336,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=194;
+			type="CUP_B_UH1D_slick_GER_KSK_Des";
+			atlOffset=-0.0011873245;
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11769.632,7.6242323,3111.658};
+				angles[]={0.14425951,3.7479455,6.1846757};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=196;
+			type="CUP_B_AC47_Spooky_USA";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11666.253,6.8782506,3013.0107};
+				angles[]={0,4.4492364,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=207;
+			type="CUP_B_MTVR_USMC";
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11678.696,6.8525181,3050.2651};
+				angles[]={0,0.67460203,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=210;
+			type="CUP_B_MTVR_Ammo_USMC";
+			atlOffset=-3.3378601e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11673.854,6.8525214,3053.8669};
+				angles[]={0,0.66961098,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=211;
+			type="CUP_B_MTVR_Refuel_USMC";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11668.646,6.8525214,3057.9065};
+				angles[]={0,0.66624016,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=212;
+			type="CUP_B_MTVR_Repair_USMC";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11673.42,6.8782506,3007.7031};
+				angles[]={0,4.4492364,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=235;
+			type="CUP_B_MTVR_USMC";
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11669.813,6.8782506,3010.3557};
+				angles[]={0,4.4492364,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=236;
+			type="CUP_B_MTVR_USMC";
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11676.451,6.8782506,3005.095};
+				angles[]={0,4.4492364,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=237;
+			type="CUP_B_MTVR_USMC";
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11679.826,6.8782506,3002.4167};
+				angles[]={0,4.4492364,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=238;
+			type="CUP_B_MTVR_USMC";
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11685.146,7.2886977,2996.7458};
+				angles[]={0,4.4603205,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				textures="Woodland";
+			};
+			id=256;
+			type="CUP_B_HMMWV_Unarmed_USMC";
+		};
+	};
+};

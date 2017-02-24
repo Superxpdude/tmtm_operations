@@ -20,3 +20,23 @@ _blacklistedMissionObjects = [];
 		};
 	} forEach playableUnits + switchableUnits + allMissionObjects "LandVehicle" + allMissionObjects "Man" + allMissionObjects "Air" + allMissionObjects "Reammobox_F" - _blacklistedMissionObjects - allMissionObjects "VirtualMan_F";
 } forEach allCurators;
+
+// Set the time to half-speed
+setTimeMultiplier 0.5;
+
+// Create our tasks
+if (isNil "zeus_unit") then {
+	[true, "destroy_aa", ["Neutralize the enemy Anti-Air network by destroying or disabling the anti-air guns.", "Destroy AA Net", ""], objNull, "ASSIGNED", 100, true, "destroy", true] call BIS_fnc_taskCreate;
+	[true, ["destroy_aa1", "destroy_aa"], ["Destroy the Anti-Air gun south of Vagalala.", "Destroy Anti-Air Gun", ""], aa1, "CREATED", 0, true, "destroy", true] call BIS_fnc_taskCreate;
+	[true, ["destroy_aa2", "destroy_aa"], ["Destroy the Anti-Air gun north of the Red Spring surface mine.", "Destroy Anti-Air Gun", ""], aa2, "CREATED", 0, true, "destroy", true] call BIS_fnc_taskCreate;
+	[true, ["destroy_aa3", "destroy_aa"], ["Destroy the Anti-Air gun south of Imone.", "Destroy Anti-Air Gun", ""], aa3, "CREATED", 0, true, "destroy", true] call BIS_fnc_taskCreate;
+	[true, ["destroy_aa4", "destroy_aa"], ["Destroy the Anti-Air guns at the Red Spring surface mine.", "Destroy Anti-Air Guns", ""], aa4, "CREATED", 0, true, "destroy", true] call BIS_fnc_taskCreate;
+	[true, "destroy_ammo1", ["Destroy the enemy ammo cache located in the town of Imone.", "Destroy Ammo Cache", ""], ammo1, "CREATED", 70, true, "destroy", true] call BIS_fnc_taskCreate;
+} else {
+	[[true, zeus_unit], "destroy_aa", ["Neutralize the enemy Anti-Air network by destroying or disabling the anti-air guns.", "Destroy AA Net", ""], objNull, "ASSIGNED", 100, true, "destroy", true] call BIS_fnc_taskCreate;
+	[[true, zeus_unit], ["destroy_aa1", "destroy_aa"], ["Destroy the Anti-Air gun south of Vagalala.", "Destroy Anti-Air Gun", ""], aa1, "CREATED", 0, true, "destroy", true] call BIS_fnc_taskCreate;
+	[[true, zeus_unit], ["destroy_aa2", "destroy_aa"], ["Destroy the Anti-Air gun north of the Red Spring surface mine.", "Destroy Anti-Air Gun", ""], aa2, "CREATED", 0, true, "destroy", true] call BIS_fnc_taskCreate;
+	[[true, zeus_unit], ["destroy_aa3", "destroy_aa"], ["Destroy the Anti-Air gun south of Imone.", "Destroy Anti-Air Gun", ""], aa3, "CREATED", 0, true, "destroy", true] call BIS_fnc_taskCreate;
+	[[true, zeus_unit], ["destroy_aa4", "destroy_aa"], ["Destroy the Anti-Air guns at the Red Spring surface mine.", "Destroy Anti-Air Guns", ""], aa4, "CREATED", 0, true, "destroy", true] call BIS_fnc_taskCreate;
+	[[true, zeus_unit], "destroy_ammo1", ["Destroy the enemy ammo cache located in the town of Imone.", "Destroy Ammo Cache", ""], ammo1, "CREATED", 70, true, "destroy", true] call BIS_fnc_taskCreate;
+};

@@ -12,6 +12,10 @@ class cfgFunctions
 		{
 			// Don't change any of these classes
 			class addUnitToZeus {};
+			class eventHandlers {postInit = 1;};
+			class grpPlaced {};
+			class objPlaced {};
+			class setVehicleCargo {};
 			class zeusRemoveNVGs {};
 		};
 		// Don't change anything in this class
@@ -19,6 +23,11 @@ class cfgFunctions
 			// Don't change any of these classes
 			class loadInventory {};
 		};
+		
+		class mission {
+			class updateTask {};
+		};
+		
 		// Don't change anything in this class
 		class system
 		{

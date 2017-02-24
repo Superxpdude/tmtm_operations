@@ -29,6 +29,27 @@ class loadouts
 	{
 		displayName = "Commander"; // Currently unused, basically just a human-readable name for the loadout
 		
+		weapons[] = {"CUP_arifle_M16A2_GL", "CUP_hgun_Colt1911", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		primaryWeaponItems[] = {"CUP_30Rnd_556x45_Stanag", "1Rnd_HE_Grenade_shell"}; // Primary weapon items. Includes magazine you want loaded initially
+		secondaryWeaponItems[] = {}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
+		handgunItems[] = {"CUP_7Rnd_45ACP_1911"}; // Handgun items. Includes magazine you want loaded initially.
+		
+		uniformClass = "U_B_JaKdo_Oliv_sleeve";
+		headgearClass = "H_MilCap_gry";
+		facewearClass = "G_Aviator";
+		vestClass = "V_JaKdo_Tac_Oliv";
+		backpackClass = "tf_rt1523g_green";
+		
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemcTab", "tf_rf7800str"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		uniformItems[] = {{"ACE_quikclot", 10}, {"ACE_epinephrine", 3}, {"ACE_morphine", 3}, {"ItemcTabHCam", 1}, {"ACE_HandFlare_Green", 2}, {"ACE_HandFlare_Red", 3}}; // Items to place in uniform. Includes weapon magazines
+		vestItems[] = {{"CUP_30Rnd_556x45_Stanag", 6}, {"MiniGrenade", 1}}; // Items to place in vest. Includes weapon magazines
+		backpackItems[] = {{"1Rnd_HE_Grenade_shell", 10}, {"CUP_1Rnd_StarFlare_Green_M203", 4}, {"CUP_1Rnd_StarFlare_Red_M203", 4}, {"CUP_1Rnd_StarFlare_White_M203", 4}}; // Items to place in backpack. Includes weapon magazines
+	};
+	
+	class cmd_medic
+	{
+		displayName = "Command Medic"; // Currently unused, basically just a human-readable name for the loadout
+		
 		weapons[] = {"CUP_arifle_M16A2", "CUP_hgun_Colt1911", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"CUP_30Rnd_556x45_Stanag"}; // Primary weapon items. Includes magazine you want loaded initially
 		secondaryWeaponItems[] = {}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
@@ -38,12 +59,12 @@ class loadouts
 		headgearClass = "CUP_H_USArmy_Helmet_M1_Olive";
 		facewearClass = "";
 		vestClass = "V_JaKdo_Tac_Oliv";
-		backpackClass = "";
+		backpackClass = "tf_rt1523g_green";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemcTab", "tf_rf7800str"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemAndroid", "tf_rf7800str"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"ACE_quikclot", 10}, {"ACE_epinephrine", 3}, {"ACE_morphine", 3}, {"ItemcTabHCam", 1}, {"ACE_HandFlare_Green", 2}, {"ACE_HandFlare_Red", 3}}; // Items to place in uniform. Includes weapon magazines
-		vestItems[] = {{"CUP_30Rnd_556x45_Stanag", 6}, {"hlc_100Rnd_762x51_M_M60E4", 1}, {"MiniGrenade", 1}}; // Items to place in vest. Includes weapon magazines
-		backpackItems[] = {}; // Items to place in backpack. Includes weapon magazines
+		vestItems[] = {{"CUP_30Rnd_556x45_Stanag", 6}, {"MiniGrenade", 1}}; // Items to place in vest. Includes weapon magazines
+		backpackItems[] = {{"ACE_quikclot", 80}, {"ACE_epinephrine", 20}, {"ACE_morphine", 20}, {"ACE_bloodIV", 5}}; // Items to place in backpack. Includes weapon magazines
 	};
 	
 	class B_Soldier_F
@@ -150,6 +171,7 @@ class loadouts
 		vestItems[] = {{"CUP_30Rnd_556x45_Stanag", 6}, {"hlc_100Rnd_762x51_M_M60E4", 1}, {"MiniGrenade", 1}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"ACE_quikclot", 80}, {"ACE_epinephrine", 20}, {"ACE_morphine", 20}, {"ACE_bloodIV", 5}}; // Items to place in backpack. Includes weapon magazines
 	};
+	
 	class B_Soldier_M_F
 	{
 		displayName = "Marksman"; // Currently unused, basically just a human-readable name for the loadout
@@ -173,7 +195,7 @@ class loadouts
 	
 	class B_Soldier_AR_F
 	{
-		displayName = "Marksman"; // Currently unused, basically just a human-readable name for the loadout
+		displayName = "Autorifleman"; // Currently unused, basically just a human-readable name for the loadout
 		
 		weapons[] = {"hlc_lmg_m60", "CUP_hgun_Colt1911", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"hlc_100Rnd_762x51_M_M60E4"}; // Primary weapon items. Includes magazine you want loaded initially
@@ -196,7 +218,28 @@ class loadouts
 	{
 		displayName = "Pilot"; // Currently unused, basically just a human-readable name for the loadout
 		
-		weapons[] = {"CUP_arifle_M16A2", "CUP_hgun_Colt1911", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		weapons[] = {"hlc_smg_mp5a3", "hgun_Pistol_Signal_F", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		primaryWeaponItems[] = {"hlc_30Rnd_9x19_B_MP5", "hlc_acc_Surefiregrip"}; // Primary weapon items. Includes magazine you want loaded initially
+		secondaryWeaponItems[] = {}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
+		handgunItems[] = {"6Rnd_RedSignal_F"}; // Handgun items. Includes magazine you want loaded initially.
+		
+		uniformClass = "U_B_HeliPilotCoveralls";
+		headgearClass = "CUP_H_USMC_Helmet_Pilot";
+		facewearClass = "G_Aviator";
+		vestClass = "V_JaKdo_Tac_Oliv";
+		backpackClass = "B_AssaultPack_sgg";
+		
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemAndroid", "tf_anprc152"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		uniformItems[] = {{"ACE_quikclot", 10}, {"ACE_epinephrine", 3}, {"ACE_morphine", 3}, {"ItemcTabHCam", 1}, {"6Rnd_GreenSignal_F", 1}}; // Items to place in uniform. Includes weapon magazines
+		vestItems[] = {{"hlc_30Rnd_9x19_B_MP5", 6}, {"MiniGrenade", 1}, {"ACE_HandFlare_Green", 2}, {"ACE_HandFlare_Red", 2}, {"CUP_1Rnd_StarFlare_Red_M203", 4}}; // Items to place in vest. Includes weapon magazines
+		backpackItems[] = {{"ToolKit", 1}, {"CUP_glaunch_M79", 1}}; // Items to place in backpack. Includes weapon magazines
+	};
+	
+	class cmd_engineer
+	{
+		displayName = "Combat Engineer"; // Currently unused, basically just a human-readable name for the loadout
+		
+		weapons[] = {"CUP_arifle_M4A1", "CUP_hgun_Colt1911", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"CUP_30Rnd_556x45_Stanag"}; // Primary weapon items. Includes magazine you want loaded initially
 		secondaryWeaponItems[] = {}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
 		handgunItems[] = {"CUP_7Rnd_45ACP_1911"}; // Handgun items. Includes magazine you want loaded initially.
@@ -205,19 +248,19 @@ class loadouts
 		headgearClass = "CUP_H_USArmy_Helmet_M1_Olive";
 		facewearClass = "";
 		vestClass = "V_JaKdo_Tac_Oliv";
-		backpackClass = "";
+		backpackClass = "tf_rt1523g_green";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemAndroid", "tf_rf7800str"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemMicroDAGR", "tf_rf7800str"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"ACE_quikclot", 10}, {"ACE_epinephrine", 3}, {"ACE_morphine", 3}, {"ItemcTabHCam", 1}, {"ACE_HandFlare_Green", 2}, {"ACE_HandFlare_Red", 3}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"CUP_30Rnd_556x45_Stanag", 6}, {"hlc_100Rnd_762x51_M_M60E4", 1}, {"MiniGrenade", 1}}; // Items to place in vest. Includes weapon magazines
-		backpackItems[] = {}; // Items to place in backpack. Includes weapon magazines
+		backpackItems[] = {{"ToolKit", 1}, {"ACE_EntrenchingTool", 1}, {"ACE_SpraypaintGreen", 1}}; // Items to place in backpack. Includes weapon magazines
 	};
 	
 	class B_Engineer_F
 	{
 		displayName = "Combat Engineer"; // Currently unused, basically just a human-readable name for the loadout
 		
-		weapons[] = {"CUP_arifle_M16A2", "CUP_hgun_Colt1911", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		weapons[] = {"CUP_arifle_M4A1", "CUP_hgun_Colt1911", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"CUP_30Rnd_556x45_Stanag"}; // Primary weapon items. Includes magazine you want loaded initially
 		secondaryWeaponItems[] = {}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
 		handgunItems[] = {"CUP_7Rnd_45ACP_1911"}; // Handgun items. Includes magazine you want loaded initially.
@@ -226,11 +269,11 @@ class loadouts
 		headgearClass = "CUP_H_USArmy_Helmet_M1_Olive";
 		facewearClass = "";
 		vestClass = "V_JaKdo_Tac_Oliv";
-		backpackClass = "";
+		backpackClass = "B_AssaultPack_rgr";
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemMicroDAGR", "tf_rf7800str"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"ACE_quikclot", 10}, {"ACE_epinephrine", 3}, {"ACE_morphine", 3}, {"ItemcTabHCam", 1}, {"ACE_HandFlare_Green", 2}, {"ACE_HandFlare_Red", 3}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"CUP_30Rnd_556x45_Stanag", 6}, {"hlc_100Rnd_762x51_M_M60E4", 1}, {"MiniGrenade", 1}}; // Items to place in vest. Includes weapon magazines
-		backpackItems[] = {}; // Items to place in backpack. Includes weapon magazines
+		backpackItems[] = {{"ToolKit", 1}, {"ACE_EntrenchingTool", 1}, {"ACE_SpraypaintGreen", 1}}; // Items to place in backpack. Includes weapon magazines
 	};
 };

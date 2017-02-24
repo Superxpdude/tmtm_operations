@@ -17,8 +17,14 @@ switch (toLower (_this select 0)) do {
 		["destroy_aa", "SUCCEEDED", true] call BIS_fnc_taskSetState;
 		sxp_aa_destroyed = true;
 	};
-	case "ammo_complete": {
+	case "ammo1_complete": {
 		["destroy_ammo1", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+	};
+	case "ammo2_complete": {
+		["destroy_ammo2", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+	};
+	case "ammo_complete": {
+		["destroy_ammo", "SUCCEEDED", true] call BIS_fnc_taskSetState;
 		sxp_ammo_destroyed = true;
 	};
 	case "start_evac": {

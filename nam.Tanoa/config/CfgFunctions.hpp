@@ -25,6 +25,8 @@ class cfgFunctions
 		};
 		
 		class mission {
+			class endMission {};
+			class playMusic {};
 			class updateTask {};
 		};
 		

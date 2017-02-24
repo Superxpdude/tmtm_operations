@@ -2,11 +2,11 @@
 
 author = "Superxpdude"; // Author name visible on loading screen
 briefingName = "COOP 41+1 - It Ain't Me (BETA 1)"; // Name visible in mission select screen
-overviewText = ""; // Description visible in mission select screen
+overviewText = ">It Ain't Me starts playing"; // Description visible in mission select screen
 //overviewPicture = ""; // Image visible in mission select screen. Leave commented, still doesn't work properly.
-onLoadName = ""; // Name visible on loading screen
-onLoadMission = ""; // Description visible on loading screen
-//loadScreen = "media\loadscreen.paa"; // Image visible on loading screen
+onLoadName = "It Ain't Me"; // Name visible on loading screen
+onLoadMission = "American forces move to assist a friendly overrun squad in the jungles of vietnam (actually Tanoa)."; // Description visible on loading screen
+loadScreen = "media\loadscreen.paa"; // Image visible on loading screen
 
 class Header
 {

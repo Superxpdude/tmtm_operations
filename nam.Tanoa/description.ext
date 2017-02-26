@@ -1,7 +1,7 @@
 //-------------------- Mission Information
 
 author = "Superxpdude"; // Author name visible on loading screen
-briefingName = "COOP 41+1 - It Ain't Me (BETA 2)"; // Name visible in mission select screen
+briefingName = "COOP 49+1 - It Ain't Me (BETA 3)"; // Name visible in mission select screen
 overviewText = ">It Ain't Me starts playing"; // Description visible in mission select screen
 //overviewPicture = ""; // Image visible in mission select screen. Leave commented, still doesn't work properly.
 onLoadName = "It Ain't Me"; // Name visible on loading screen

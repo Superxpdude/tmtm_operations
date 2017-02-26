@@ -18,7 +18,7 @@ if (_isPVP == 1) then {
 
 // TODO: Set radio frequencies to be consistent
 tf_no_auto_long_range_radio = true; // Don't automatically give group leaders radio backpacks
-tf_give_personal_radio_to_regular_soldier = true; // Give regular soldiers good radios instead of terrible rifleman radios
+tf_give_personal_radio_to_regular_soldier = false; // Give regular soldiers good radios instead of terrible rifleman radios
 tf_same_sw_frequencies_for_side = true; // Use the same short range frequencies for every squad
 tf_same_lr_frequencies_for_side = true; // Use the same long range frequencies for every squad
 

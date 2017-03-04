@@ -11,7 +11,7 @@ player createDiaryRecord ["Diary", ["Assets", "Your available assets for this mi
 	- 1x MTVR Fuel<br/>
 	- 1x MTVR Ammo<br/>
 	- 1x C-47 Skytrain<br/>
-	- 1x UH-1D Huey<br/>
+	- 2x UH-1D Huey<br/>
 	- 1x AC-47 Spooky<br/>
 	- 20x Air-Droppable ammo crates<br/>
 	<br/>
@@ -36,6 +36,8 @@ if (player isKindOf "VirtualMan_F") then {
 		<br/>
 		<executeClose expression='[""majorVictory""] call SXP_fnc_endMission'>End Mission: Major Victory</execute><br/>
 		<executeClose expression='[""minorVictory""] call SXP_fnc_endMission'>End Mission: Minor Victory</execute><br/>
-		<executeClose expression='[""missionFailed""] call SXP_fnc_endMission'>End Mission: Mission Failed</execute><br/>"
+		<executeClose expression='[""missionFailed""] call SXP_fnc_endMission'>End Mission: Mission Failed</execute><br/>
+		<br/>
+		<executeClose expression='[zeus_Unit, zeus_Module] remoteExec [""SXP_fnc_fixCurator"", 2]'>Fix Curator Module</execute><br/>"
 	]];	
 };

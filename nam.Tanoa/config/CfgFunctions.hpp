@@ -16,6 +16,7 @@ class cfgFunctions
 			class grpPlaced {};
 			class objPlaced {};
 			class setVehicleCargo {};
+			class transferGroup {};
 			class zeusRemoveNVGs {};
 		};
 		// Don't change anything in this class
@@ -34,6 +35,7 @@ class cfgFunctions
 		class system
 		{
 			// Don't change any of these classes
+			class fixCurator {};
 			class mapMarkers {};
 			class mapMarkersLocal {};
 			class setupHC {};

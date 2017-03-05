@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=6;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={11694.759,28.988106,3075.7041};
-		dir[]={0.27802128,-0.52521819,-0.80428141};
-		up[]={0.17159417,0.85096586,-0.49640068};
-		aside[]={-0.94513476,4.7963113e-008,-0.32671118};
+		pos[]={10882.173,185.87671,9676.873};
+		dir[]={0.32806167,-0.36913711,0.86954874};
+		up[]={0.13030216,0.92937481,0.34537473};
+		aside[]={0.93562728,-9.755604e-008,-0.35299158};
 	};
 };
 binarizationWanted=0;
@@ -360,7 +360,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="COOP 49+1 - It Ain't Me (BETA 4)";
+		briefingName="COOP 49+1 - It Ain't Me - v1.0";
 		resistanceWest=0;
 		resistanceEast=1;
 		timeOfChanges=1800.0002;
@@ -7438,7 +7438,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7496,7 +7496,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7554,7 +7554,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7612,7 +7612,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7670,7 +7670,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7728,7 +7728,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7786,7 +7786,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7844,7 +7844,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7902,7 +7902,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7960,7 +7960,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8019,7 +8019,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8077,7 +8077,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8135,7 +8135,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8194,7 +8194,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8253,7 +8253,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8311,7 +8311,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8369,7 +8369,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8428,7 +8428,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8487,7 +8487,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8545,7 +8545,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -11754,7 +11754,7 @@ class Mission
 			};
 			id=935;
 			type="CUP_B_UH1D_slick_GER_KSK_Des";
-			atlOffset=-2.0980835e-005;
+			atlOffset=3.3378601e-006;
 		};
 		class Item298
 		{
@@ -12411,7 +12411,7 @@ class Mission
 			};
 			id=944;
 			type="ModuleRespawnVehicle_F";
-			atlOffset=0.0053324699;
+			atlOffset=0.0053348541;
 			class CustomAttributes
 			{
 				class Attribute0

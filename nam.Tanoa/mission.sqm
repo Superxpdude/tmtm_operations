@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=931;
+		nextID=945;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={11673.676,37.733189,3065.3784};
-		dir[]={0.638143,-0.46657443,-0.61244714};
-		up[]={0.3366363,0.88447469,-0.32308128};
-		aside[]={-0.69243377,8.5006468e-007,-0.72148746};
+		pos[]={10882.173,185.87671,9676.873};
+		dir[]={0.32806167,-0.36913711,0.86954874};
+		up[]={0.13030216,0.92937481,0.34537473};
+		aside[]={0.93562728,-9.755604e-008,-0.35299158};
 	};
 };
 binarizationWanted=0;
@@ -360,7 +360,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="COOP 49+1 - It Ain't Me (BETA 3)";
+		briefingName="COOP 49+1 - It Ain't Me - v1.0";
 		resistanceWest=0;
 		resistanceEast=1;
 		timeOfChanges=1800.0002;
@@ -386,7 +386,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=297;
+		items=304;
 		class Item0
 		{
 			dataType="Comment";
@@ -488,8 +488,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11749.824,7.1898394,3152.1797};
-				angles[]={0,3.7609336,0};
+				position[]={11638.204,7.0110269,3092.251};
+				angles[]={0,0.63004345,0};
 			};
 			side="Empty";
 			flags=4;
@@ -498,7 +498,6 @@ class Mission
 			};
 			id=194;
 			type="CUP_B_UH1D_slick_GER_KSK_Des";
-			atlOffset=-0.0011873245;
 		};
 		class Item7
 		{
@@ -1195,47 +1194,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11708.303,4.6914387,3034.8101};
-						angles[]={0,5.3840265,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Rifleman";
-						isPlayable=1;
-					};
-					id=311;
-					type="B_Soldier_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={11709.511,4.6914387,3033.6987};
 						angles[]={0,5.3840265,0};
 					};
@@ -1272,7 +1230,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1313,7 +1271,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1348,6 +1306,47 @@ class Mission
 										};
 									};
 									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11708.303,4.6914387,3034.8101};
+						angles[]={0,5.3840265,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						description="Assistant AT";
+						isPlayable=1;
+					};
+					id=934;
+					type="B_soldier_AAT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
 								};
 							};
 						};
@@ -1564,47 +1563,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11709.877,4.6914387,3036.4507};
-						angles[]={0,5.3840265,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Rifleman";
-						isPlayable=1;
-					};
-					id=320;
-					type="B_Soldier_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={11711.085,4.6914387,3035.3394};
 						angles[]={0,5.3840265,0};
 					};
@@ -1641,7 +1599,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1682,7 +1640,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1699,6 +1657,47 @@ class Mission
 					};
 					id=364;
 					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11709.877,4.6914387,3036.4507};
+						angles[]={0,5.3840265,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						description="Assistant AT";
+						isPlayable=1;
+					};
+					id=933;
+					type="B_soldier_AAT_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1933,47 +1932,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11711.557,4.6906185,3038.3042};
-						angles[]={0,5.3840265,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Rifleman";
-						isPlayable=1;
-					};
-					id=328;
-					type="B_Soldier_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={11712.765,4.6883502,3037.1929};
 						angles[]={0,5.3840265,0};
 					};
@@ -2011,7 +1969,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
@@ -2052,7 +2010,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
@@ -2088,6 +2046,47 @@ class Mission
 										};
 									};
 									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11711.557,4.6906185,3038.304};
+						angles[]={0,5.3840265,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						description="Assistant AT";
+						isPlayable=1;
+					};
+					id=932;
+					type="B_soldier_AAT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
 								};
 							};
 						};
@@ -2462,7 +2461,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11710.575,4.7032843,3049.4919};
+						position[]={11710.575,4.7032847,3049.4919};
 						angles[]={0,5.4652019,0};
 					};
 					side="West";
@@ -2470,12 +2469,11 @@ class Mission
 					class Attributes
 					{
 						rank="CAPTAIN";
-						description="AC-47 Spooky Pilot";
+						description="AC-47 Spooky / UH-1D Pilot";
 						isPlayable=1;
 					};
 					id=351;
 					type="B_Pilot_F";
-					atlOffset=-4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2513,7 +2511,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="AC-47 Spooky Gunner";
+						description="AC-47 Spooky / UH-1D Co-Pilot";
 						isPlayable=1;
 					};
 					id=353;
@@ -2547,7 +2545,6 @@ class Mission
 			{
 			};
 			id=352;
-			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3000,13 +2997,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={15356.55,0,16.202087};
+				position[]={15356.55,0.00031280518,16.202};
 				angles[]={0,0.65992647,0};
 			};
 			name="zeus_module";
 			id=396;
 			type="ModuleCurator_F";
-			atlOffset=65.572685;
+			atlOffset=65.572998;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3043,7 +3040,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};
@@ -7441,7 +7438,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7499,7 +7496,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7557,7 +7554,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7615,7 +7612,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7673,7 +7670,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7731,7 +7728,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7789,7 +7786,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7847,7 +7844,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7905,7 +7902,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -7963,7 +7960,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8022,7 +8019,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8080,7 +8077,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8138,7 +8135,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8197,7 +8194,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8256,7 +8253,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8314,7 +8311,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8372,7 +8369,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8431,7 +8428,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8490,7 +8487,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8548,7 +8545,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203""],[40,8,16,16,8,3,8,8,10,4,4,4]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_30Rnd_556x45_Stanag"",""20Rnd_762x51_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""CUP_7Rnd_45ACP_1911"",""CUP_Dragon_EP1_M"",""hlc_100Rnd_762x51_M_M60E4"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""CUP_1Rnd_StarFlare_White_M203"",""CUP_1Rnd_StarFlare_Green_M203"",""CUP_1Rnd_StarFlare_Red_M203"",""hlc_30Rnd_9x19_B_MP5""],[40,8,16,16,8,3,8,8,10,4,4,4,16]],[[""ACE_quikclot"",""ACE_bloodIV"",""ACE_EntrenchingTool"",""ACE_epinephrine"",""ACE_morphine""],[64,5,8,24,24]],[[],[]]],false]";
 						};
 					};
 				};
@@ -11551,48 +11548,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11718.946,4.7014384,3046.3149};
-						angles[]={0,5.3840265,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Rifleman (EXTRA SQUAD)";
-						isPlayable=1;
-					};
-					id=927;
-					type="B_Soldier_F";
-					atlOffset=-4.7683716e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={11720.154,4.7014384,3045.2041};
 						angles[]={0,5.3840265,0};
 					};
@@ -11630,7 +11585,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
@@ -11671,7 +11626,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
@@ -11712,6 +11667,47 @@ class Mission
 						nAttributes=1;
 					};
 				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11718.946,4.7014389,3046.3149};
+						angles[]={0,5.3840265,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						description="Assistant AT (EXTRA SQUAD)";
+						isPlayable=1;
+					};
+					id=931;
+					type="B_soldier_AAT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -11743,16 +11739,884 @@ class Mission
 				nAttributes=1;
 			};
 		};
+		class Item297
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11621.729,6.963675,3105.8701};
+				angles[]={6.2511969,0.63004345,0.02666023};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=935;
+			type="CUP_B_UH1D_slick_GER_KSK_Des";
+			atlOffset=3.3378601e-006;
+		};
+		class Item298
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11622.278,4.678484,3106.595};
+				angles[]={6.2511969,0.58800256,0.02666023};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=936;
+			type="Land_HelipadCircle_F";
+		};
+		class Item299
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11638.782,4.6900001,3093.8655};
+				angles[]={0,0.58800256,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=937;
+			type="Land_HelipadCircle_F";
+		};
+		class Item300
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11626.145,4.6900001,3088.6206};
+			};
+			id=941;
+			type="ModuleRespawnVehicle_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleRespawnVehicle_F_ForcedRespawn";
+					expression="_this setVariable ['ForcedRespawn',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleRespawnVehicle_F_Init";
+					expression="_this setVariable ['Init',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleRespawnVehicle_F_RespawnWhenDisabled";
+					expression="_this setVariable ['RespawnWhenDisabled',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleRespawnVehicle_F_DesertedDistance";
+					expression="_this setVariable ['DesertedDistance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleRespawnVehicle_F_PositionType";
+					expression="_this setVariable ['PositionType',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleRespawnVehicle_F_RespawnCount";
+					expression="_this setVariable ['RespawnCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleRespawnVehicle_F_Position";
+					expression="_this setVariable ['Position',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleRespawnVehicle_F_Wreck";
+					expression="_this setVariable ['Wreck',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleRespawnVehicle_F_Delay";
+					expression="_this setVariable ['Delay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="600";
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleRespawnVehicle_F_ShowNotification";
+					expression="_this setVariable ['ShowNotification',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				nAttributes=10;
+			};
+		};
+		class Item301
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11621.201,4.6900001,3092.3003};
+			};
+			id=942;
+			type="ModuleRespawnVehicle_F";
+			atlOffset=0.00025892258;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleRespawnVehicle_F_ForcedRespawn";
+					expression="_this setVariable ['ForcedRespawn',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleRespawnVehicle_F_Init";
+					expression="_this setVariable ['Init',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleRespawnVehicle_F_RespawnWhenDisabled";
+					expression="_this setVariable ['RespawnWhenDisabled',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleRespawnVehicle_F_DesertedDistance";
+					expression="_this setVariable ['DesertedDistance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleRespawnVehicle_F_PositionType";
+					expression="_this setVariable ['PositionType',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleRespawnVehicle_F_RespawnCount";
+					expression="_this setVariable ['RespawnCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleRespawnVehicle_F_Position";
+					expression="_this setVariable ['Position',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleRespawnVehicle_F_Wreck";
+					expression="_this setVariable ['Wreck',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleRespawnVehicle_F_Delay";
+					expression="_this setVariable ['Delay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="600";
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleRespawnVehicle_F_ShowNotification";
+					expression="_this setVariable ['ShowNotification',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				nAttributes=10;
+			};
+		};
+		class Item302
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11722.18,4.6796193,3152.8928};
+			};
+			id=943;
+			type="ModuleRespawnVehicle_F";
+			atlOffset=0.009619236;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleRespawnVehicle_F_ForcedRespawn";
+					expression="_this setVariable ['ForcedRespawn',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleRespawnVehicle_F_Init";
+					expression="_this setVariable ['Init',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleRespawnVehicle_F_RespawnWhenDisabled";
+					expression="_this setVariable ['RespawnWhenDisabled',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleRespawnVehicle_F_DesertedDistance";
+					expression="_this setVariable ['DesertedDistance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleRespawnVehicle_F_PositionType";
+					expression="_this setVariable ['PositionType',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleRespawnVehicle_F_RespawnCount";
+					expression="_this setVariable ['RespawnCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleRespawnVehicle_F_Position";
+					expression="_this setVariable ['Position',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleRespawnVehicle_F_Wreck";
+					expression="_this setVariable ['Wreck',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleRespawnVehicle_F_Delay";
+					expression="_this setVariable ['Delay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="600";
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleRespawnVehicle_F_ShowNotification";
+					expression="_this setVariable ['ShowNotification',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				nAttributes=10;
+			};
+		};
+		class Item303
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11762.771,4.8413401,3121.7546};
+			};
+			id=944;
+			type="ModuleRespawnVehicle_F";
+			atlOffset=0.0053348541;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleRespawnVehicle_F_ForcedRespawn";
+					expression="_this setVariable ['ForcedRespawn',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleRespawnVehicle_F_Init";
+					expression="_this setVariable ['Init',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleRespawnVehicle_F_RespawnWhenDisabled";
+					expression="_this setVariable ['RespawnWhenDisabled',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleRespawnVehicle_F_DesertedDistance";
+					expression="_this setVariable ['DesertedDistance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleRespawnVehicle_F_PositionType";
+					expression="_this setVariable ['PositionType',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleRespawnVehicle_F_RespawnCount";
+					expression="_this setVariable ['RespawnCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleRespawnVehicle_F_Position";
+					expression="_this setVariable ['Position',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleRespawnVehicle_F_Wreck";
+					expression="_this setVariable ['Wreck',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleRespawnVehicle_F_Delay";
+					expression="_this setVariable ['Delay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="600";
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleRespawnVehicle_F_ShowNotification";
+					expression="_this setVariable ['ShowNotification',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				nAttributes=10;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=8;
+			nextID=12;
 		};
 		class Links
 		{
-			items=8;
+			items=12;
 			class Item0
 			{
 				linkID=0;
@@ -11828,6 +12692,46 @@ class Mission
 				linkID=7;
 				item0=914;
 				item1=256;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item8
+			{
+				linkID=8;
+				item0=944;
+				item1=196;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item9
+			{
+				linkID=9;
+				item0=943;
+				item1=147;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item10
+			{
+				linkID=10;
+				item0=942;
+				item1=935;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item11
+			{
+				linkID=11;
+				item0=941;
+				item1=194;
 				class CustomData
 				{
 					type="Sync";

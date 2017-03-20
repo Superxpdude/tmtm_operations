@@ -1,5 +1,12 @@
-// Initialise dynamic groups on the player side
-["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups;
+// Script to handle initial mission briefings
+// General guidelines would be to include briefings for the following
+// Situation, Mission, and Assets
+// Briefings are listed in the opposite order that they are written below. New diaryRecords are always placed at the top of the list.
+// https://community.bistudio.com/wiki/createDiaryRecord
+
+//player createDiaryRecord ["Diary", ["Assets", "Example Mission Assets"]];
+//player createDiaryRecord ["Diary", ["Mission", "Example Mission Briefing"]];
+//player createDiaryRecord ["Diary", ["Situation", "Example Situation Briefing"]];
 
 player createDiaryRecord ["Diary", ["Mission",
 "Your mission today is to launch an attack on Kavala at dawn. The town is crawling with AAF forces that need to be cleared out before we can work on locating the East Wind device.<br/>
@@ -14,15 +21,3 @@ player createDiaryRecord ["Diary", ["Situation",
 "NATO special forces have managed to secure a prototype of the East Wind device; no doubt some of their researchers are already trying to figure out the capabilities of the device. 
 We have reliable intelligence that the device is somewhere in the vicinity of Kavala; however we don't yet know the exact location."
 ]];
-
-[] spawn {
-	sleep 5;
-	[parseText format ["<t align='right' size='1.6'><t font='PuristaBold' size='1.8'>%1<br/></t>%2<br/>%3</t>",
-		toUpper "Daybreak", 
-		"by Superxpdude", 
-		"06:30:00"],
-		true,
-		nil,
-		10
-	] call BIS_fnc_textTiles;
-};

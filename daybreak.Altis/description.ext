@@ -1,158 +1,112 @@
 //-------------------- Mission Information
-author = "Superxpdude";
-briefingName = "COOP 52+1 - Daybreak 1.01 (HC Capable) (REMOVE SIT)";
-overviewText = "CSAT forces move in on Kavala to secure a very important object.";
-//overviewPicture = "media\loadscreen.paa";
-onLoadName = "COOP 52 - Daybreak";
-onLoadMission = "A new sun rises over Kavala";
-loadScreen = "media\loadscreen.paa";
+
+author = "Superxpdude";					// Author name visible on loading screen
+briefingName = "COOP 52+1 - Daybreak r2";				// Name visible in mission select screen
+overviewText = "CSAT forces move in on Kavala to secure a very important object.";				// Description visible in mission select screen
+//overviewPicture = "media\loadscreen.paa";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
+onLoadName = "COOP 52 - Daybreak";				// Name visible on loading screen
+onLoadMission = "A new sun rises over Kavala";				// Description visible on loading screen
+//loadScreen = "media\loadscreen.paa"; // Image visible on loading screen
 
 class Header
 {
-	gameType = COOP;
-	minPlayers = 1;
-	maxPlayers = 53;
-}
+	gameType = COOP;			// https://community.bistudio.com/wiki/Multiplayer_Game_Types
+	minPlayers = 1;				// Minimum amount of players needed for the mission
+	maxPlayers = 53;			// Maximum amount of players the mission supports
+};
+
+//-------------------- Defines
+//#define DEFINEPVP 1			// Uncomment if the mission is a PvP mission
+
+//-------------------- DO NOT EDIT THIS SECTION
+#ifndef DEFINEPVP
+	SXP_isPVP = 0; 				// Set as 0 for COOP missions
+	disableChannels[] = {{0,false,true},{1,true,true},{2,true,true},{3,false,true},{4,true,true},{5,true,true}}; // Use this for COOPs
+#else
+	SXP_isPVP = 1;				// Set as 1 for PVP missions
+	disableChannels[] = {{0,false,true},{1,false,true},{2,true,true},{3,false,true},{4,true,true},{5,true,true}}; // Use this for TvTs
+#endif
+
+//-------------------- Script Options
+
+// The following variables have no relevance to the game if not used with the rest of the template scripts
+// Edit the values below to change template settings
+SXP_customLoadouts = 1;			// Set to 1 to enable loading custom loadouts for player units
+SXP_customVehicleCargo = 0;		// Set to 1 to enable custom vehicle inventories - Currently unused
+SXP_zeus_removeNVGs = 1;		// Set to 1 to remove NVGs from zeus-spawned units
+SXP_zeus_customLoadouts = 0;	// Set to 1 to enable loading custom loadouts for zeus-spawned units - Currently unused
+ 
+
 //-------------------- Admin
 
-enableDebugConsole = 1;
-allowFunctionsLog = 0;
-allowFunctionsRecompile = 0;
+enableDebugConsole = 1;			// Leave this as 1
+allowFunctionsLog = 0;			// Disables functions from spamming the server RPT logs
+allowFunctionsRecompile = 0;	// Always leave this as 0
 
 //-------------------- Misc
 
-disableChannels[] = {};
-disabledAI = 1;
-aiKills = 0;
-enableItemsDropping = 0;
-joinUnassigned = 1;
-showUAVFeed = 1;
-forceRotorLibSimulation = 0;
-saving = 0;
+disabledAI = 1;					// Disable AI in player slots
+aiKills = 0;					// Don't show AI units on the leaderboards
+enableItemsDropping = 0;		// Don't drop player items when they swim
+joinUnassigned = 1;				// Don't autoslot players when they join the lobby
+skipLobby = 0;					// Change this to 1 if all players slots are the same and you want to skip the lobby screen. Needs joinUnassigned = 0;
+showUAVFeed = 1;				// Leave this as 1
+forceRotorLibSimulation = 0;	// Leave AFM choice to the player
+saving = 0;						// Disable saving for multiplayer missions
 
 //-------------------- Respawn
+// https://community.bistudio.com/wiki/Arma_3_Respawn
 
-respawn = 3;
-respawnDelay = 180;
-respawnVehicleDelay = 1800;
-respawnDialog = 0;
-respawnTemplates[] = {"MenuPosition", "Spectator"};
-respawnOnStart = 0;
+respawn = 3;					// 3 is BASE respawn
+respawnDelay = 180;				// Respawn delay in seconds
+respawnVehicleDelay = 1800;		// Vehicle respawn delay in seconds
+respawnDialog = 0;				// Disables showing scoreboard when respawning
+respawnOnStart = 0;				// Respawns players at the start of the mission. Leave this off for most cases.
+respawnButton = 1;				// Enable the respawn button for players
+
+//-------------------- Respawn Templates
+
+respawnTemplates[] = {"MenuPosition", "Spectator"};				// Templates used for player respawning, applies to all sides
+//respawnTemplatesWest[] = {"MenuPosition", "Spectator"};		// Templates used for player respawning, applies to BLUFOR only
+//respawnTemplatesEast[] = {"MenuPosition", "Spectator"};		// Templates used for player respawning, applies to OPFOR only
+//respawnTemplatesGuer[] = {"MenuPosition", "Spectator"};		// Templates used for player respawning, applies to Independent only
+//respawnTemplatesCiv[] = {"MenuPosition", "Spectator"};		// Templates used for player respawning, applies to Civilians only
+//respawnTemplatesVirtual[] = {"MenuPosition", "Spectator"};	// Templates used for player respawning, applies to Virtual Units (Zeus, HC) only
 
 //-------------------- Garbage Collector
 
+
+corpseManagerMode = 3;				// Only manages corpses for non-respawning units
+corpseLimit = 50;					// Start cleaning up corpses once we get above this number
+corpseRemovalMinTime = 60;			// Make sure corpses stay on the ground for at least 60 seconds
+corpseRemovalMaxTime = 600;			// Remove corpses after 10 minutes regardless of how many are on the map  
+
+wreckManagerMode = 3;				// Only manages corpses for non-respawning units
+wreckLimit = 10;					// Start cleaning up wrecks once we get above this number
+wreckRemovalMinTime = 60;			// Make sure wrecks stay for at least 60 seconds
+wreckRemovalMaxTime = 1800;			// Remove wrecks after 30 minutes regardless of how many are on the map
+
+minPlayerDistance = 50;				// Don't remove a wreck or corpse if there's a player within 50 meters.
+
 //-------------------- Parameters
 
-class Params
-{
-	class ace_medical_level
-    {
-        title = "ACE3 Medical Level";
-        ACE_setting = 1;
-        values[] = {1,2};
-        texts[] = {"Basic", "Advanced"};
-        default = 1;
-    };
-    class ace_medical_enableRevive
-    {
-        title = "Enable ACE3 Revive";
-        ACE_setting = 1;
-        values[] = {0,1};
-        texts[] = {"No", "Yes"};
-        default = 1;
-    };
-    class ace_medical_enableUnconsciousnessAI
-    {
-        title = "AI Unconsciousness Setting";
-        ACE_setting = 1;
-        values[] = {0,1,2};
-        texts[] = {"Instant Death", "50/50", "Always go unconscious first"};
-        default = 1;
-    };
-	class map_markers
-	{
-		title = "Enable group tracking on map";
-		values[] = {0,1};
-		texts[] = {"Disabled", "Enabled"};
-		default = 1;
-		isGlobal = 0;
-		function = "SXP_fnc_mapMarkers";
-	};
-	class headlessclient
-	{
-		title = "Enable Headless Client support";
-		values[] = {0,1};
-		texts[] = {"Disabled", "Automatic"};
-		default = 1;
-		isGlobal = 0;
-		function = "SXP_fnc_setupHC";
-	};
-};
-
-//-------------------- Notifications
-
-//-------------------- Debriefing
-
-class CfgDebriefing
-{
-	class error
-	{
-		title = "Error";
-		subtitle = "Something's gone terribly wrong";
-		description = "Something has gone wrong with the mission ending";
-	};
-	class server
-	{
-		title = "Server";
-		subtitle = "Server";
-		description = "Server";
-	};
-	class cmd_destroyed
-	{
-		title = "Mission Failed";
-		subtitle = "The command APC has fallen";
-		description = "The command APC has been destroyed. The mission is a failure.";
-		//pictureBackground = "";
-		//picture = "";
-		//pictureColor[] = {1,1,1,1};
-	};
-	class victory
-	{
-		title = "Mission Accomplished";
-		subtitle = "The device has been disabled";
-		description = "The East Wind device has been disabled before it was fully charged. A special recovery team has been dispatched to return the device to CSAT high command.";
-		//pictureBackground = "";
-		//picture = "";
-		//pictureColor[] = {1,1,1,1};
-	};
-	class eastWind
-	{
-		title = "Mission Failed";
-		subtitle = "The East Wind device has been activated";
-		description = "The East Wind device reached maximum charge and has caused significant damage to Altis. The existence of the device and its potential is now known to the world.";
-		//pictureBackground = "";
-		//picture = "";
-		//pictureColor[] = {1,1,1,1};
-	};
-};
+#include "config\CfgParams.hpp"
 
 //-------------------- Functions
 
-class cfgFunctions
-{
-	class SXP
-	{
-		class functions
-		{
-			file = "functions";
-			class setupLaptop {};
-			class device {};
-			class download {};
-			class mapMarkers {};
-			class setupHC {};
-		}
-	}
-}
+#include "config\CfgFunctions.hpp"
+
+//-------------------- Notifications
+
+#include "config\CfgNotifications.hpp"
+
+//-------------------- Communication Menu
+
+#include "config\CfgCommunicationMenu.hpp"
+
+//-------------------- Debriefing
+
+#include "config\CfgDebriefing.hpp"
 
 //-------------------- Respawn Inventories
 
@@ -160,74 +114,22 @@ class cfgFunctions
 
 //-------------------- Unit Insignias
 
-class CfgUnitInsignia
-{
-	class tmtm
-	{
-		displayName = "TMTM";
-		author = "TMTM";
-		texture = "media\insignia\tmtm.paa";
-	};
-};
+#include "config\CfgUnitInsignia.hpp"
 
 //-------------------- ORBAT
 
-//#include "config\CfgORBAT.hpp"
+#include "config\CfgORBAT.hpp"
 
-// The insignias and textures only seem to work if they're defined in description.ext, so we can't move this to another file using #include
-class CfgORBAT
+//-------------------- Task Enhancements
+
+#include "config\CfgTaskEnhancements.hpp"
+
+//-------------------- Task Descriptions
+
+#include "config\CfgTaskDescriptions.hpp"
+
+//-------------------- Custom config entries
+class SuperXP
 {
-	class tmtm
-	{
-		id = 1;
-		idType = 0;
-		side = "east";
-		size = "Platoon";
-		type = "Assault";
-		colorInsignia[] = {1,1,1,1};
-		insignia = __EVAL((__FILE__ select [0, count __FILE__ - 15]) + "media\insignia\tmtm");
-		tags[] = {TMTM, Meme};
-		text = "%1 TMTM %3";
-		textShort = "%1 TMTM %3";
-		color[] = {1,1,1,1};
-		texture = __EVAL((__FILE__ select [0, count __FILE__ - 15]) + "media\insignia\tmtm_small");
-		description = "The world's most highly skilled meme team";
-		assets[] = {{O_APC_Wheeled_02_rcws_F,1}};
-		
-		class infantry
-		{
-			id = 1;
-			side = "east";
-			type = "Infantry";
-			text = "Infantry";
-			assets[] = {{O_MRAP_02_hmg_F, 3},{O_MRAP_02_F,3},{O_LSV_02_armed_F,4},{O_Truck_03_covered_F,2}};
-		};
-		
-		class apc
-		{
-			id = 1;
-			side = "east";
-			type = "MechanizedInfantry";
-			text = "Armour";
-			assets[] = {{O_APC_Tracked_02_cannon_F,1}};
-		};
-		
-		class air
-		{
-			id = 1;
-			side = "east";
-			type = "CombatAviation";
-			text = "Aviation";
-			assets[] = {{O_T_VTOL_02_infantry_hex_F,1}};
-		};
-		
-		class logistics
-		{
-			id = 1;
-			side = "east";
-			type = "Support";
-			text = "Logistics";
-			assets[] = {{O_Truck_03_repair_F,1},{O_Truck_03_ammo_F,1},{O_Truck_03_fuel_F,1},{O_Truck_03_medical_F,1},{O_Mortar_01_F,2},{O_Quadbike_01_F,2}};
-		};
-	};
+	#include "config\SXPloadouts.hpp"
 };

@@ -19,6 +19,7 @@ if ((_this select 0) == 0) exitWith {};
 	} forEach allGroups;
 
 	// Add an event handler that adds all zeus spawned units to the HC
-	zeus_module addEventHandler ["CuratorObjectPlaced",
+	{_x addEventHandler ["CuratorObjectPlaced",
 		{(group (_this select 1)) setGroupOwner hcClient}];
+	} forEach allCurators;
 };

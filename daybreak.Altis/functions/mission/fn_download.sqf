@@ -1,7 +1,17 @@
 // Script for handling intel downloads from laptops. Server only
 if (!isServer) exitWith {};
-_laptop = param [0, nil, [objNull]];
+
+// Define variables
+params [
+	["_laptop", nil, [objNull]],
+	["_duration", 60, [0]]
+];
+private ["_time", "_progress", "_texture"];
+
+// Exit if the laptop is undefined
 if (isNil "_laptop") exitWith {};
+
+// Mark the download as started
 _laptop setVariable ["dlStarted", true, true];
 
 // Activate the device if it's the first download
@@ -11,26 +21,20 @@ if (!deviceActivated) then {
 	[] spawn SXP_fnc_device;
 };
 
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_0.paa"];
-uiSleep 3;
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_1.paa"];
-uiSleep 3;
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_2.paa"];
-uiSleep 3;
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_3.paa"];
-uiSleep 3;
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_4.paa"];
-uiSleep 3;
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_5.paa"];
-uiSleep 3;
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_6.paa"];
-uiSleep 3;
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_7.paa"];
-uiSleep 3;
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_8.paa"];
-uiSleep 3;
-_laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_9.paa"];
-uiSleep 3;
+// Mark the start time
+_startTime = time;
+_texture = -1;
+
+// Start the texture loop
+while {time < (_startTime + _duration)} do {
+	_progress = floor ((time - _startTime)/(_duration));
+	if (_progress != _texture) then {
+		[] call compile format ["_laptop setObjectTextureGlobal [0, 'media\downloadScreens\laptop_dl_%1.paa']", (_progress * 10)];
+	};
+	sleep 0.5;
+};
+
+// Set the laptop to the "completed" texture
 _laptop setObjectTextureGlobal [0, "media\downloadScreens\laptop_dl_10.paa"];
 
 [] call compile format [

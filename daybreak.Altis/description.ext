@@ -118,7 +118,18 @@ minPlayerDistance = 50;				// Don't remove a wreck or corpse if there's a player
 
 //-------------------- ORBAT
 
-#include "config\CfgORBAT.hpp"
+
+class cfgORBAT
+{
+	class tmtm
+	{
+		// For some reason these defines only work if they're in description.ext, so we'll use this as a workaround
+		insignia = __EVAL((__FILE__ select [0, count __FILE__ - 15]) + "media\insignia\tmtm");
+		texture = __EVAL((__FILE__ select [0, count __FILE__ - 15]) + "media\insignia\tmtm_small");
+		#include "config\CfgORBAT.hpp"
+	};
+};
+
 
 //-------------------- Task Enhancements
 

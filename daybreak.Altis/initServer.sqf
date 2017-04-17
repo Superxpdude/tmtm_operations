@@ -61,3 +61,15 @@ cmd_marid lockTurret [[0], true];
 // Set the fog to dissipate as the mission goes on
 3600 setFog [0,12,25];
 3600 setOvercast 0;
+
+if (!isNil "csat_officer") then {
+	[
+		(getMissionConfig "cfgORBAT") >> "tmtm",
+		nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,
+		name csat_officer
+	] remoteExec ["BIS_fnc_ORBATSetGroupParams", 0];
+};
+
+// Let all clients know that ORBAT is ready to go.
+orbat_setup = true;
+publicVariable "orbat_setup";

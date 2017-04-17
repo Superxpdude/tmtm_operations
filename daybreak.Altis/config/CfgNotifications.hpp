@@ -16,4 +16,13 @@ class cfgNotifications
 		priority = 0; // Priority; higher number = more important; tasks in queue are selected by priority
 		difficulty[] = {}; // Required difficulty settings. All listed difficulties has to be enabled
 	};
+	class apcDestroyed
+	{
+		title = "Command APC Destroyed";
+		iconPicture = "";
+		description = "The Command APC has fallen. Respawning is no longer possible.";
+		color[] = {1,0,0,1};
+		duration = 10;
+		priority = 1000;
+	};
 };

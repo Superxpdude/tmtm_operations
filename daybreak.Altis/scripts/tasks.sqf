@@ -23,4 +23,4 @@ if (!isServer) exitWith {};
 [[east, "zeus_unit"],["intel_1"], "intel_1", getMarkerPos "marker_intel_1", "CREATED", 4, true, "download" , true] call bis_fnc_taskCreate;
 [[east, "zeus_unit"],["intel_2"], "intel_2", getMarkerPos "marker_intel_2", "CREATED", 3, true, "download" , true] call bis_fnc_taskCreate;
 [[east, "zeus_unit"],["intel_3"], "intel_3", getMarkerPos "marker_intel_3", "CREATED", 2, true, "download" , true] call bis_fnc_taskCreate;
-[[east, "zeus_unit"],["device"], "device", objNull, "CREATED", 1, true, "interact" , true] call bis_fnc_taskCreate;
+[[east, "zeus_unit"],["deviceTask"], "device", objNull, "CREATED", 1, true, "interact" , true] call bis_fnc_taskCreate;

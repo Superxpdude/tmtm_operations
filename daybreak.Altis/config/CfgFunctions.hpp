@@ -46,6 +46,10 @@ class cfgFunctions
 			class updateTask {};
 			
 			// Mission specific classes
+			class deviceEnd {};
+			class deviceLoop {};
+			class deviceSetup {};
+			class deviceStart {};
 			class downloadEnd {};
 			class downloadStart {};
 			class laptopSetup {};

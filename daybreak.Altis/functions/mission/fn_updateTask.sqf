@@ -30,4 +30,22 @@ switch (toLower (_this select 0)) do {
 			missionNamespace setVariable ["deviceTaskActive", true, true];
 		};
 	};
+	case "cmd_destroyed": {
+		// Command APC destroyed. The beginning of the end
+		// Disable respawning
+		missionNamespace setVariable ["allowRespawn", false, true];
+		// Mark the APC as destroyed
+		missionNamespace setVariable ["apcDestroyed", true, true];
+		// Remove all respawn locations
+		{
+			_x call BIS_fnc_removeRespawnPosition;
+		} forEach respawnLocations;
+		// Notify all players of the change
+		["apcDestroyed"] remoteExec ["BIS_fnc_showNotification", 0];
+		// Activate the device (if not already active)
+		if ((missionNamespace getVariable ["deviceActive", -1]) == 0) then {
+			// Activate the device
+			[] call SXP_fnc_deviceStart;
+		};
+	};
 };

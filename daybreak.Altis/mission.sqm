@@ -8,11 +8,11 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=8302;
+		nextID=8303;
 	};
 	class MarkerIDProvider
 	{
-		nextID=27;
+		nextID=28;
 	};
 	class LayerIndexProvider
 	{
@@ -894,7 +894,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=183;
+		items=184;
 		class Item0
 		{
 			dataType="Comment";
@@ -14719,11 +14719,11 @@ class Mission
 		class Item83
 		{
 			dataType="Marker";
-			position[]={3838.4529,-28.523888,12404.088};
+			position[]={3838.4529,0,12404.088};
 			name="marker_aaf_compound";
 			type="Empty";
 			id=7105;
-			atlOffset=-63.435638;
+			atlOffset=-34.911751;
 		};
 		class Item84
 		{
@@ -29171,7 +29171,7 @@ class Mission
 			class Attributes
 			{
 				condition="!(alive cmd_marid)";
-				onActivation="nul = ""cmd_destroyed"" call BIS_fnc_endMissionServer;";
+				onActivation="[""cmd_destroyed""] call SXP_fnc_updateTask;";
 				sizeA=0;
 				sizeB=0;
 				isServerOnly=1;
@@ -30258,6 +30258,16 @@ class Mission
 			id=8301;
 			type="EmptyDetector";
 			atlOffset=0.011171341;
+		};
+		class Item183
+		{
+			dataType="Marker";
+			position[]={5840.9858,0,10677.435};
+			name="csat_fob";
+			text="CSAT Forward Operating Base";
+			type="flag_CSAT";
+			id=8302;
+			atlOffset=-20.70767;
 		};
 	};
 	class Connections

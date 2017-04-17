@@ -49,7 +49,7 @@ missionNamespace setVariable ["taskArray", ["secure_fob", "secure_hospital", "se
 missionNamespace setVariable ["intelArray", [laptop_1, laptop_2, laptop_3], true];
 
 // Set the initial device status
-missionNamespace setVariable ["deviceStatus", 0, true];
+missionNamespace setVariable ["deviceState", 0, true];
 // 0 = Not activated
 // 1 = Activated
 // 2 = Disarmed
@@ -59,7 +59,9 @@ cmd_marid animate ["HideTurret", 1];
 cmd_marid lockTurret [[0], true];
 
 // Add respawn locations
-[missionNamespace, cmd_marid, "Command APC"] call BIS_fnc_addRespawnPosition;
+respawn_apc = [missionNamespace, cmd_marid, "Command APC"] call BIS_fnc_addRespawnPosition;
+respawn_base = [missionNamespace, "csat_fob_marker", "CSAT FOB"] call BIS_fnc_addRespawnPosition;
+respawnLocations = [respawn_apc, respawn_base];
 
 // Set the fog to dissipate as the mission goes on
 3600 setFog [0,12,25];

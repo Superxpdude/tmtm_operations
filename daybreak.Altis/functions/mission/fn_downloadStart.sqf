@@ -20,10 +20,8 @@ _laptop setVariable ["downloadState", 1, true];
 // Check if the device is activated
 // Activate the device if it has not been activated yet
 if ((missionNamespace getVariable ["deviceActive", -1]) == 0) then {
-	// Mark the device as active
-	missionNamespace setVariable ["deviceActive", 1, true];
 	// Activate the device
-	// Place device activation script here
+	[] call SXP_fnc_deviceStart;
 };
 
 // Start the download loop

@@ -19,6 +19,21 @@ class cfgFunctions
 			class zeusRemoveNVGs {};
 		};
 		// Don't change anything in this class
+		class debug
+		{
+			// Don't change any of these classes
+			class fixCurator {};
+		};
+		// Don't change anything in this class
+		class headlessClient
+		{
+			// Don't change any of these classes
+			class hcConnect {};
+			class hcCuratorEnable {};
+			class hcDisconnect {};
+			class hcSetGroupOwner {};
+		};
+		// Don't change anything in this class
 		class inventory {
 			// Don't change any of these classes
 			class loadInventory {};
@@ -29,6 +44,7 @@ class cfgFunctions
 			// Don't change any of these classes
 			class endMission {};
 			class updateTask {};
+		};
 		// Don't change anything in this class
 		class system
 		{
@@ -37,8 +53,9 @@ class cfgFunctions
 			class mapMarkers {};
 			class mapMarkersLocal {};
 			class saveRadioSettings {};
-			class setupHC {};
 			class setupTFAR {preInit = 1;};
 		};
 	};
+	// If you need to add additional functions, create a new section below using your tag of choice (Ex: SXP = Superxpdude)
+	// See the functions library wiki page for additional details
 };

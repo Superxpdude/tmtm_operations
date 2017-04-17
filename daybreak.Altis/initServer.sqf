@@ -5,6 +5,19 @@
 // Initialise dynamic groups
 ["Initialize", [true]] call BIS_fnc_dynamicGroups;
 
+// Initialize our headless client variables
+sxp_hc_clientID = 0;
+sxp_hc_enabled = false;
+sxp_hc_zeusEnabled = true;
+
+// Push the HC variables to all clients
+{
+	publicVariable _x;
+} forEach ["sxp_hc_clientID", "sxp_hc_enabled", "sxp_hc_zeusEnabled"];
+
+// Add the event handler for handling HC disconnects
+addMissionEventHandler ["PlayerDisconnected", {_this call SXP_fnc_hcDisconnect;}];
+
 // Create a list of mission objects that should not be curator editable
 private "_blacklistedMissionObjects";
 _blacklistedMissionObjects = [
@@ -29,16 +42,20 @@ _blacklistedMissionObjects = [
 // Call the script to handle initial task setup
 [] execVM "scripts\tasks.sqf";
 
-// Begin mission-specific init
-// Initialize variable for device activation
+// Add any mission specific code after this point
+
+// Mark the device as not being activated yet
 deviceActivated = false;
 publicVariable "deviceActivated";
-// Initialize variable that tracks if device is active
+
+// Mark the device as not being disabled
 device setVariable ["disabled", false, true];
 
 // Set up the command APC
 cmd_marid animate ["HideTurret", 1];
 cmd_marid lockTurret [[0], true];
+
+// Add respawn locations
 [missionNamespace, cmd_marid, "Command APC"] call BIS_fnc_addRespawnPosition;
 
 // Set the fog to dissipate as the mission goes on

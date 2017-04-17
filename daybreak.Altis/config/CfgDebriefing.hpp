@@ -13,43 +13,4 @@ class cfgDebriefing
 		//picture = ""; // Icon used for the closing shot
 		//pictureColor[] = {1,1,1,1}; // Colour of the icon during the closing shot. Leave as default most of the time
 	};
-	class error
-	{
-		title = "Error";
-		subtitle = "Something's gone terribly wrong";
-		description = "Something has gone wrong with the mission ending";
-	};
-	class server
-	{
-		title = "Server";
-		subtitle = "Server";
-		description = "Server";
-	};
-	class cmd_destroyed
-	{
-		title = "Mission Failed";
-		subtitle = "The command APC has fallen";
-		description = "The command APC has been destroyed. The mission is a failure.";
-		//pictureBackground = "";
-		//picture = "";
-		//pictureColor[] = {1,1,1,1};
-	};
-	class victory
-	{
-		title = "Mission Accomplished";
-		subtitle = "The device has been disabled";
-		description = "The East Wind device has been disabled before it was fully charged. A special recovery team has been dispatched to return the device to CSAT high command.";
-		//pictureBackground = "";
-		//picture = "";
-		//pictureColor[] = {1,1,1,1};
-	};
-	class eastWind
-	{
-		title = "Mission Failed";
-		subtitle = "The East Wind device has been activated";
-		description = "The East Wind device reached maximum charge and has caused significant damage to Altis. The existence of the device and its potential is now known to the world.";
-		//pictureBackground = "";
-		//picture = "";
-		//pictureColor[] = {1,1,1,1};
-	};
 };

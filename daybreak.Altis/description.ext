@@ -1,7 +1,7 @@
 //-------------------- Mission Information
 
 author = "Superxpdude";					// Author name visible on loading screen
-briefingName = "COOP 52+1 - Daybreak r2";				// Name visible in mission select screen
+briefingName = "COOP 52+1 - Daybreak r3";				// Name visible in mission select screen
 overviewText = "CSAT forces move in on Kavala to secure a very important object.";				// Description visible in mission select screen
 //overviewPicture = "media\loadscreen.paa";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
 onLoadName = "COOP 52 - Daybreak";				// Name visible on loading screen
@@ -59,7 +59,7 @@ saving = 0;						// Disable saving for multiplayer missions
 
 respawn = 3;					// 3 is BASE respawn
 respawnDelay = 180;				// Respawn delay in seconds
-respawnVehicleDelay = 1800;		// Vehicle respawn delay in seconds
+respawnVehicleDelay = 600;		// Vehicle respawn delay in seconds
 respawnDialog = 0;				// Disables showing scoreboard when respawning
 respawnOnStart = 0;				// Respawns players at the start of the mission. Leave this off for most cases.
 respawnButton = 1;				// Enable the respawn button for players
@@ -129,7 +129,10 @@ minPlayerDistance = 50;				// Don't remove a wreck or corpse if there's a player
 #include "config\CfgTaskDescriptions.hpp"
 
 //-------------------- Custom config entries
-class SuperXP
+class CfgSuperXP
 {
 	#include "config\SXPloadouts.hpp"
 };
+
+//-------------------- ACE3 Settings
+#include "config\ACE_Settings.hpp"

@@ -4,22 +4,30 @@ if (!isServer) exitWith {};
 
 // Code for task updates goes into these fields. Can be any code required, including new task creation, task state updates, etc.
 switch (toLower (_this select 0)) do {
-	case "example1": {
-		// Setting a task state to completed
-		["task1", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+	case "secure_fob": {
+		["secure_fob", "SUCCEEDED", true] call BIS_fnc_taskSetState;
 	};
-	case "example2": {
-		// Setting a task state to failed
-		["task2", "FAILED", true] call BIS_fnc_taskSetState;
+	case "secure_hospital": {
+		["secure_hospital", "SUCCEEDED", true] call BIS_fnc_taskSetState;
 	};
-	case "example_newtask": {
-		// This check is required to make the tasks show up properly for zeus
-		if (isNil "zeus_unit") then {
-			// Create the task for cases where zeus doesn't exist
-			[true, "task3", ["Demo task 3 description", "Demo Task", ""], objNull, "ASSIGNED", 0, true, "run", true] call BIS_fnc_taskCreate;
-		} else {
-			// Create the task for cases where zeus exists
-			[[true, zeus_unit], "task3", ["Demo task 3 description", "Demo Task", ""], objNull, "ASSIGNED", 0, true, "run", true] call BIS_fnc_taskCreate;
+	case "secure_castle": {
+		["secure_castle", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+	};
+	case "intelactive": {
+		{
+			// Mark downloading as enabled
+			_x setVariable ["downloadState", 0, true];
+			// Change laptop texture back to default
+			_x setObjectTextureGlobal [0, "\A3\Structures_F\Items\Electronics\Data\Electronics_screens_laptop_CO.paa"];
+		} forEach (missionNamespace getVariable ["intelArray", []]);
+	};
+	case "devicetask": {
+		// Check if all of the laptops have had their intel downloaded
+		if (({(_x getVariable ["downloadState", 0]) == 2} count (missionNamespace getVariable "taskArray")) == 0) then {
+			// Assign the task location
+			["deviceTask", device] call BIS_fnc_taskSetDestination;
+			["deviceTask", "ASSIGNED", true] call BIS_fnc_taskSetState;
+			missionNamespace setVariable ["deviceTaskActive", true, true];
 		};
 	};
 };

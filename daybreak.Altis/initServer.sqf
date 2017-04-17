@@ -44,12 +44,15 @@ _blacklistedMissionObjects = [
 
 // Add any mission specific code after this point
 
-// Mark the device as not being activated yet
-deviceActivated = false;
-publicVariable "deviceActivated";
+// Create our intel and task arrays
+missionNamespace setVariable ["taskArray", ["secure_fob", "secure_hospital", "secure_castle"], true];
+missionNamespace setVariable ["intelArray", [laptop_1, laptop_2, laptop_3], true];
 
-// Mark the device as not being disabled
-device setVariable ["disabled", false, true];
+// Set the initial device status
+missionNamespace setVariable ["deviceStatus", 0, true];
+// 0 = Not activated
+// 1 = Activated
+// 2 = Disarmed
 
 // Set up the command APC
 cmd_marid animate ["HideTurret", 1];

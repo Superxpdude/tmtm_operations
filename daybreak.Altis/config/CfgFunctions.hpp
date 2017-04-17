@@ -44,6 +44,11 @@ class cfgFunctions
 			// Don't change any of these classes
 			class endMission {};
 			class updateTask {};
+			
+			// Mission specific classes
+			class downloadEnd {};
+			class downloadStart {};
+			class laptopSetup {};
 		};
 		// Don't change anything in this class
 		class system

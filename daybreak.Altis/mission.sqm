@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=8301;
+		nextID=8302;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=497;
+		nextID=525;
 	};
 	class Camera
 	{
-		pos[]={5848.0601,77.725052,10605.756};
-		dir[]={0.086233296,-0.60905838,0.78858447};
-		up[]={0.066222861,0.79298627,0.60562158};
-		aside[]={0.99420094,-2.3639004e-006,-0.1087087};
+		pos[]={3761.644,197.19176,13331.113};
+		dir[]={-0.29616398,-0.41416687,0.86071235};
+		up[]={-0.13476451,0.91018665,0.39165282};
+		aside[]={0.94561815,1.0262011e-007,0.32537594};
 	};
 };
 binarizationWanted=0;
@@ -398,6 +398,10 @@ class AddonsMetaData
 		};
 	};
 };
+class DynamicSimulation
+{
+	enable=0;
+};
 randomSeed=11889031;
 class ScenarioData
 {
@@ -413,6 +417,7 @@ class ScenarioData
 		minPlayers=1;
 		maxPlayers=52;
 	};
+	wreckRemovalMaxTime=3600;
 };
 class CustomAttributes
 {
@@ -889,7 +894,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=182;
+		items=183;
 		class Item0
 		{
 			dataType="Comment";
@@ -13112,7 +13117,7 @@ class Mission
 			angle=2.4236686;
 			class Attributes
 			{
-				onActivation="nul = [""secure_fob"", ""SUCCEEDED"", true] spawn BIS_fnc_taskSetState; nul = [""secure_fob_zeus"", ""SUCCEEDED"", true] spawn BIS_fnc_taskSetState;";
+				onActivation="[""secure_fob""] call SXP_fnc_updateTask;";
 				sizeA=100;
 				sizeB=45;
 				sizeC=10;
@@ -15355,7 +15360,7 @@ class Mission
 			position[]={3750.6589,18.8321,13004.084};
 			class Attributes
 			{
-				onActivation="nul = [""secure_hospital"", ""SUCCEEDED"", true] spawn BIS_fnc_taskSetState; nul = [""secure_hospital_zeus"", ""SUCCEEDED"", true] spawn BIS_fnc_taskSetState;";
+				onActivation="[""secure_hospital""] call SXP_fnc_updateTask;";
 				sizeA=40;
 				sizeB=40;
 				sizeC=40;
@@ -15790,7 +15795,7 @@ class Mission
 			angle=5.0824513;
 			class Attributes
 			{
-				onActivation="nul = [""secure_castle"", ""SUCCEEDED"", true] spawn BIS_fnc_taskSetState; nul = [""secure_castle_zeus"", ""SUCCEEDED"", true] spawn BIS_fnc_taskSetState;";
+				onActivation="[""secure_castle""] call SXP_fnc_updateTask;";
 				sizeA=110;
 				sizeB=150;
 				sizeC=100;
@@ -16545,6 +16550,48 @@ class Mission
 				};
 			};
 			id=7187;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Kastro AA";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="acex_headless_blacklist";
+					expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item106
 		{
@@ -17972,7 +18019,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="nul = [this, 1] call SXP_fnc_setupLaptop;";
+				init="nul = [this, 1] call SXP_fnc_laptopSetup;";
 				name="laptop_1";
 				disableSimulation=1;
 			};
@@ -18092,13 +18139,13 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="nul = [this, 2] call SXP_fnc_setupLaptop;";
+				init="nul = [this, 2] call SXP_fnc_laptopSetup;";
 				name="laptop_2";
 				disableSimulation=1;
 			};
 			id=7235;
 			type="Land_Laptop_unfolded_F";
-			atlOffset=0.81399918;
+			atlOffset=0.81400013;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18213,7 +18260,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="nul = [this, 3] call SXP_fnc_setupLaptop;";
+				init="nul = [this, 3] call SXP_fnc_laptopSetup;";
 				name="laptop_3";
 				disableSimulation=1;
 			};
@@ -30141,7 +30188,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3726.9404,20.584976,12970.983};
-				angles[]={-0,0.80427384,6.2826972};
+				angles[]={0,0.80427384,6.2826972};
 			};
 			side="Empty";
 			flags=4;
@@ -30157,7 +30204,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3732.4187,20.582302,12971.279};
-				angles[]={-0,0.80427384,6.2826972};
+				angles[]={0,0.80427384,6.2826972};
 			};
 			side="Empty";
 			flags=4;
@@ -30173,7 +30220,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3736.6035,20.580257,12970.78};
-				angles[]={-0,0.80427384,6.2826972};
+				angles[]={0,0.80427384,6.2826972};
 			};
 			side="Empty";
 			flags=4;
@@ -30195,6 +30242,22 @@ class Mission
 			};
 			id=8300;
 			type="EmptyDetector";
+		};
+		class Item182
+		{
+			dataType="Trigger";
+			position[]={3496.2849,16.865091,13017.898};
+			class Attributes
+			{
+				condition="({([_x] call BIS_fnc_taskState) != ""SUCCEEDED""} count (missionNamespace getVariable [""taskArray"", []])) == 0";
+				onActivation="[""intelactive""] call SXP_fnc_updateTask;";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+			};
+			id=8301;
+			type="EmptyDetector";
+			atlOffset=0.011171341;
 		};
 	};
 	class Connections

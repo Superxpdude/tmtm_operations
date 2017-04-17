@@ -130,7 +130,7 @@ class ACE_Settings
 	};
 	*/
 	
-	/*
+	
 	class ace_weather_useACEWeather //Enable ACE weather?
 	{
 		value = 0;
@@ -138,7 +138,7 @@ class ACE_Settings
 		// 1 = Enabled
 		// Disable this if you're going to manually change the weather
 	};
-	*/
+	
 	
 	/*
 	class ace_weather_syncRain //Synchronizes rain states
@@ -167,14 +167,14 @@ class ACE_Settings
 	};
 	*/
 	
-	/*
+	
 	class ace_zeus_zeusAscension //Display message when a player becomes zeus
 	{
 		value = 0;
 		// 0 = Disabled
 		// 1 = Enabled
 	};
-	*/
+	
 	
 	/*
 	class ace_zeus_zeusBird //Create a bird near the zeus camera

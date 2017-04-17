@@ -23,7 +23,7 @@ switch (toLower (_this select 0)) do {
 	};
 	case "devicetask": {
 		// Check if all of the laptops have had their intel downloaded
-		if (({(_x getVariable ["downloadState", 0]) == 2} count (missionNamespace getVariable "taskArray")) == 0) then {
+		if (({(_x getVariable ["downloadState", 0]) == 3} count (missionNamespace getVariable "taskArray")) == 0) then {
 			// Assign the task location
 			["deviceTask", device] call BIS_fnc_taskSetDestination;
 			["deviceTask", "ASSIGNED", true] call BIS_fnc_taskSetState;

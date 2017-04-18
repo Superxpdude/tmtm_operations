@@ -48,4 +48,4 @@ _deviceTime setOvercast 1;
 estimatedTimeLeft _deviceTime;
 
 // Spawn the deviceLoop function
-[] spawn SXP_fnc_deviceLoop;
+[_deviceTime] spawn SXP_fnc_deviceLoop;

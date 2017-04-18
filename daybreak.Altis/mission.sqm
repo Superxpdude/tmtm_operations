@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=8303;
+		nextID=8309;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=525;
+		nextID=539;
 	};
 	class Camera
 	{
-		pos[]={3761.644,197.19176,13331.113};
-		dir[]={-0.29616398,-0.41416687,0.86071235};
-		up[]={-0.13476451,0.91018665,0.39165282};
-		aside[]={0.94561815,1.0262011e-007,0.32537594};
+		pos[]={3735.3362,68.760399,13411.401};
+		dir[]={0.84172046,-0.38224217,0.3813768};
+		up[]={0.34819898,0.92405075,0.15776627};
+		aside[]={0.41271687,-7.8650191e-007,-0.91089094};
 	};
 };
 binarizationWanted=0;
@@ -894,7 +894,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=184;
+		items=188;
 		class Item0
 		{
 			dataType="Comment";
@@ -18145,7 +18145,7 @@ class Mission
 			};
 			id=7235;
 			type="Land_Laptop_unfolded_F";
-			atlOffset=0.81400013;
+			atlOffset=0.81399918;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -30268,6 +30268,51 @@ class Mission
 			type="flag_CSAT";
 			id=8302;
 			atlOffset=-20.70767;
+		};
+		class Item184
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={3383.7061,27.768,14265.365};
+			};
+			title="Relocate intel 3 here";
+			id=8303;
+			atlOffset=0.040626526;
+		};
+		class Item185
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={4594.748,48.659405,13902.41};
+				angles[]={0.0022375863,0,-0};
+			};
+			title="Possible intel location?";
+			id=8304;
+		};
+		class Item186
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={3932.2781,16.586,13595.898};
+			};
+			title="Move intel 1 here?";
+			id=8305;
+			atlOffset=0.00022315979;
+		};
+		class Item187
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={4550.729,262.95599,15414.67};
+			};
+			title="Relocate device up here";
+			description="Add decoy objective for the stadium";
+			id=8306;
+			atlOffset=-0.00030517578;
 		};
 	};
 	class Connections

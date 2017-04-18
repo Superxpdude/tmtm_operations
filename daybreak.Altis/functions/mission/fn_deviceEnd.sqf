@@ -21,7 +21,7 @@ switch (toLower _end) do {
 		// Wait a few seconds, then end the mission
 		[] spawn {
 			sleep 5;
-			["victory", false, true] remoteExec ["BIS_fnc_endMission", 0];
+			["victory", true, true] remoteExec ["BIS_fnc_endMission", 0];
 		};
 	};
 	case "activated": {

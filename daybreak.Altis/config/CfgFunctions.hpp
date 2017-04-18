@@ -53,6 +53,8 @@ class cfgFunctions
 			class downloadEnd {};
 			class downloadStart {};
 			class laptopSetup {};
+			class respawnDisable {};
+			class respawnSpectator {};
 		};
 		// Don't change anything in this class
 		class system

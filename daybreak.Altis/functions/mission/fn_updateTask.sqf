@@ -23,7 +23,7 @@ switch (toLower (_this select 0)) do {
 	};
 	case "devicetask": {
 		// Check if all of the laptops have had their intel downloaded
-		if (({(_x getVariable ["downloadState", 0]) == 3} count (missionNamespace getVariable "taskArray")) == 0) then {
+		if (({(_x getVariable ["downloadState", 0]) != 3} count (missionNamespace getVariable "intelArray")) == 0) then {
 			// Assign the task location
 			["deviceTask", device] call BIS_fnc_taskSetDestination;
 			["deviceTask", "ASSIGNED", true] call BIS_fnc_taskSetState;
@@ -36,6 +36,8 @@ switch (toLower (_this select 0)) do {
 		missionNamespace setVariable ["allowRespawn", false, true];
 		// Mark the APC as destroyed
 		missionNamespace setVariable ["apcDestroyed", true, true];
+		// Disable respawn for all dead players
+		[] remoteExec ["SXP_fnc_respawnDisable", 0];
 		// Remove all respawn locations
 		{
 			_x call BIS_fnc_removeRespawnPosition;
@@ -43,9 +45,9 @@ switch (toLower (_this select 0)) do {
 		// Notify all players of the change
 		["apcDestroyed"] remoteExec ["BIS_fnc_showNotification", 0];
 		// Activate the device (if not already active)
-		if ((missionNamespace getVariable ["deviceActive", -1]) == 0) then {
+		if ((missionNamespace getVariable ["deviceState", -1]) == 0) then {
 			// Activate the device
-			[] call SXP_fnc_deviceStart;
+			[] spawn SXP_fnc_deviceStart;
 		};
 	};
 };

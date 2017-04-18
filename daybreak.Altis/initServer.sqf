@@ -59,8 +59,8 @@ cmd_marid animate ["HideTurret", 1];
 cmd_marid lockTurret [[0], true];
 
 // Add respawn locations
-respawn_apc = [missionNamespace, cmd_marid, "Command APC"] call BIS_fnc_addRespawnPosition;
 respawn_base = [missionNamespace, "csat_fob_marker", "CSAT FOB"] call BIS_fnc_addRespawnPosition;
+respawn_apc = [missionNamespace, cmd_marid, "Command APC"] call BIS_fnc_addRespawnPosition;
 respawnLocations = [respawn_apc, respawn_base];
 
 // Set the fog to dissipate as the mission goes on

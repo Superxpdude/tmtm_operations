@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=8309;
+		nextID=8312;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=539;
+		nextID=553;
 	};
 	class Camera
 	{
-		pos[]={3735.3362,68.760399,13411.401};
-		dir[]={0.84172046,-0.38224217,0.3813768};
-		up[]={0.34819898,0.92405075,0.15776627};
-		aside[]={0.41271687,-7.8650191e-007,-0.91089094};
+		pos[]={5473.9951,73.150238,15003.453};
+		dir[]={-0.81318164,-0.56598943,-0.1356405};
+		up[]={-0.55827874,0.82441103,-0.093121909};
+		aside[]={-0.16453002,-5.972106e-008,0.98637563};
 	};
 };
 binarizationWanted=0;
@@ -894,7 +894,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=188;
+		items=189;
 		class Item0
 		{
 			dataType="Comment";
@@ -13344,7 +13344,7 @@ class Mission
 			};
 			id=7031;
 			type="Box_IND_Wps_F";
-			atlOffset=0.0052108765;
+			atlOffset=0.0050354004;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13580,7 +13580,7 @@ class Mission
 			};
 			id=7035;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.012695313;
+			atlOffset=0.012519836;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13639,7 +13639,7 @@ class Mission
 			};
 			id=7036;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.0070800781;
+			atlOffset=0.0069007874;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13757,7 +13757,7 @@ class Mission
 			};
 			id=7038;
 			type="Box_IND_Wps_F";
-			atlOffset=0.0032691956;
+			atlOffset=0.0030899048;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13816,7 +13816,7 @@ class Mission
 			};
 			id=7040;
 			type="Box_IND_WpsLaunch_F";
-			atlOffset=0.049263;
+			atlOffset=0.049087524;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14690,7 +14690,7 @@ class Mission
 					};
 					id=7103;
 					type="I_Soldier_GL_F";
-					atlOffset=0.14043808;
+					atlOffset=0.1402626;
 				};
 				class Item1
 				{
@@ -14714,7 +14714,7 @@ class Mission
 			{
 			};
 			id=7102;
-			atlOffset=0.14043808;
+			atlOffset=0.1402626;
 		};
 		class Item83
 		{
@@ -20074,6 +20074,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
+						init="[this] call SXP_fnc_deviceSetup;";
 						name="device";
 					};
 					id=7484;
@@ -30249,6 +30250,7 @@ class Mission
 			position[]={3496.2849,16.865091,13017.898};
 			class Attributes
 			{
+				text="Activate Intel Laptops";
 				condition="({([_x] call BIS_fnc_taskState) != ""SUCCEEDED""} count (missionNamespace getVariable [""taskArray"", []])) == 0";
 				onActivation="[""intelactive""] call SXP_fnc_updateTask;";
 				sizeA=0;
@@ -30263,7 +30265,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={5840.9858,0,10677.435};
-			name="csat_fob";
+			name="csat_fob_marker";
 			text="CSAT Forward Operating Base";
 			type="flag_CSAT";
 			id=8302;
@@ -30286,7 +30288,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4594.748,48.659405,13902.41};
-				angles[]={0.0022375863,0,-0};
+				angles[]={0.0022375863,0,0};
 			};
 			title="Possible intel location?";
 			id=8304;
@@ -30313,6 +30315,22 @@ class Mission
 			description="Add decoy objective for the stadium";
 			id=8306;
 			atlOffset=-0.00030517578;
+		};
+		class Item188
+		{
+			dataType="Trigger";
+			position[]={3903.7971,34.3615,13955.464};
+			class Attributes
+			{
+				text="Activate Device Task";
+				condition="({(_x getVariable [""downloadState"", 0]) != 3} count (missionNamespace getVariable ""intelArray"")) == 0";
+				onActivation="[""deviceTask""] call SXP_fnc_updateTask;";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+			};
+			id=8311;
+			type="EmptyDetector";
 		};
 	};
 	class Connections

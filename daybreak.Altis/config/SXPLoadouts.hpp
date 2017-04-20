@@ -86,7 +86,7 @@ class loadouts
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_fadak", "ItemAndroid"};
 		uniformItems[] = {{"ACE_fieldDressing", 10}, {"ACE_epinephrine", 2}, {"ACE_morphine", 4}, {"ItemcTabHCam", 1}};
 		vestItems[] = {{"30Rnd_65x39_caseless_green_mag_Tracer", 6}, {"SmokeShell", 2}, {"SmokeShellRed", 2}, {"SmokeShellPurple", 2}, {"ACE_EntrenchingTool", 1}};
-		backpackItems[] = {};
+		backpackItems[] = {{"ToolKit", 1}};
 	};
 	
 	class O_crew_F

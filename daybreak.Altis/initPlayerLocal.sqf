@@ -16,7 +16,7 @@ _this params ["_player", "_jip"];
 [] spawn {
 	sleep 5;
 	[parseText format ["<t align='right' size='1.6'><t font='PuristaBold' size='1.8'>%1<br/></t>%2<br/>%3</t>",
-		toUpper "Daybreak", 
+		toUpper "Daybreak:Reloaded", 
 		"by Superxpdude", 
 		"06:30:00"],
 		true,

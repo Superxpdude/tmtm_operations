@@ -12,7 +12,7 @@ if (isServer) then {
 	_laptop setVariable ["downloadState", -1, true];
 	_laptop setVariable ["laptopNum", _num, true];
 	// Set the initial texture for the laptop
-	_laptop setObjectTextureGlobal [0, '#(argb,8,8,3)color(0,0,0,1)'];
+	_laptop setObjectTextureGlobal [0, "media\downloadscreens\laptop_lock.paa"];
 };
 /*
 	Laptop downloadStates consist of the following

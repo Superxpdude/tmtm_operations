@@ -28,6 +28,12 @@ switch (toLower _end) do {
 		// Device activated, RIP everything
 		// Mark the device as activated
 		missionNamespace setVariable ["deviceState", 3, true];
+		// Disable respawn
+		missionNamespace setVariable ["allowRespawn", false, true];
+		[] remoteExec ["SXP_fnc_respawnDisable", 0];
+		{
+			_x call BIS_fnc_removeRespawnPosition;
+		} forEach respawnLocations;
 		// Fail the associated task
 		["deviceTask", "FAILED", true] call BIS_fnc_taskSetState;
 		// Begin the end of the world
@@ -47,11 +53,11 @@ switch (toLower _end) do {
 				_nul = _grp createUnit ["ModuleLightning_F", getPosATL _x, [], 0, "FORM"];
 				// Make sure the unit is 100% dead
 				_x setDamage 1;
-				// Wait 0.1 seconds
-				sleep 0.1;
+				// Wait 0.33 seconds for dramatic effect
+				sleep 0.33;
 			} forEach _allUnits; // Kill every living thing on the map
-			// Wait 3 seconds for dramatic effect
-			sleep 3;
+			// Wait 5 seconds for dramatic effect
+			sleep 5;
 			// End the mission once everything is dead
 			["eastWind", false, true] remoteExec ["BIS_fnc_endMission", 0];
 		};

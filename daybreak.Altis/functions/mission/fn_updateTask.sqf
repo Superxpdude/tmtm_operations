@@ -6,12 +6,18 @@ if (!isServer) exitWith {};
 switch (toLower (_this select 0)) do {
 	case "secure_fob": {
 		["secure_fob", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+		respawn_fob = [missionNamespace, "marker_aaf_compound", "AAF Compound"] call BIS_fnc_addRespawnPosition;
+		respawnLocations pushBack respawn_fob;
 	};
 	case "secure_hospital": {
 		["secure_hospital", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+		respawn_fob = [missionNamespace, "marker_hospital", "Kavala Hospital"] call BIS_fnc_addRespawnPosition;
+		respawnLocations pushBack respawn_fob;
 	};
 	case "secure_castle": {
 		["secure_castle", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+		respawn_fob = [missionNamespace, "marker_castle", "Kastro"] call BIS_fnc_addRespawnPosition;
+		respawnLocations pushBack respawn_fob;
 	};
 	case "intelactive": {
 		{

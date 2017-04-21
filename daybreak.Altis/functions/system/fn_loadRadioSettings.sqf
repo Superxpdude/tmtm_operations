@@ -13,7 +13,7 @@ if (([] call TFAR_fnc_haveSwRadio) && (!isNil {missionNamespace getVariable [for
 	// Copy the settings to the new radio
 	[missionNamespace getVariable [format ["%1_SW", getPlayerUID player], nil], [] call TFAR_activeSwRadio] call TFAR_fnc_copySettings;
 };
-
+/*
 // Copy the LR radio settings
 // Check if the player has a new LR radio, and an old LR radio
 if (([] call TFAR_fnc_haveLrRadio) && (!isNil {missionNamespace getVariable [format ["%1_LR", getPlayerUID player], nil]})) then {
@@ -21,7 +21,7 @@ if (([] call TFAR_fnc_haveLrRadio) && (!isNil {missionNamespace getVariable [for
 	// Copy the settings to the new radio
 	[missionNamespace getVariable [format ["%1_LR", getPlayerUID player], nil], [] call TFAR_activeLrRadio] call TFAR_fnc_copySettings;
 };
-
+*/
 // Clear the old SW and LR radio values
 missionNamespace setVariable [format ["%1_SW", getPlayerUID player], nil];
 missionNamespace setVariable [format ["%1_LR", getPlayerUID player], nil];

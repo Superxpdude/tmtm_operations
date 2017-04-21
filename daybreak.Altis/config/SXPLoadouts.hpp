@@ -110,6 +110,27 @@ class loadouts
 		backpackItems[] = {};
 	};
 	
+	class pilot_lead
+	{
+		displayName = "Pilot"; 
+		
+		weapons[] = {"SMG_02_F", "Binocular"};
+		primaryWeaponItems[] = {"optic_ACO_grn_smg", "acc_flashlight", "30Rnd_9x21_Mag_SMG_02_Tracer_Green"};
+		secondaryWeaponItems[] = {};
+		handgunItems[] = {};
+		
+		uniformClass = "U_O_PilotCoveralls";
+		headgearClass = "H_PilotHelmetFighter_O";
+		facewearClass = "";
+		vestClass = "";
+		backpackClass = "TFAR_mr3000";
+		
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_fadak", "ItemAndroid"};
+		uniformItems[] = {{"ACE_fieldDressing", 10}, {"ACE_epinephrine", 2}, {"ACE_morphine", 4}, {"ItemcTabHCam", 1}, {"30Rnd_9x21_Mag_SMG_02_Tracer_Green", 2}, {"SmokeShell", 2}, {"SmokeShellPurple", 2}};
+		vestItems[] = {};
+		backpackItems[] = {{"30Rnd_9x21_Mag_SMG_02_Tracer_Green", 3}, {"ToolKit", 1}};
+	};
+	
 	class O_pilot_F
 	{
 		displayName = "Pilot"; 
@@ -341,6 +362,27 @@ class loadouts
 		backpackItems[] = {{"30Rnd_65x39_caseless_green_mag_Tracer", 32}};
 	};
 	
+	class logi_lead
+	{
+		displayName = "Logistics Coordinator"; 
+		
+		weapons[] = {"arifle_Katiba_C_F", "hgun_Rook40_F", "Rangefinder"};
+		primaryWeaponItems[] = {"optic_MRCO", "acc_flashlight", "30Rnd_65x39_caseless_green_mag_Tracer"};
+		secondaryWeaponItems[] = {};
+		handgunItems[] = {"16Rnd_9x21_Mag"};
+		
+		uniformClass = "U_O_CombatUniform_ocamo";
+		headgearClass = "H_HelmetLeaderO_ocamo";
+		facewearClass = "";
+		vestClass = "V_HarnessOGL_brn";
+		backpackClass = "TFAR_mr3000";
+		
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_fadak", "ItemAndroid"};
+		uniformItems[] = {{"ACE_fieldDressing", 10}, {"ACE_epinephrine", 2}, {"ACE_morphine", 4}, {"16Rnd_9x21_Mag", 3}, {"ItemcTabHCam", 1}};
+		vestItems[] = {{"30Rnd_65x39_caseless_green_mag_Tracer", 11}, {"ACE_EntrenchingTool", 1}};
+		backpackItems[] = {{"ToolKit", 1}, {"ACE_fieldDressing", 40}, {"ACE_bloodIV", 2}, {"ACE_epinephrine", 10}, {"ACE_morphine", 10}};
+	};
+	
 	class O_engineer_F
 	{
 		displayName = "Combat Engineer"; 
@@ -354,7 +396,7 @@ class loadouts
 		headgearClass = "H_HelmetLeaderO_ocamo";
 		facewearClass = "";
 		vestClass = "V_HarnessO_brn";
-		backpackClass = "";
+		backpackClass = "B_FieldPack_ocamo";
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_fadak", "ItemMicroDAGR"};
 		uniformItems[] = {{"ACE_fieldDressing", 10}, {"ACE_epinephrine", 2}, {"ACE_morphine", 4}, {"16Rnd_9x21_Mag", 3}, {"ItemcTabHCam", 1}};

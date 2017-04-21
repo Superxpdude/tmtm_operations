@@ -19,6 +19,7 @@ player createDiaryRecord ["Diary", ["Assets", "Your available assets for this mi
 	- 4x Qilin (Armed)<br/>
 	- 2x Tempest Transport<br/>
 	- 1x Tempest Medical<br/>
+	- 1x BMP-2 Ambulance<br/>
 	- 1x Tempest Ammo<br/>
 	- 1x Tempest Repair<br/>
 	- 1x Tempest Fuel<br/>

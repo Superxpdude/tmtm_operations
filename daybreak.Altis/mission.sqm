@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=595;
+		nextID=609;
 	};
 	class Camera
 	{
-		pos[]={5858.0093,68.138222,10591.521};
-		dir[]={-0.23990844,-0.49340603,0.83617651};
-		up[]={-0.13608523,0.86978018,0.474309};
-		aside[]={0.96131516,-1.5385449e-006,0.27582055};
+		pos[]={4746.001,478.20685,14087.01};
+		dir[]={-0.58695519,-0.37188295,-0.71919459};
+		up[]={-0.23514384,0.92827415,-0.28812096};
+		aside[]={-0.77475899,-4.2468309e-007,0.63230002};
 	};
 };
 binarizationWanted=0;
@@ -749,163 +749,6 @@ class Mission
 		startFogBase=25;
 		startFogDecay=0.050000001;
 		forecastFogDecay=0.014;
-		class CustomAttributes
-		{
-			name="Intel";
-			class Attribute0
-			{
-				property="Enh_rainbowStrength";
-				expression="0 setRainBow _value";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0.34999999;
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="Enh_disableGrass";
-				expression="if(_value) then {50 remoteExec ['setTerrainGrid',[0,-2] select (isMultiplayer && isDedicated),true]}";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute2
-			{
-				property="Enh_viewDistance";
-				expression="if (!is3DEN && (_value > 0)) then {_value remoteExec ['setViewDistance',[0,-2] select (isMultiplayer && isDedicated),true]}";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=-1;
-					};
-				};
-			};
-			class Attribute3
-			{
-				property="Enh_fogDecay";
-				expression="missionNamespace setVariable ['Enh_fogDecay',_value]";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0.12;
-					};
-				};
-			};
-			class Attribute4
-			{
-				property="Enh_fogValue";
-				expression="				if (_value > 0) then				{					_value spawn					{						waitUntil {time > 0.2};						0 setFog [_this,missionNamespace getVariable 'Enh_fogDecay',missionNamespace getVariable 'Enh_fogBase'];					};				};			";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0.85000002;
-					};
-				};
-			};
-			class Attribute5
-			{
-				property="Enh_fogBase";
-				expression="missionNamespace setVariable ['Enh_fogBase',_value]";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="25";
-					};
-				};
-			};
-			class Attribute6
-			{
-				property="Enh_timeMultiplier";
-				expression="if (!is3DEN) then {setTimeMultiplier _value}";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute7
-			{
-				property="Enh_enableEnvironment";
-				expression="if (!is3DEN) then {enableEnvironment _value};";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			nAttributes=8;
-		};
 	};
 	class Entities
 	{
@@ -18238,7 +18081,7 @@ class Mission
 			};
 			id=7234;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.03326416;
+			atlOffset=0.033218384;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18694,7 +18537,7 @@ class Mission
 					};
 					id=7442;
 					type="Land_ConcretePipe_F";
-					atlOffset=-5.7220459e-006;
+					atlOffset=0.099424362;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18736,6 +18579,7 @@ class Mission
 					};
 					id=7443;
 					type="Land_ConcretePipe_F";
+					atlOffset=0.099430084;
 					class CustomAttributes
 					{
 						class Attribute0

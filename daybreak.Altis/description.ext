@@ -1,7 +1,7 @@
 //-------------------- Mission Information
 
 author = "Superxpdude";					// Author name visible on loading screen
-briefingName = "COOP 52+1 - Daybreak r3 (BETA 1)";				// Name visible in mission select screen
+briefingName = "COOP 52+1 - Daybreak r3";				// Name visible in mission select screen
 overviewText = "CSAT forces move in on Kavala to secure a very important object.";				// Description visible in mission select screen
 //overviewPicture = "media\loadscreen.paa";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
 onLoadName = "COOP 52 - Daybreak: Reloaded";				// Name visible on loading screen

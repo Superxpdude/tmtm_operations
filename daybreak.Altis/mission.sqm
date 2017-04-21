@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=609;
+		nextID=623;
 	};
 	class Camera
 	{
-		pos[]={4746.001,478.20685,14087.01};
-		dir[]={-0.58695519,-0.37188295,-0.71919459};
-		up[]={-0.23514384,0.92827415,-0.28812096};
-		aside[]={-0.77475899,-4.2468309e-007,0.63230002};
+		pos[]={4678.8823,650.19116,14035.96};
+		dir[]={-0.73076004,-0.39635655,-0.55582911};
+		up[]={-0.31547976,0.91809124,-0.23995931};
+		aside[]={-0.60541332,-4.6682544e-007,0.79594588};
 	};
 };
 binarizationWanted=0;
@@ -13341,7 +13341,7 @@ class Mission
 			};
 			id=7031;
 			type="Box_IND_Wps_F";
-			atlOffset=0.0052108765;
+			atlOffset=0.0051422119;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13577,7 +13577,7 @@ class Mission
 			};
 			id=7035;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.012695313;
+			atlOffset=0.012626648;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13636,7 +13636,7 @@ class Mission
 			};
 			id=7036;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.0070800781;
+			atlOffset=0.0070075989;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13754,7 +13754,7 @@ class Mission
 			};
 			id=7038;
 			type="Box_IND_Wps_F";
-			atlOffset=0.0032691956;
+			atlOffset=0.003200531;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13813,7 +13813,7 @@ class Mission
 			};
 			id=7040;
 			type="Box_IND_WpsLaunch_F";
-			atlOffset=0.049263;
+			atlOffset=0.049194336;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14687,7 +14687,7 @@ class Mission
 					};
 					id=7103;
 					type="I_Soldier_GL_F";
-					atlOffset=0.14043808;
+					atlOffset=0.14036942;
 				};
 				class Item1
 				{
@@ -14711,7 +14711,7 @@ class Mission
 			{
 			};
 			id=7102;
-			atlOffset=0.14043808;
+			atlOffset=0.14036942;
 		};
 		class Item79
 		{
@@ -18081,7 +18081,7 @@ class Mission
 			};
 			id=7234;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.033218384;
+			atlOffset=0.03326416;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18537,7 +18537,7 @@ class Mission
 					};
 					id=7442;
 					type="Land_ConcretePipe_F";
-					atlOffset=0.099424362;
+					atlOffset=-5.7220459e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18579,7 +18579,6 @@ class Mission
 					};
 					id=7443;
 					type="Land_ConcretePipe_F";
-					atlOffset=0.099430084;
 					class CustomAttributes
 					{
 						class Attribute0

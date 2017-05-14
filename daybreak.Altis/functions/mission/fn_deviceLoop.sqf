@@ -10,6 +10,7 @@ _this params [
 
 estimatedTimeLeft _timeout;
 
+/*
 // Start the download loop
 for [{_i=0}, {_i <= _timeout}, {_i = _i + 1}] do {
 	// Check if we've hit any of the "milestones" and play the earthquake effect
@@ -40,6 +41,11 @@ for [{_i=0}, {_i <= _timeout}, {_i = _i + 1}] do {
 	// Wait one second, then repeat
 	sleep 1;
 };
+*/
+while {(missionNamespace getVariable ["deviceState", 0]) == 1} do {
+	waitUntil {
+		((missionNamespace getVariable ["deviceState", 1] != 1) OR ((floor (estimatedEndServerTime - serverTime)) / 300
+	
 
 if ((missionNamespace getVariable ["deviceState", 1]) != 2) then {
 	[objNull, "activated"] remoteExec ["SXP_fnc_deviceEnd", 2];

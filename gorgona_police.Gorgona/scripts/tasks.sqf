@@ -25,3 +25,8 @@ if (!isServer) exitWith {};
 	This makes sure that zeus units have the same tasks that the players do
 */
 // Place tasks here
+
+[[true, "zeus_unit"], ["task_helipad", ""], "task_helipad", "marker_task_helipad", "ASSIGNED", 100, true, "attack", true] call BIS_fnc_taskCreate;
+[[true, "zeus_unit"], ["task_villa", ""], "task_villa", "marker_task_villa", "ASSIGNED", 100, true, "attack", true] call BIS_fnc_taskCreate;
+[[true, "zeus_unit"], ["task_prison", ""], "task_prison", "marker_task_prison", "ASSIGNED", 100, true, "attack", true] call BIS_fnc_taskCreate;
+[[true, "zeus_unit"], ["task_town", ""], "task_town", "marker_task_town", "ASSIGNED", 100, true, "attack", true] call BIS_fnc_taskCreate;

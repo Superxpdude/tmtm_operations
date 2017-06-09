@@ -11,7 +11,7 @@ switch (toLower (_this select 0)) do {
 	case "win": {
 		// Call the below mission ending on all clients.
 		// Below example is for mission success.
-		["example", true] remoteExec ["BIS_fnc_endMission", 0];
+		["win", true] remoteExec ["BIS_fnc_endMission", 0];
 	};
 	case "fail": {
 		// Below example is for mission failure. (Displays different text type and ending music)

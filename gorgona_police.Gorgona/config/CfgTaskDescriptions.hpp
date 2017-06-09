@@ -11,4 +11,28 @@ class CfgTaskDescriptions
 		description = "Example Task Description";		// Description of task. Additional details displayed when the task is selected on the map screen.
 		marker = "";									// Task marker. Leave blank
 	};
+	class task_helipad
+	{
+		title = "Secure the Helipad";
+		description = "Securing the helipad will provide a location for reinforcements and supplies to arrive on the island.";
+		marker = "";
+	};
+	class task_villa
+	{
+		title = "Secure the Villa";
+		description = "Clear the Villa of all hostiles.";
+		marker = "";
+	};
+	class task_prison
+	{
+		title = "Secure the Prison";
+		description = "Clear the prison of all hostile forces. Anyone holding a weapon can be considered hostile, no friendlies are still active around the prison.";
+		marker = "";
+	};
+	class task_town
+	{
+		title = "Secure the Town";
+		description = "We need to secure the main portion of the town to clear the terrorists from the island.";
+		marker = "";
+	};
 };

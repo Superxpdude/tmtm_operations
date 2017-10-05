@@ -3,14 +3,13 @@
 // _this = [player:Object, didJIP:Boolean]
 _this params ["_player", "_jip"];
 
-// Initialise dynamic groups on the player side
-["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups;
+// Call the template initPlayerLocal function
+_this call XPT_fnc_initPlayerLocal; // DO NOT CHANGE THIS LINE
+
+// Add any mission-specific code after this point
 
 // Create initial briefings for the players
 [] execVM "scripts\briefing.sqf";
-[] execVM "scripts\zeusMenu.sqf";
-
-// Add any mission-specific code after this point
 
 // Display the mission start text
 [] spawn {

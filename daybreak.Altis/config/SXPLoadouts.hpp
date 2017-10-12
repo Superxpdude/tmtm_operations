@@ -320,6 +320,27 @@ class loadouts
 		backpackItems[] = {{"SmokeShell", 4}, {"SmokeShellPurple", 4}, {"SmokeShellRed", 4}, {"MiniGrenade", 2}};
 	};
 	
+	class O_Soldier_EXP_F
+	{
+		displayName = "Explosive Specialist"; 
+		
+		weapons[] = {"arifle_Katiba_F", "hgun_Rook40_F", "Binocular"};
+		primaryWeaponItems[] = {"optic_MRCO", "acc_flashlight", "30Rnd_65x39_caseless_green_mag_Tracer"};
+		secondaryWeaponItems[] = {};
+		handgunItems[] = {"16Rnd_9x21_Mag"};
+		
+		uniformClass = "U_O_CombatUniform_ocamo";
+		headgearClass = "H_HelmetLeaderO_ocamo";
+		facewearClass = "";
+		vestClass = "V_HarnessO_brn";
+		backpackClass = "B_AssaultPack_ocamo";
+		
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_fadak", "ItemMicroDAGR"};
+		uniformItems[] = {{"ACE_fieldDressing", 10}, {"ACE_epinephrine", 2}, {"ACE_morphine", 4}, {"16Rnd_9x21_Mag", 3}, {"ItemcTabHCam", 1}};
+		vestItems[] = {{"30Rnd_65x39_caseless_green_mag_Tracer", 6}, {"ACE_EntrenchingTool", 1}, {"MineDetector", 1}, {"ACE_DefusalKit", 1}};
+		backpackItems[] = {{"30Rnd_65x39_caseless_green_mag_Tracer", 2}, {"SmokeShell", 4}, {"SmokeShellPurple", 4}, {"SmokeShellRed", 4}, {"MiniGrenade", 2}};
+	};
+	
 	class O_Soldier_F
 	{
 		displayName = "Rifleman"; 
@@ -400,7 +421,7 @@ class loadouts
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_fadak", "ItemMicroDAGR"};
 		uniformItems[] = {{"ACE_fieldDressing", 10}, {"ACE_epinephrine", 2}, {"ACE_morphine", 4}, {"16Rnd_9x21_Mag", 3}, {"ItemcTabHCam", 1}};
-		vestItems[] = {{"30Rnd_65x39_caseless_green_mag_Tracer", 7}, {"ACE_EntrenchingTool", 1}, {"ACE_M26_Clacker", 1}, {"SmokeShell", 2}, {"SmokeShellPurple", 2}, {"SmokeShellRed", 2}, {"HandGrenade", 2}, {"DemoCharge_Remote_Mag", 1}};
+		vestItems[] = {{"30Rnd_65x39_caseless_green_mag_Tracer", 7}, {"ACE_EntrenchingTool", 1}, {"ACE_M26_Clacker", 1}, {"SmokeShell", 2}, {"SmokeShellPurple", 2}, {"SmokeShellRed", 2}, {"HandGrenade", 2}, {"MineDetector", 1},  {"ACE_DefusalKit", 1}};
 		backpackItems[] = {{"ToolKit", 1}, {"SatchelCharge_Remote_Mag", 1}, {"DemoCharge_Remote_Mag", 2}};
 	};
 	

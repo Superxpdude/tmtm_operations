@@ -76,7 +76,7 @@ if (!local _unit) then {
 	_facewearClass = [((_class >> "facewearClass") call BIS_fnc_getCfgData)] param [0, "", [""]];
 	_vestClass = [((_class >> "vestClass") call BIS_fnc_getCfgData)] param [0, "", [""]];
 	_backpackClass = [((_class >> "backpackClass") call BIS_fnc_getCfgData)] param [0, "", [""]];
-	_linkedItems = [((_class >> "linkedItems") call BIS_fnc_getCfgData)] param [0, "", [[]]];
+	_linkedItems = [((_class >> "linkedItems") call BIS_fnc_getCfgData)] param [0, [""], [[]]];
 	_uniformItems = [((_class >> "uniformItems") call BIS_fnc_getCfgData)] param [0, [""], [[]]];
 	_vestItems = [((_class >> "vestItems") call BIS_fnc_getCfgData)] param [0, [""], [[]]];
 	_backpackItems = [((_class >> "backpackItems") call BIS_fnc_getCfgData)] param [0, [""], [[]]];

@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=8549;
+		nextID=8551;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3299.6177,551.69366,12526.709};
-		dir[]={0.056875106,-0.75011653,0.65904659};
-		up[]={0.064511932,0.66117352,0.7474364};
-		aside[]={0.9963854,3.0050433e-006,-0.086007364};
+		pos[]={3834.5698,247.58809,12553.911};
+		dir[]={0.29161942,-0.60512894,0.74096328};
+		up[]={0.22168039,0.79598755,0.5632332};
+		aside[]={0.93060178,-1.0860385e-006,-0.36627725};
 	};
 };
 binarizationWanted=0;
@@ -33890,7 +33890,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3563.8091,12.376827,12883.347};
+				position[]={3563.8071,12.376776,12883.347};
 			};
 			areaSize[]={1,-1,1};
 			id=8454;
@@ -36868,7 +36868,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3635.8176,10.268088,13178.021};
+				position[]={3635.8176,10.268094,13178.018};
 				angles[]={0.0053232545,0,0.0026529003};
 			};
 			areaSize[]={1,-1,1};
@@ -36941,7 +36941,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3637.771,10.241808,13185.783};
+				position[]={3637.7705,10.241805,13185.781};
 				angles[]={0.0053232545,0,0.0026529003};
 			};
 			areaSize[]={1,-1,1};
@@ -37014,7 +37014,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3639.6982,10.242702,13193.513};
+				position[]={3639.6975,10.242695,13193.51};
 				angles[]={0.0053232545,0,0.0026529003};
 			};
 			areaSize[]={1,-1,1};
@@ -37087,7 +37087,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3641.6399,10.252165,13201.201};
+				position[]={3641.6399,10.252158,13201.198};
 				angles[]={0.0053232545,0,0.0026529003};
 			};
 			areaSize[]={1,-1,1};
@@ -37160,7 +37160,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3637.0911,10.24802,13194.485};
+				position[]={3637.0942,10.247995,13194.484};
 				angles[]={6.2805324,0,0};
 			};
 			areaSize[]={1,-1,1};

@@ -332,7 +332,7 @@ class loadouts
 		uniformClass = "U_O_CombatUniform_ocamo";
 		headgearClass = "H_HelmetLeaderO_ocamo";
 		facewearClass = "";
-		vestClass = "V_HarnessO_brn";
+		vestClass = "V_TacVest_khk";
 		backpackClass = "B_AssaultPack_ocamo";
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_fadak", "ItemMicroDAGR"};

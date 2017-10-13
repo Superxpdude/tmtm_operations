@@ -29,6 +29,12 @@ player createDiaryRecord ["Diary", ["Assets", "Your available assets for this mi
 	- 1x MSE-3 Marid (Command Vehicle)
 "]];
 
+player createDiaryRecord ["Diary", ["Intel",
+"Cluster munitions were previously used on attack on the city of Kavala, leaving a large portion of the city in ruins. Our intel suggests that not all of the cluster submunitions have detonated.
+EOD technicians have been sent with your assault force, they have the knowledge and the training to deal with situations like this. Rely on them, and they should be able to get you through the city safely."
+]];
+
+
 player createDiaryRecord ["Diary", ["Mission",
 "Your mission today is to launch an attack on Kavala at dawn. The town is crawling with AAF forces that need to be cleared out before we can work on locating the East Wind device.<br/>
 <br/>

@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={52.925102,30.905296,1555.9189};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={51.831165,35.406929,1580.88};
+		dir[]={-0.43083438,-0.69655055,0.57382798};
+		up[]={-0.41821414,0.71751767,0.55701917};
+		aside[]={0.79971981,1.2960154e-006,0.60043544};
 	};
 };
 binarizationWanted=0;
@@ -1505,7 +1505,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={24.933001,5.4010115,1582.8921};
+						position[]={24.933001,5.4010119,1582.8921};
 						angles[]={0,1.3449507,0};
 					};
 					side="Independent";
@@ -1513,12 +1513,12 @@ class Mission
 					class Attributes
 					{
 						rank="MAJOR";
+						init="call{this setVariable [""loadout"", ""cmd_medic""];}";
 						description="Command Medic";
 						isPlayable=1;
 					};
 					id=70;
 					type="I_medic_F";
-					atlOffset=-4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0

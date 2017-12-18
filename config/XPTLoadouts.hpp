@@ -163,7 +163,7 @@ class loadouts
 			advMedVest[] = {};
 			advMedBackpack[] = {};
 		};
-		class squadlead_white
+		class squadlead_white: squadlead_camo
 		{
 			uniformClass = "CUP_I_B_PMC_Unit_25";
 		};
@@ -234,11 +234,10 @@ class loadouts
 			advMedVest[] = {};
 			advMedBackpack[] = {};
 		};
-		class teamlead_white
+		class teamlead_white: teamlead_camo
 		{
 			uniformClass = "CUP_I_B_PMC_Unit_25";
 		};
-	};
 	};
 	class I_Soldier_AR_F
 	{
@@ -270,7 +269,7 @@ class loadouts
 			advMedVest[] = {};
 			advMedBackpack[] = {};
 		};
-		class autorifle_white
+		class autorifle_white: autorifle_camo
 		{
 			uniformClass = "CUP_I_B_PMC_Unit_18";
 		};
@@ -305,7 +304,7 @@ class loadouts
 			advMedVest[] = {};
 			advMedBackpack[] = {};
 		};
-		class marksman_white
+		class marksman_white: marksman_camo
 		{
 			uniformClass = "CUP_I_B_PMC_Unit_18";
 		};
@@ -340,7 +339,7 @@ class loadouts
 			advMedVest[] = {};
 			advMedBackpack[] = {};
 		};
-		class explosive_white
+		class explosive_white: explosive_camo
 		{
 			uniformClass = "CUP_I_B_PMC_Unit_18";
 		};
@@ -375,7 +374,7 @@ class loadouts
 			advMedVest[] = {};
 			advMedBackpack[] = {};
 		};
-		class rifleman_white
+		class rifleman_white: rifleman_camo
 		{
 			uniformClass = "CUP_I_B_PMC_Unit_18";
 		};

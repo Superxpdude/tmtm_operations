@@ -153,7 +153,7 @@ class loadouts
 			linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemAndroid", "TFAR_anprc148jem"};
 			uniformItems[] = {{"ItemcTabHCam", 1}, {"ACE_EntrenchingTool", 1}, {"hlc_15Rnd_9x19_B_P226", 3}, {"SmokeShell", 1}};
 			vestItems[] = {{"CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR", 4}, {"SmokeShell", 1}};
-			backpackItems[] = {{"CUP_1Rnd_HE_M203", 11}, {"CUP_1Rnd_StarCluster_Red_M203", 5}, {"CUP_1Rnd_StarCluster_Green_M203", 5}};
+			backpackItems[] = {{"CUP_1Rnd_HE_M203", 11}, {"CUP_FlareGreen_M203", 5}, {"CUP_FlareRed_M203", 5}};
 			
 			basicMedUniform[] = {{"ACE_fieldDressing", 15}, {"ACE_epinephrine", 2}, {"ACE_morphine", 5}};
 			basicMedVest[] = {};
@@ -224,7 +224,7 @@ class loadouts
 			linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemMicroDAGR", "TFAR_anprc148jem"};
 			uniformItems[] = {{"ItemcTabHCam", 1}, {"ACE_EntrenchingTool", 1}, {"hlc_15Rnd_9x19_B_P226", 3}, {"SmokeShell", 1}};
 			vestItems[] = {{"CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR", 4}, {"SmokeShell", 1}};
-			backpackItems[] = {{"CUP_1Rnd_HE_M203", 11}, {"CUP_1Rnd_StarCluster_Red_M203", 5}, {"CUP_1Rnd_StarCluster_Green_M203", 5}};
+			backpackItems[] = {{"CUP_1Rnd_HE_M203", 11}, {"CUP_FlareGreen_M203", 5}, {"CUP_FlareRed_M203", 5}};
 			
 			basicMedUniform[] = {{"ACE_fieldDressing", 15}, {"ACE_epinephrine", 2}, {"ACE_morphine", 5}};
 			basicMedVest[] = {};
@@ -289,11 +289,11 @@ class loadouts
 			headgearClass = "H_Watchcap_blk";
 			facewearClass = "G_Balaclava_blk";
 			vestClass = "CUP_V_PMC_CIRAS_Winter_Veh";
-			backpackClass = "B_Static_Designator_01_weapon_F";
+			backpackClass = "";
 			
-			linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "B_UavTerminal", "TFAR_anprc148jem"};
+			linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemMicroDAGR", "TFAR_anprc148jem"};
 			uniformItems[] = {{"ItemcTabHCam", 1}, {"ACE_EntrenchingTool", 1}, {"hlc_15Rnd_9x19_B_P226", 3}, {"SmokeShell", 1}};
-			vestItems[] = {{"CUP_20Rnd_TE1_Red_Tracer_762x51_M110", 4}, {"ItemMicroDAGR", 1}};
+			vestItems[] = {{"CUP_20Rnd_TE1_Red_Tracer_762x51_M110", 4}};
 			backpackItems[] = {};
 			
 			basicMedUniform[] = {{"ACE_fieldDressing", 15}, {"ACE_epinephrine", 2}, {"ACE_morphine", 5}};

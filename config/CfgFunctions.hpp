@@ -20,6 +20,11 @@ class SXP
 	{
 		class curatorRemoveLauncher {};
 	};
+	class mission
+	{
+		class endMissionFake {};
+		class missionFinale {};
+	};
 	class tasks
 	{
 		class updateTask {};

@@ -11,3 +11,18 @@ class example
 	//picture = ""; // Icon used for the closing shot
 	//pictureColor[] = {1,1,1,1}; // Colour of the icon during the closing shot. Leave as default most of the time
 };
+class falseEnd
+{
+	title = "Mission Accomplished";
+	subtitle = "All presents have been delivered. Well done.";
+	description = "";
+	//picture = "";
+};
+class trueEnd
+{
+	title = "CHRISTMAS IS SAVED";
+	subtitle = "You recovered the van with all of the presents intact!";
+	description = "";
+	//picture = "";
+	//pictureBackground = "";
+};

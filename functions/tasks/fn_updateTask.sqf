@@ -56,6 +56,7 @@ switch (toLower (_this select 0)) do {
 	case "presents_complete": {
 		["presents", "SUCCEEDED", true] call BIS_fnc_taskSetState;
 		// Add code for finale here
+		["falseEnd", true] spawn SXP_fnc_endMissionFake;
 	};
 	case "create_tanks": {
 		[] spawn {
@@ -102,5 +103,23 @@ switch (toLower (_this select 0)) do {
 	};
 	case "get_tanks": {
 		["getTanks", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+	};
+	case "ssvan1": {
+		["saveChristmas1", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+		[
+				[true, "zeus_unit"],
+				["saveChristmas2", "secretSanta"],
+				"saveChristmas2",
+				"marker_task_recoverVan",
+				"ASSIGNED",
+				10000,
+				true,
+				"car",
+				true
+			] call BIS_fnc_taskCreate;
+	};
+	case "ssvan2": {
+		["saveChristmas2", "SUCCEEDED", true] call BIS_fnc_taskSetState;
+		["trueEnd", true] call BIS_fnc_endMission;
 	};
 };

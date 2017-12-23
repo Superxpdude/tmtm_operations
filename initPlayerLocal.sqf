@@ -11,3 +11,15 @@ _this call XPT_fnc_initPlayerLocal; // DO NOT CHANGE THIS LINE
 {
 	_x addEventHandler ["CuratorObjectPlaced",{_this call SXP_fnc_curatorRemoveLauncher;}];
 } forEach allCurators;
+
+[] spawn {
+	sleep 5;
+	[parseText format ["<t align='right' size='1.6'><t font='PuristaBold' size='1.8'>%1<br/></t>%2<br/>%3</t>",
+		toUpper "TMTM's Little Helpers", 
+		"by Superxpdude", 
+		"22:00:00"],
+		true,
+		nil,
+		10
+	] call BIS_fnc_textTiles;
+};

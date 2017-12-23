@@ -108,8 +108,8 @@ if (!local _unit) exitWith {
 			case "tf_guer_radio_code" do {(_lrSettings select 1) set [2,TFAR_defaultFrequencies_lr_independent];};
 		};
 		// Set the default channel. Grab the value from the player unit first, otherwise try the group. If both don't exist, use the default (channel 0).
-		(_lrSettings select 1) set [0, (_unit getVariable ["TFAR_LRChannel", ((group _unit) getVariable ["TFAR_LRChannel", 0])])];
+		(_lrSettings select 1) set [0, [(_unit getVariable ["TFAR_LRChannel", ((group _unit) getVariable ["TFAR_LRChannel", 0])])] param [0,0,[0]]];
 		// Assign the radio settings
-		[call TFAR_fnc_activeLRRadio, _lrSettings] call TFAR_fnc_setLRSettings;
+		[call TFAR_fnc_activeLRRadio, (_lrSettings select 1)] call TFAR_fnc_setLRSettings;
 	};
 };

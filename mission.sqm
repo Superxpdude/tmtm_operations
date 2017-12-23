@@ -8,14 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=225;
+		nextID=239;
+	};
+	class MarkerIDProvider
+	{
+		nextID=1;
 	};
 	class Camera
 	{
-		pos[]={6.4503117,29.187542,1584.0049};
-		dir[]={0.93428856,-0.31525135,0.16674903};
-		up[]={0.31040323,0.94899064,0.055400446};
-		aside[]={0.17571005,-2.9808143e-007,-0.98448485};
+		pos[]={4898.0825,64.825813,2854.1648};
+		dir[]={-0.082524605,-0.98701811,0.13852087};
+		up[]={-0.50515157,0.16076063,0.84791613};
+		aside[]={0.85917777,6.1839819e-007,0.51185745};
 	};
 };
 binarizationWanted=0;
@@ -37,13 +41,14 @@ addons[]=
 	"ace_cargo",
 	"A3_Structures_F_Items_Vessels",
 	"A3_Structures_F_Heli_Items_Luggage",
-	"CUP_wheeledvehicles_Octaiva"
+	"CUP_wheeledvehicles_Octaiva",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=18;
 		class Item0
 		{
 			className="Desert";
@@ -153,6 +158,13 @@ class AddonsMetaData
 			className="CUP_wheeledvehicles_Octaiva";
 			name="CUP_wheeledvehicles_Octaiva";
 		};
+		class Item17
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=3044500;
@@ -186,7 +198,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=83;
+		items=85;
 		class Item0
 		{
 			dataType="Comment";
@@ -8193,7 +8205,8 @@ class Mission
 			position[]={50.715,5.2667551,1555.455};
 			class Attributes
 			{
-				text="Complete Task1";
+				name="trigger_present1";
+				text="Complete Present1";
 				condition="call{!alive building1}";
 				onActivation="call{[""present1_complete""] call SXP_fnc_updateTask;}";
 				sizeA=0;
@@ -8206,140 +8219,20 @@ class Mission
 		class Item48
 		{
 			dataType="Trigger";
-			position[]={41.498657,4.1210632,1545.4156};
-			class Attributes
-			{
-				text="Complete AA2";
-				condition="(!alive aa2) or (({alive _x} count (crew aa2)) <= 0)";
-				onActivation="[""aa2_complete""] call SXP_fnc_updateTask;";
-				sizeA=0;
-				sizeB=0;
-				isServerOnly=1;
-			};
-			id=181;
-			type="EmptyDetector";
-			atlOffset=0.40662169;
-		};
-		class Item49
-		{
-			dataType="Trigger";
-			position[]={39.803345,4.0080605,1545.3856};
-			class Attributes
-			{
-				text="Complete AA3";
-				condition="(!alive aa3) or (({alive _x} count (crew aa3)) <= 0)";
-				onActivation="[""aa3_complete""] call SXP_fnc_updateTask;";
-				sizeA=0;
-				sizeB=0;
-				isServerOnly=1;
-			};
-			id=182;
-			type="EmptyDetector";
-			atlOffset=0.40086198;
-		};
-		class Item50
-		{
-			dataType="Trigger";
-			position[]={38.613892,3.9197793,1545.3556};
-			class Attributes
-			{
-				text="Complete AA4";
-				condition="(((!alive aa4) or (({alive _x} count (crew aa4)) <= 0)) AND ((!alive aa5) or (({alive _x} count (crew aa5)) <= 0)))";
-				onActivation="[""aa4_complete""] call SXP_fnc_updateTask;";
-				sizeA=0;
-				sizeB=0;
-				isServerOnly=1;
-			};
-			id=183;
-			type="EmptyDetector";
-			atlOffset=0.38811922;
-		};
-		class Item51
-		{
-			dataType="Trigger";
-			position[]={40.807251,4.0217466,1543.9626};
-			class Attributes
-			{
-				text="Complete AA";
-				condition="(((!alive aa1) or (({alive _x} count (crew aa1)) <= 0)) AND " \n "((!alive aa2) or (({alive _x} count (crew aa2)) <= 0)) AND " \n "((!alive aa3) or (({alive _x} count (crew aa3)) <= 0)) AND " \n "((!alive aa4) or (({alive _x} count (crew aa4)) <= 0)) AND " \n "((!alive aa5) or (({alive _x} count (crew aa5)) <= 0)))";
-				onActivation="[""aa_complete""] call SXP_fnc_updateTask;";
-				sizeA=0;
-				sizeB=0;
-				isServerOnly=1;
-			};
-			id=184;
-			type="EmptyDetector";
-			atlOffset=0.34098005;
-		};
-		class Item52
-		{
-			dataType="Trigger";
-			position[]={35.714478,4.1017313,1545.4006};
-			class Attributes
-			{
-				text="Complete Ammo1";
-				condition="(!alive ammo1)";
-				onActivation="[""ammo1_complete""] call SXP_fnc_updateTask;";
-				sizeA=0;
-				sizeB=0;
-				isServerOnly=1;
-			};
-			id=185;
-			type="EmptyDetector";
-			atlOffset=0.4945097;
-		};
-		class Item53
-		{
-			dataType="Trigger";
-			position[]={38.060181,3.9607856,1542.9446};
+			position[]={62.970657,5.3358636,1550.1971};
 			class Attributes
 			{
 				text="Start Evac";
-				condition="(!isNil ""sxp_aa_destroyed"") AND (!isNil ""sxp_ammo_destroyed"")";
-				onActivation="[""start_evac""] call SXP_fnc_updateTask;";
+				condition="call{(!isNil ""sxp_aa_destroyed"") AND (!isNil ""sxp_ammo_destroyed"")}";
+				onActivation="call{[""start_evac""] call SXP_fnc_updateTask;}";
 				sizeA=0;
 				sizeB=0;
 				isServerOnly=1;
 			};
 			id=186;
 			type="EmptyDetector";
-			atlOffset=0.38523436;
 		};
-		class Item54
-		{
-			dataType="Trigger";
-			position[]={34.538696,4.2203283,1545.4326};
-			class Attributes
-			{
-				text="Complete Ammo2";
-				condition="(!alive ammo2)";
-				onActivation="[""ammo2_complete""] call SXP_fnc_updateTask;";
-				sizeA=0;
-				sizeB=0;
-				isServerOnly=1;
-			};
-			id=187;
-			type="EmptyDetector";
-			atlOffset=0.5151422;
-		};
-		class Item55
-		{
-			dataType="Trigger";
-			position[]={35.420532,4.001071,1544.1437};
-			class Attributes
-			{
-				text="Complete AA";
-				condition="(!alive ammo1) AND (!alive ammo2)";
-				onActivation="[""ammo_complete""] call SXP_fnc_updateTask;";
-				sizeA=0;
-				sizeB=0;
-				isServerOnly=1;
-			};
-			id=188;
-			type="EmptyDetector";
-			atlOffset=0.3346436;
-		};
-		class Item56
+		class Item49
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8354,7 +8247,7 @@ class Mission
 			id=190;
 			type="CargoNet_01_barrels_F";
 		};
-		class Item57
+		class Item50
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8370,7 +8263,7 @@ class Mission
 			id=191;
 			type="CargoNet_01_box_F";
 		};
-		class Item58
+		class Item51
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8386,7 +8279,7 @@ class Mission
 			id=192;
 			type="CargoNet_01_box_F";
 		};
-		class Item59
+		class Item52
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8402,7 +8295,7 @@ class Mission
 			id=193;
 			type="CargoNet_01_box_F";
 		};
-		class Item60
+		class Item53
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8418,7 +8311,7 @@ class Mission
 			id=194;
 			type="CargoNet_01_box_F";
 		};
-		class Item61
+		class Item54
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8433,7 +8326,7 @@ class Mission
 			id=195;
 			type="CargoNet_01_barrels_F";
 		};
-		class Item62
+		class Item55
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8449,7 +8342,7 @@ class Mission
 			id=196;
 			type="CargoNet_01_barrels_F";
 		};
-		class Item63
+		class Item56
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8465,7 +8358,7 @@ class Mission
 			id=197;
 			type="CargoNet_01_barrels_F";
 		};
-		class Item64
+		class Item57
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8525,7 +8418,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item65
+		class Item58
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8542,7 +8435,7 @@ class Mission
 			type="Land_PortableLight_double_F";
 			atlOffset=0.13846588;
 		};
-		class Item66
+		class Item59
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8582,7 +8475,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item67
+		class Item60
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8599,7 +8492,7 @@ class Mission
 			type="Land_PortableLight_double_F";
 			atlOffset=2.3841858e-007;
 		};
-		class Item68
+		class Item61
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8616,7 +8509,7 @@ class Mission
 			type="Land_PortableLight_double_F";
 			atlOffset=2.3841858e-007;
 		};
-		class Item69
+		class Item62
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8633,7 +8526,7 @@ class Mission
 			type="Land_Cargo20_grey_F";
 			atlOffset=2.3841858e-007;
 		};
-		class Item70
+		class Item63
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8648,7 +8541,7 @@ class Mission
 			id=209;
 			type="Land_MetalBarrel_F";
 		};
-		class Item71
+		class Item64
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8664,7 +8557,7 @@ class Mission
 			type="Land_MetalBarrel_F";
 			atlOffset=2.3841858e-007;
 		};
-		class Item72
+		class Item65
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8679,7 +8572,7 @@ class Mission
 			id=211;
 			type="Land_MetalBarrel_F";
 		};
-		class Item73
+		class Item66
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8695,7 +8588,7 @@ class Mission
 			id=212;
 			type="Land_MetalCase_01_large_F";
 		};
-		class Item74
+		class Item67
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8711,7 +8604,7 @@ class Mission
 			id=213;
 			type="Land_MetalCase_01_large_F";
 		};
-		class Item75
+		class Item68
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8727,7 +8620,7 @@ class Mission
 			id=214;
 			type="Land_MetalCase_01_large_F";
 		};
-		class Item76
+		class Item69
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8743,7 +8636,7 @@ class Mission
 			id=215;
 			type="Land_MetalCase_01_large_F";
 		};
-		class Item77
+		class Item70
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8759,7 +8652,7 @@ class Mission
 			id=216;
 			type="Land_MetalCase_01_large_F";
 		};
-		class Item78
+		class Item71
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8775,7 +8668,7 @@ class Mission
 			id=217;
 			type="Land_MetalCase_01_large_F";
 		};
-		class Item79
+		class Item72
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8791,7 +8684,7 @@ class Mission
 			id=218;
 			type="Land_MetalCase_01_large_F";
 		};
-		class Item80
+		class Item73
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8807,7 +8700,7 @@ class Mission
 			id=219;
 			type="Land_MetalCase_01_large_F";
 		};
-		class Item81
+		class Item74
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8823,7 +8716,7 @@ class Mission
 			id=220;
 			type="Land_MetalCase_01_large_F";
 		};
-		class Item82
+		class Item75
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8841,6 +8734,165 @@ class Mission
 			id=224;
 			type="CUP_C_Octavia_CIV";
 			atlOffset=0.14453387;
+		};
+		class Item76
+		{
+			dataType="Trigger";
+			position[]={52.480999,5.4348083,1555.728};
+			class Attributes
+			{
+				name="trigger_present2";
+				text="Complete Present2";
+				condition="call{!alive building2}";
+				onActivation="call{[""present2_complete""] call SXP_fnc_updateTask;}";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+			};
+			id=225;
+			type="EmptyDetector";
+			atlOffset=0.12400007;
+		};
+		class Item77
+		{
+			dataType="Trigger";
+			position[]={54.201,5.7467523,1555.9449};
+			class Attributes
+			{
+				name="trigger_present3";
+				text="Complete Present3";
+				condition="call{!alive building3}";
+				onActivation="call{[""present3_complete""] call SXP_fnc_updateTask;}";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+			};
+			id=231;
+			type="EmptyDetector";
+			atlOffset=0.24900007;
+		};
+		class Item78
+		{
+			dataType="Trigger";
+			position[]={55.650002,5.8897724,1556.246};
+			class Attributes
+			{
+				name="trigger_present4";
+				text="Complete Present4";
+				condition="call{!alive building4}";
+				onActivation="call{[""present4_complete""] call SXP_fnc_updateTask;}";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+			};
+			id=232;
+			type="EmptyDetector";
+			atlOffset=0.21400023;
+		};
+		class Item79
+		{
+			dataType="Trigger";
+			position[]={57.564999,5.9028869,1556.429};
+			class Attributes
+			{
+				name="trigger_present5";
+				text="Complete Present5";
+				condition="call{!alive building5}";
+				onActivation="call{[""present5_complete""] call SXP_fnc_updateTask;}";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+			};
+			id=233;
+			type="EmptyDetector";
+			atlOffset=0.15999985;
+		};
+		class Item80
+		{
+			dataType="Trigger";
+			position[]={58.945999,5.9090171,1556.514};
+			class Attributes
+			{
+				name="trigger_present6";
+				text="Complete Present6";
+				condition="call{!alive building6}";
+				onActivation="call{[""present6_complete""] call SXP_fnc_updateTask;}";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+			};
+			id=234;
+			type="EmptyDetector";
+			atlOffset=0.15999985;
+		};
+		class Item81
+		{
+			dataType="Trigger";
+			position[]={60.660999,5.9618535,1557.02};
+			class Attributes
+			{
+				name="trigger_present7";
+				text="Complete Present7";
+				condition="call{!alive building7}";
+				onActivation="call{[""present7_complete""] call SXP_fnc_updateTask;}";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+			};
+			id=235;
+			type="EmptyDetector";
+			atlOffset=0.16699982;
+		};
+		class Item82
+		{
+			dataType="Trigger";
+			position[]={4486.9409,6.6008458,2458.6931};
+			angle=0.34800106;
+			class Attributes
+			{
+				name="trigger_createTanks";
+				text="Create tanks task";
+				condition="call{({(side _x) == independent} count thisList) > 0}";
+				onActivation="call{[""create_tanks""] call SXP_fnc_updateTask;}";
+				sizeA=143.625;
+				sizeB=280.811;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+				isServerOnly=1;
+			};
+			id=236;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.61999989;
+		};
+		class Item83
+		{
+			dataType="Trigger";
+			position[]={4899.9712,28.750217,2856.4121};
+			angle=1.0649298;
+			class Attributes
+			{
+				name="trigger_getTanks";
+				text="Acquire Tanks";
+				condition="call{({(side _x) == independent} count thisList) > 0}";
+				onActivation="call{[""get_tanks""] call SXP_fnc_updateTask;}";
+				sizeA=4.8260002;
+				sizeB=10.116;
+				sizeC=0;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+				isServerOnly=1;
+			};
+			id=237;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.00011444092;
+		};
+		class Item84
+		{
+			dataType="Marker";
+			position[]={4900.3154,28.750103,2856.1721};
+			name="marker_task_getTanks";
+			type="Empty";
+			id=238;
 		};
 	};
 	class Connections

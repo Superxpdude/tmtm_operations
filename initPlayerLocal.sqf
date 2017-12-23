@@ -7,3 +7,7 @@ params ["_player", "_jip"];
 _this call XPT_fnc_initPlayerLocal; // DO NOT CHANGE THIS LINE
 
 // Add any mission specific code after this point
+
+{
+	_x addEventHandler ["CuratorObjectPlaced",{_this call SXP_fnc_curatorRemoveLauncher;}];
+} forEach allCurators;

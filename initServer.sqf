@@ -12,3 +12,7 @@ XPT_blacklistedMissionObjects = [];
 [] execVM "scripts\tasks.sqf";
 
 // Add any mission specific code after this point
+
+{
+	_x addEventHandler ["CuratorObjectPlaced",{_this call SXP_fnc_curatorRemoveLauncher;}];
+} forEach allCurators;

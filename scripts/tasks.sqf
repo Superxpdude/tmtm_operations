@@ -25,3 +25,99 @@ if (!isServer) exitWith {};
 	This makes sure that zeus units have the same tasks that the players do
 */
 // Place tasks here
+// Deliver presents task
+[
+	[true, "zeus_unit"],
+	["presents", ""],
+	"presents",
+	objNull,
+	"CREATED",
+	0,
+	true,
+	"default",
+	true
+] call BIS_fnc_taskCreate;
+// First present
+[
+	[true, "zeus_unit"],
+	["present1", "presents"],
+	"present1",
+	building1,
+	"ASSIGNED",
+	100,
+	true,
+	"destroy",
+	true
+] call BIS_fnc_taskCreate;
+// Second present
+[
+	[true, "zeus_unit"],
+	["present2", "presents"],
+	"present2",
+	building2,
+	"CREATED",
+	90,
+	true,
+	"destroy",
+	true
+] call BIS_fnc_taskCreate;
+// Third present
+[
+	[true, "zeus_unit"],
+	["present3", "presents"],
+	"present3",
+	building3,
+	"CREATED",
+	80,
+	true,
+	"destroy",
+	true
+] call BIS_fnc_taskCreate;
+// Fourth present
+[
+	[true, "zeus_unit"],
+	["present4", "presents"],
+	"present4",
+	building4,
+	"CREATED",
+	70,
+	true,
+	"destroy",
+	true
+] call BIS_fnc_taskCreate;
+// Fifth present
+[
+	[true, "zeus_unit"],
+	["present5", "presents"],
+	"present5",
+	building5,
+	"CREATED",
+	60,
+	true,
+	"destroy",
+	true
+] call BIS_fnc_taskCreate;
+// Sixth present
+[
+	[true, "zeus_unit"],
+	["present6", "presents"],
+	"present6",
+	building6,
+	"CREATED",
+	50,
+	true,
+	"destroy",
+	true
+] call BIS_fnc_taskCreate;
+// Seventh present
+[
+	[true, "zeus_unit"],
+	["present7", "presents"],
+	"present7",
+	building7,
+	"CREATED",
+	40,
+	true,
+	"destroy",
+	true
+] call BIS_fnc_taskCreate;

@@ -14,3 +14,14 @@ class EX // Function TAG, used for the first part of the function name
 	};
 };
 */
+class SXP
+{
+	class curator
+	{
+		class curatorRemoveLauncher {};
+	};
+	class tasks
+	{
+		class updateTask {};
+	};
+};

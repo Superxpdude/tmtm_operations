@@ -15,6 +15,8 @@ if (!hasInterface) exitWith {};
 
 // Define variables
 _unit = _this param [0, player, [objNull]];
+// Don't run on Zeus units
+if (_unit isKindOf "VirtualMan_F") exitWith {};
 
 // If the unit is not local, run this function where it is local.
 if (!local _unit) exitWith {

@@ -38,25 +38,25 @@ class present3	// Drugs crate
 class present4
 {
 	title = "Deliver Fourth Present";
-	description = "";
+	description = "The fourth person on the Naught List is a landlord who owns an apartment block. His rental rates are always too high, so let's bring them down a bit. Blow up his apartment block.";
 	marker = "";
 };
 class present5	// Pub
 {
 	title = "Deliver Fifth Present";
-	description = "";
+	description = "The fifth person runs a pub in downtown Chernogorsk, he got a noise complaint once from some nerd who moved in next door. We'll show that guy a real noise complaint. Blow up the pub.";
 	marker = "";
 };
 class present6	// Hotel
 {
 	title = "Deliver Sixth Present";
-	description = "";
+	description = "The sixth person on the Naughty List owns the international hotel in Chernogorsk. He's never installed a wheelchair ramp to make his hotel wheelchair accessible. Blow up the hotel.";
 	marker = "";
 };
 class present7	// Dock
 {
 	title = "Deliver Seventh Present";
-	description = "";
+	description = "This last guy has been really naughty this year. According to our reports, he never uses his turn signals. You know what to do.";
 	marker = "";
 };
 class tanks

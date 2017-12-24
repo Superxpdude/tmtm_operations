@@ -32,7 +32,7 @@ class present2
 class present3	// Drugs crate
 {
 	title = "Deliver Third Present";
-	description = "The third person on the 'Naughty List' is actually a drug trafficker. Blow up their drugs.";
+	description = "The third person on the 'Naughty List' is actually a drug trafficker. We don't know where he lives, but we know where he stores his goods. Blow up his drugs.";
 	marker = "";
 };
 class present4

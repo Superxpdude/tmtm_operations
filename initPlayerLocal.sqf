@@ -12,6 +12,8 @@ _this call XPT_fnc_initPlayerLocal; // DO NOT CHANGE THIS LINE
 	_x addEventHandler ["CuratorObjectPlaced",{_this call SXP_fnc_curatorRemoveLauncher;}];
 } forEach allCurators;
 
+[] execVM "scripts\briefing.sqf";
+
 [] spawn {
 	sleep 5;
 	[parseText format ["<t align='right' size='1.6'><t font='PuristaBold' size='1.8'>%1<br/></t>%2<br/>%3</t>",
@@ -22,4 +24,8 @@ _this call XPT_fnc_initPlayerLocal; // DO NOT CHANGE THIS LINE
 		nil,
 		10
 	] call BIS_fnc_textTiles;
+};
+
+if (_jip) then {
+	_player moveInCargo cmd_vehicle;
 };

@@ -97,7 +97,7 @@ class loadouts
 			uniformClass = "CUP_I_B_PMC_Unit_25";
 		};
 	};
-	class I_engineer_F
+	class cmd_engineer
 	{
 		displayName = "Command Engineer";
 		class engineer_camo
@@ -113,7 +113,7 @@ class loadouts
 			headgearClass = "H_Watchcap_blk";
 			facewearClass = "G_Balaclava_combat";
 			vestClass = "CUP_V_PMC_CIRAS_Winter_Veh";
-			backpackClass = "B_TacticalPack_blk";
+			backpackClass = "TFAR_anprc155_coyote";
 			
 			linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemcTab", "TFAR_anprc148jem"};
 			uniformItems[] = {{"ItemcTabHCam", 1}, {"ACE_EntrenchingTool", 1}, {"hlc_15Rnd_9x19_B_P226", 3}, {"SmokeShell", 1}};
@@ -377,6 +377,42 @@ class loadouts
 		class rifleman_white: rifleman_camo
 		{
 			uniformClass = "CUP_I_B_PMC_Unit_18";
+		};
+	};
+	class I_engineer_F
+	{
+		displayName = "Engineer";
+		class engineer_camo
+		{
+			displayName = "Engineer";
+		
+			weapons[] = {"CUP_arifle_Mk17_CQC_Black", "hlc_pistol_P226R_Combat", "Binocular"};
+			primaryWeaponItems[] = {"optic_MRCO", "acc_flashlight", "CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR"};
+			secondaryWeaponItems[] = {};
+			handgunItems[] = {"acc_flashlight_pistol", "hlc_15Rnd_9x19_B_P226"};
+			
+			uniformClass = "CUP_I_B_PMC_Unit_27";
+			headgearClass = "H_Watchcap_blk";
+			facewearClass = "G_Balaclava_combat";
+			vestClass = "CUP_V_PMC_CIRAS_Winter_Veh";
+			backpackClass = "B_TacticalPack_blk";
+			
+			linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemcTab", "TFAR_anprc148jem"};
+			uniformItems[] = {{"ItemcTabHCam", 1}, {"ACE_EntrenchingTool", 1}, {"hlc_15Rnd_9x19_B_P226", 3}, {"SmokeShell", 1}};
+			vestItems[] = {{"CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR", 4}, {"SmokeShell", 1}};
+			backpackItems[] = {{"ToolKit", 1}, {"ACE_wirecutter", 1}};
+			
+			basicMedUniform[] = {{"ACE_fieldDressing", 15}, {"ACE_epinephrine", 2}, {"ACE_morphine", 5}};
+			basicMedVest[] = {};
+			basicMedBackpack[] = {{"ACE_fieldDressing", 100}, {"ACE_epinephrine", 15}, {"ACE_morphine", 50}, {"ACE_bloodIV", 5}};
+			
+			advMedUniform[] = {};
+			advMedVest[] = {};
+			advMedBackpack[] = {};
+		};
+		class engineer_white: engineer_camo
+		{
+			uniformClass = "CUP_I_B_PMC_Unit_25";
 		};
 	};
 };

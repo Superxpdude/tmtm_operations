@@ -22,7 +22,7 @@ class trueEnd
 {
 	title = "CHRISTMAS IS SAVED";
 	subtitle = "You recovered the van with all of the presents intact!";
-	description = "";
+	description = "TMTM's forces have successfully delivered the gifts, and recovered the secret santa gifts. Well done!";
 	//picture = "";
-	//pictureBackground = "";
+	pictureBackground = "media\loadscreen.paa";
 };

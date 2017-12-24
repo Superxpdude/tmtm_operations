@@ -24,6 +24,10 @@ class SXP
 	{
 		class endMissionFake {};
 		class missionFinale {};
+		class respawnEnable {};
+		class respawnDisable {};
+		class setupCmdVeh {};
+		class setupFlagPole {};
 	};
 	class tasks
 	{

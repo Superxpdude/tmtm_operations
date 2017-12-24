@@ -14,3 +14,12 @@ class example
 	priority = 0; // Priority; higher number = more important; tasks in queue are selected by priority
 	difficulty[] = {}; // Required difficulty settings. All listed difficulties has to be enabled
 };
+class cmdDestroyed
+{
+	title = "Command SUV Destroyed";
+	iconPicture = "media\holdActions\holdAction_alert.paa";
+	description = "Respawning has been temporarily disabled.";
+	color[] = {1,0,0,1};
+	duration = 10;
+	priority = 1000;
+};

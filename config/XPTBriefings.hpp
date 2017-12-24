@@ -18,29 +18,4 @@
 */
 
 class briefings
-{
-	class assets	// Example assets briefing. Should include a list of all friendly vehicle assets available.
-	{
-		category = "Diary";
-		entryName = "Assets";
-		entryText = "Example Assets List. REPLACE BEFORE RUNNING THE MISSION.<br/> - 1x Car<br/> - 1x Tank<br/> - 1x Boat<br/> - 1x Plane";
-		onStart = 1;
-		sides[] = {0,1,2,3};
-	};
-	class mission	// Example mission briefing. Should include a brief overview of the player's tasks.
-	{
-		category = "Diary";
-		entryName = "Mission";
-		entryText = "Example Mission Briefing. REPLACE BEFORE RUNNING THE MISSION<br/>. We need to get the bad guy.";
-		onStart = 1;
-		sides[] = {0,1,2,3};
-	};
-	class situation	// Example situation briefing. Should include a bit of backstory to your mission.
-	{
-		category = "Diary";
-		entryName = "Situation";
-		entryText = "Example Situation. REPLACE BEFORE RUNNING THE MISSION<br/>. The bad guy did a bad thing. We need to stop him!";
-		onStart = 1;
-		sides[] = {0,1,2,3};
-	};
-};
+{};

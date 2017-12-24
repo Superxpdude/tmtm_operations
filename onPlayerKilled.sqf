@@ -7,3 +7,7 @@ _this params ["_oldUnit", "_killer", "_respawn", "_respawnDelay"];
 _this call XPT_fnc_onPlayerKilled; // DO NOT CHANGE THIS LINE
 
 // Add any mission specific code after this point
+
+[] spawn {
+	["Initialize", [player, [], false]] call BIS_fnc_EGSpectator;
+};

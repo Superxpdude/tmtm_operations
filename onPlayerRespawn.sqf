@@ -7,3 +7,9 @@ _this params ["_newUnit", "_oldUnit", "_respawn", "_respawnDelay"];
 _this call XPT_fnc_onPlayerRespawn; // DO NOT CHANGE THIS LINE
 
 // Add any mission specific code after this point
+
+["Terminate"] call BIS_fnc_EGSpectator;
+
+if (!isNull _oldUnit) then {
+	_newUnit moveInCargo cmd_vehicle;
+};

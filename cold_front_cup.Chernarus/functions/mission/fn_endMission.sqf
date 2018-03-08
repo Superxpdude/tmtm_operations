@@ -15,5 +15,5 @@ if (_this select 0) then {
 		["defend_aar", "FAILED"] remoteExec ["BIS_fnc_taskSetState", 2];
 	};
 	sleep 5;
-	["failure",true,true,true] remoteExec ["BIS_fnc_endMission", 0, true];
+	["failure",false,true,true] remoteExec ["BIS_fnc_endMission", 0, true];
 };

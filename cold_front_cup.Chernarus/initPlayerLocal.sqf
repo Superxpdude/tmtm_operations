@@ -8,3 +8,4 @@ _this call XPT_fnc_initPlayerLocal; // DO NOT CHANGE THIS LINE
 
 // Add any mission specific code after this point
 [] execVM "scripts\briefing.sqf";
+[] execVM "scripts\zeusMenu.sqf";

@@ -21,5 +21,5 @@ class task_defend_alpha
 class task_defend_aar
 {
 	title = "Defend the Anti-Air Radar";
-	description = "Defend the Gorka Anti-Air Radar from hostile forces."
+	description = "Defend the Gorka Anti-Air Radar from hostile forces.";
 };

@@ -55,7 +55,7 @@ XPT_curator_removeNVGs = 0;		// Set to 1 to remove NVGs from zeus-spawned units
 
 //-------------------- Admin
 
-enableDebugConsole = {"76561198031434864"};			// Leave this as 1
+enableDebugConsole[] = {"76561198031434864"};			// Leave this as 1
 allowFunctionsLog = 0;			// Disables functions from spamming the server RPT logs
 allowFunctionsRecompile = 0;	// Always leave this as 0
 

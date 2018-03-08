@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=896;
+		nextID=899;
 	};
 	class LayerIndexProvider
 	{
-		nextID=20;
+		nextID=40;
 	};
 	class Camera
 	{
-		pos[]={8215.4189,479.98141,8994.4463};
-		dir[]={-0.94104296,-0.18708979,0.2821967};
-		up[]={-0.17933656,0.9823063,0.053779975};
-		aside[]={0.28726414,-6.2817708e-007,0.95794529};
+		pos[]={8135.2314,509.3425,9048.6982};
+		dir[]={0.50553,-0.4489052,-0.73697561};
+		up[]={0.25398314,0.89351988,-0.37026426};
+		aside[]={-0.82471514,-7.9488382e-007,-0.56571549};
 	};
 };
 binarizationWanted=0;
@@ -11537,7 +11537,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8180.251,468.17502,9008.3643};
+						position[]={8180.251,468.17532,9008.3643};
 						angles[]={0,1.4377149,0};
 					};
 					side="West";
@@ -11545,15 +11545,53 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="Squad Leader";
+						description="Squad Leader@Alpha";
 						isPlayable=1;
 					};
 					id=459;
 					type="B_Soldier_SL_F";
-					atlOffset=0.010681152;
+					atlOffset=0.010986328;
 					class CustomAttributes
 					{
 						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute2
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -11572,7 +11610,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						nAttributes=3;
 					};
 				};
 				class Item1
@@ -11623,23 +11661,61 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8180.7568,468.09042,9005.0449};
-						angles[]={6.2578578,1.3719684,0.0093350215};
+						position[]={8180.7568,468.09073,9005.0449};
+						angles[]={6.2578607,1.3719684,0.0093375118};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Marksman";
+						description="Marksman (Marksmen DLC Required)";
 						isPlayable=1;
 					};
 					id=461;
 					type="B_soldier_M_F";
-					atlOffset=0.0086975098;
+					atlOffset=0.0090026855;
 					class CustomAttributes
 					{
 						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute2
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -11658,7 +11734,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						nAttributes=3;
 					};
 				};
 				class Item3
@@ -11878,7 +11954,7 @@ class Mission
 				name="grp_alpha";
 			};
 			id=458;
-			atlOffset=0.010681152;
+			atlOffset=0.010986328;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11900,7 +11976,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=1;
+				class Attribute1
+				{
+					property="acex_headless_blacklist";
+					expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 		class Item229
@@ -13630,15 +13725,15 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={8113.5898,465.14374,9029.3779};
-				angles[]={6.2245855,1.4308262,0.10626716};
+				position[]={8113.5898,465.1441,9029.3779};
+				angles[]={6.224577,1.4308209,0.1062731};
 			};
 			name="zeus_unit";
 			isPlayable=1;
 			description="Game Master";
 			id=519;
 			type="VirtualCurator_F";
-			atlOffset=0.17059326;
+			atlOffset=0.17095947;
 		};
 		class Item250
 		{

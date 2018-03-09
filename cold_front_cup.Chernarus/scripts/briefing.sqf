@@ -6,7 +6,7 @@
 
 player createDiaryRecord ["Diary", ["Assets", "Your available assets for this mission are:<br/>
 	- 1x Challenger 2<br/>
-	- 2x Stryker MGS<br/>
+	- 2x HMMWV TOW<br/>
 	- 5x Mastiff PPV<br/>
 	- 5x FV432 Bulldog<br/>
 	- 5x Land Rover M2 Special<br/>

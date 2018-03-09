@@ -199,7 +199,7 @@ class loadouts
 		
 		facewearClass = "G_Tactical_Clear";
 		
-		vestItems[] = {{"10Rnd_338_Mag", 7}, {"SmokeShell", 2}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"ACE_EntrenchingTool", 1}};	
+		vestItems[] = {{"10Rnd_338_Mag", 7}, {"SmokeShell", 2}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"ACE_EntrenchingTool", 1}, {"ACE_RangeCard", 1}};	
 	};
 	
 	class B_Soldier_AR_F: nato_base

@@ -1,12 +1,12 @@
 //-------------------- Mission Information
 
 author = "Superxpdude";					// Author name visible on loading screen. DO NOT EDIT IF USING BUILD SCRIPT
-briefingName = "COOP 52+1 - Cold Front v1.2";				// Name visible in mission select screen. DO NOT EDIT IF USING BUILD SCRIPT
+briefingName = "COOP 52+1 - Cold Front v1.3";				// Name visible in mission select screen. DO NOT EDIT IF USING BUILD SCRIPT
 overviewText = "NATO forces defend an artillery base from an impending enemy invasion.";				// Description visible in mission select screen
 //overviewPicture = "";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
 onLoadName = "COOP 52+1 - Cold Front";				// Name visible on loading screen
 onLoadMission = "A storm is coming";				// Description visible on loading screen
-loadScreen = "media\loadscreen.paa"; // Image visible on loading screen
+loadScreen = "media\loadscreen_mgs.paa"; // Image visible on loading screen
 
 class Header
 {

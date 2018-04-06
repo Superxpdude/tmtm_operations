@@ -5,6 +5,6 @@
 // Lock the driver's seat
 _this lockDriver true;
 // Lock the commander's turret
-_this lockTurret [[0,0], true];
+//_this lockTurret [[0,0], true];
 // Remove all fuel from the vehicle
 _this setFuel 0;

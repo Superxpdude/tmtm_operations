@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6600.4302,525.74994,8770.0986};
-		dir[]={-0.82064027,-0.4842841,-0.3035385};
-		up[]={-0.45423388,0.87489581,-0.16801009};
-		aside[]={-0.34692881,1.9790605e-008,0.93794835};
+		pos[]={7801.2539,76.710709,6605.2681};
+		dir[]={-0.3018896,-0.58464766,0.75302851};
+		up[]={-0.21755458,0.81128705,0.54266435};
+		aside[]={0.92818975,-1.1641532e-008,0.37211207};
 	};
 };
 binarizationWanted=0;
@@ -4301,7 +4301,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Marksman";
+						description="Marksman (Marksmen DLC)";
 						isPlayable=1;
 					};
 					id=112;
@@ -5002,7 +5002,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Marksman";
+						description="Marksman (Marksmen DLC)";
 						isPlayable=1;
 					};
 					id=121;
@@ -5702,7 +5702,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Marksman";
+						description="Marksman (Marksmen DLC)";
 						isPlayable=1;
 					};
 					id=130;
@@ -6400,7 +6400,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Marksman";
+						description="Marksman (Marksmen DLC)";
 						isPlayable=1;
 					};
 					id=139;
@@ -7101,7 +7101,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Marksman";
+						description="Marksman (Marksmen DLC)";
 						isPlayable=1;
 					};
 					id=148;

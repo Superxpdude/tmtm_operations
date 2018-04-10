@@ -11,3 +11,20 @@ class example
 	//picture = ""; // Icon used for the closing shot
 	//pictureColor[] = {1,1,1,1}; // Colour of the icon during the closing shot. Leave as default most of the time
 };
+
+class victory
+{
+	title = "Mission Completed";
+	subtitle = "NATO forces have recovered the CSAT prototype";
+	description = "NATO forces have recovered the CSAT prototype vehicle. This will give us insight into CSAT armoured development.";
+	pictureBackground = "media\loadscreen.paa";
+	picture = "\A3\Data_F_Tank\Logos\arma3_tank_logo_ca.paa";
+};
+
+class failure
+{
+	title = "Mission Failed";
+	subtitle = "NATO forces failed to recover the CSAT prototype";
+	description = "NATO forces failed to recover the CSAT prototype vehicle.";
+	pictureBackground = "media\loadscreen.paa";
+};

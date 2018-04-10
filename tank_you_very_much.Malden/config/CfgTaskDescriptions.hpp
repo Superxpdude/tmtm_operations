@@ -36,10 +36,10 @@ class task_intel_3
 	description = "The files in the shipment headquarters mentioned that the shipment was heading to Bosquet. Go search for more intel.";
 };
 
-class task_tank
+class task_intel_4
 {
-	title = "Locate the CSAT prototype";
-	description = "The shipment logs from Bosquet mentioned that a new shipment was sent north just half an hour after the original one arrived. The destination was the military base near the airport. ";
+	title = "Search for CSAT intel";
+	description = "The shipment logs from Bosquet mentioned that a new shipment was sent north just half an hour after the original one arrived. The destination was the military base near the airport.";
 };
 
 class task_tank_recover

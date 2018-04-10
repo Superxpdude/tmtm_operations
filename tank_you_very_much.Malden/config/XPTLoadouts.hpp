@@ -51,7 +51,7 @@ class loadouts
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR"};
 		uniformItems[] = {{"ItemcTabHCam", 1}, {"ACE_EntrenchingTool", 1}, {"11Rnd_45ACP_Mag", 1}};
-		vestItems[] = {{"30Rnd_556x45_Stanag_Tracer_Red", 7}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"MiniGrenade", 2}};
+		vestItems[] = {{"30Rnd_65x39_caseless_mag_Tracer", 7}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"MiniGrenade", 2}};
 		backpackItems[] = {};
 		
 		basicMedUniform[] = {{"ACE_fieldDressing", 10},{"ACE_epinephrine", 2},{"ACE_morphine", 4}};
@@ -107,7 +107,7 @@ class loadouts
 		backpackClass = "B_AssaultPack_rgr";
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR"};
-		vestItems[] = {{"30Rnd_556x45_Stanag_Tracer_Red", 5}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 1}};
+		vestItems[] = {{"30Rnd_65x39_caseless_mag_Tracer", 5}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 1}};
 		backpackItems[] = {{"ToolKit", 1}};
 	};
 	
@@ -188,7 +188,7 @@ class loadouts
 		backpackClass = "TFAR_rt1523g_sage";
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemAndroid"};
-		vestItems[] = {{"30Rnd_556x45_Stanag_Tracer_Red", 7}, {"SmokeShell", 3}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}};
+		vestItems[] = {{"30Rnd_65x39_caseless_mag_Tracer", 7}, {"SmokeShell", 3}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}};
 		backpackItems[] = {{"3Rnd_HE_Grenade_shell", 5}, {"3Rnd_Smoke_Grenade_shell", 2}, {"3Rnd_SmokeRed_Grenade_shell", 1}};
 	};
 	
@@ -235,8 +235,8 @@ class loadouts
 		
 		backpackClass = "B_AssaultPack_rgr";
 		
-		vestItems[] = {{"30Rnd_65x39_caseless_mag_Tracer", 1}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}};
-		backpackItems[] = {{"30Rnd_65x39_caseless_mag_Tracer", 3}};
+		vestItems[] = {{"200Rnd_65x39_cased_Box_Tracer", 1}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}};
+		backpackItems[] = {{"200Rnd_65x39_cased_Box_Tracer", 3}};
 	};
 	
 	class B_Soldier_LAT_F: nato_base

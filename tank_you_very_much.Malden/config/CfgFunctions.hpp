@@ -18,6 +18,6 @@ class SXP
 {
 	class mission
 	{
-		class endMission {};
+		class updateTask {};
 	};
 };

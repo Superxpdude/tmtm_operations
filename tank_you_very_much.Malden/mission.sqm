@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=314;
+		nextID=318;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7797.6431,49.364212,6563.0405};
-		dir[]={-0.21185455,-0.58889395,0.77999485};
-		up[]={-0.15436456,0.80819088,0.56833023};
-		aside[]={0.96506715,1.040753e-007,0.26212376};
+		pos[]={7816.1172,73.881378,6571.665};
+		dir[]={-0.18104196,-0.56227678,0.80697113};
+		up[]={-0.12309328,0.8269152,0.54866946};
+		aside[]={0.97580189,-2.6525231e-007,0.21892333};
 	};
 };
 binarizationWanted=0;
@@ -38,8 +38,6 @@ addons[]=
 	"CUP_WheeledVehicles_T810",
 	"A3_Soft_F_MRAP_01",
 	"A3_Characters_F",
-	"ace_gforces",
-	"ace_parachute",
 	"ace_explosives",
 	"A3_Armor_F_Tank_MBT_04",
 	"A3_Structures_F_Research",
@@ -73,7 +71,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=31;
+		items=30;
 		class Item0
 		{
 			className="Desert";
@@ -149,138 +147,131 @@ class AddonsMetaData
 		};
 		class Item11
 		{
-			className="ace_parachute";
-			name="ACE3 - Parachute";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item12
-		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item13
+		class Item12
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item13
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item14
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item15
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item17
+		class Item16
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item17
 		{
 			className="A3_Props_F_Tank";
 			name="Arma 3 Tank - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item18
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item19
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item20
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item22
+		class Item21
 		{
 			className="A3_Structures_F_Tank";
 			name="Arma 3 Tank - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item23
+		class Item22
 		{
 			className="A3_Soft_F_EPC";
 			name="Arma 3 Win Episode - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item23
 		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item24
 		{
 			className="A3_Static_F";
 			name="Arma 3 Alpha - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item26
+		class Item25
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item27
+		class Item26
 		{
 			className="A3_Soft_F_Exp";
 			name="Arma 3 Apex - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item28
+		class Item27
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item28
 		{
 			className="A3_Data_F_Curator";
 			name="Arma 3 Zeus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item30
+		class Item29
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
@@ -1655,7 +1646,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7803.9629,24.382454,6593.1226};
+						position[]={7803.9629,24.382505,6593.123};
 						angles[]={0,2.876931,0};
 					};
 					side="West";
@@ -2149,20 +2140,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7790.2026,26.660107,6619.73};
+						position[]={7788.1641,26.857246,6621.4707};
 						angles[]={0,2.9098303,0};
 					};
 					side="West";
-					flags=7;
+					flags=4;
 					class Attributes
 					{
-						rank="CAPTAIN";
-						description="AH-99 Blackfoot Pilot@Whirlwind";
+						rank="LIEUTENANT";
+						description="AH-99 Blackfoot Gunner";
 						isPlayable=1;
 					};
-					id=82;
-					type="B_Pilot_F";
-					atlOffset=7.6293945e-006;
+					id=316;
+					type="B_helicrew_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2230,20 +2220,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7788.1636,26.857254,6621.4712};
+						position[]={7790.2031,26.660069,6619.73};
 						angles[]={0,2.9098303,0};
 					};
 					side="West";
-					flags=5;
+					flags=6;
 					class Attributes
 					{
-						rank="LIEUTENANT";
-						description="AH-99 Blackfoot Gunner";
+						rank="CAPTAIN";
+						description="AH-99 Blackfoot Pilot@Whirlwind";
 						isPlayable=1;
 					};
-					id=85;
-					type="B_Pilot_F";
-					atlOffset=7.6293945e-006;
+					id=317;
+					type="B_Helipilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2312,7 +2301,6 @@ class Mission
 				name="grp_heli";
 			};
 			id=83;
-			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14088,7 +14076,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2047.8372;
 			b=100;
-			angle=333.94391;
+			angle=333.94382;
 			id=289;
 			atlOffset=-50.120438;
 		};
@@ -14103,7 +14091,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2017.8319;
 			b=100;
-			angle=333.94391;
+			angle=333.94382;
 			id=290;
 			atlOffset=-74.230011;
 		};
@@ -14118,7 +14106,7 @@ class Mission
 			fillName="DiagGrid";
 			a=1881.8308;
 			b=100;
-			angle=186.108;
+			angle=186.10796;
 			id=291;
 			atlOffset=-49.47229;
 		};
@@ -14133,7 +14121,7 @@ class Mission
 			fillName="DiagGrid";
 			a=1849.986;
 			b=100;
-			angle=186.10796;
+			angle=186.10793;
 			id=292;
 			atlOffset=-54.06723;
 		};

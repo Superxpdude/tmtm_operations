@@ -5,18 +5,14 @@
 // https://community.bistudio.com/wiki/createDiaryRecord
 
 player createDiaryRecord ["Diary", ["Assets", "Your available assets for this mission are:<br/>
-	- 1x M2A4 Slammer<br/>
-	- 1x M2A3 Bradley<br/>
-	- 1x Stryker MGS<br/>
-	- 5x Mastiff PPV<br/>
-	- 5x FV432 Bulldog<br/>
-	- 5x Land Rover M2 Special<br/>
-	- 1x MTVR Fuel<br/>
-	- 1x MTVR Ammo<br/>
-	- 1x MTVR Repair<br/>
-	- 2x M4 Scorcher (Static)<br/>
-	- 3x IFV-6a Cheetah (Static)<br/>
-	- 2x HMMWV Avenger (Does not respawn)
+	- 1x Rhino MGS UP<br/>
+	- 1x CRV-6e Bobcat<br/>
+	- 1x T810 Ammo<br/>
+	- 1x AH-99 Blackfoot<br/>
+	- 8x AMV-7 Marshall UP<br/>
+	- 1x AWC 303 Nyx (Recon)<br/>
+	- 1x AWC 301 Nyx (AT)<br/>
+	- 1x Hunter (Command Vehicle)
 "]];
 player createDiaryRecord ["Diary", ["Mission", "Your primary mission is to defend Artillery Base Alpha from the invading enemy forces.<br/><br/>
 Your secondary objective is to defend the anti-aircraft radar in Gorka. Without this radar, we will have no advance warning of incoming enemy aircraft. Defend this if at all possible.

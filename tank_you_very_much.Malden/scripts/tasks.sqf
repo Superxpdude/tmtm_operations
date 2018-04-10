@@ -29,7 +29,7 @@ if (!isServer) exitWith {};
 	[true, "zeus_unit"],
 	"retrieve_tank",
 	"task_retrieve_tank",
-	objNull
+	objNull,
 	"CREATED",
 	0,
 	true,

@@ -6,7 +6,7 @@ overviewText = "NATO attempts to retrieve a CSAT prototype on Malden.";				// De
 //overviewPicture = "";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
 onLoadName = "Tank you very much";				// Name visible on loading screen
 onLoadMission = "Tanks for everything.";				// Description visible on loading screen
-//loadScreen = "media\loadscreen.paa"; // Image visible on loading screen
+loadScreen = "media\loadscreen.paa"; // Image visible on loading screen
 
 class Header
 {

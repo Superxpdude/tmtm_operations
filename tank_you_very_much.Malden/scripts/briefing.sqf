@@ -14,7 +14,7 @@ player createDiaryRecord ["Diary", ["Assets", "Your available assets for this mi
 	- 1x AWC 301 Nyx (AT)<br/>
 	- 1x Hunter (Command Vehicle)
 "]];
-player createDiaryRecord ["Diary", ["Mission", "CSAT forces are holding a prototype vehicle on the island. We don't know its exact location however.<br/>
+player createDiaryRecord ["Diary", ["Mission", "CSAT forces are holding a prototype vehicle on the island. However we don't know its exact location.<br/>
 NATO intelligence has informed us that some of the CSAT outposts on the island may have some information regarding the location of the prototype. So we'll need to start there."]];
 player createDiaryRecord ["Diary", ["Situation", "NATO intelligence has learned of a CSAT prototype vehicle being held on the island of Malden.<br/>
-We don't know what kind of vehicle it is, or what its capabilities are. So we must recover the vehicle so that we can be prepared for whatever CSAT throws at us in the future."]];
+CSAT controls the north half of the island, with heavy forces being situated in La Trinite. The rest of their forces behind the front line are unknown at this time, although we do know that they have small outposts throughout the northern region."]];

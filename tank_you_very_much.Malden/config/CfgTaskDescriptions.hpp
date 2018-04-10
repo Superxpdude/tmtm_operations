@@ -26,18 +26,24 @@ class task_intel_1
 
 class task_intel_2
 {
-	title = "";
-	description = "";
+	title = "Search for CSAT intel";
+	description = "The documents in Saint Jean mentioned a shipment passing through the town of Larche. Go search the town for more intel.";
 };
 
 class task_intel_3
 {
-	title = "";
-	description = "";
+	title = "Search for CSAT intel";
+	description = "The files in the shipment headquarters mentioned that the shipment was heading to Bosquet. Go search for more intel.";
 };
 
 class task_tank
 {
-	title = "";
-	description = "";
+	title = "Locate the CSAT prototype";
+	description = "The shipment logs from Bosquet mentioned that a new shipment was sent north just half an hour after the original one arrived. The destination was the military base near the airport. ";
+};
+
+class task_tank_recover
+{
+	title = "Recover the prototype";
+	description = "Now that we have the prototype, we need to get it back to friendly forces. Return the prototype to our base near Houdan.";
 };

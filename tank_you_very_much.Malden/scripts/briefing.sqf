@@ -12,7 +12,8 @@ player createDiaryRecord ["Diary", ["Assets", "Your available assets for this mi
 	- 8x AMV-7 Marshall UP<br/>
 	- 1x AWC 303 Nyx (Recon)<br/>
 	- 1x AWC 301 Nyx (AT)<br/>
-	- 1x Hunter (Command Vehicle)
+	- 1x Hunter (Command Vehicle)<br/>
+	<br/> There is a flagpole at the base that can be used to teleport to the Command Vehicle.
 "]];
 player createDiaryRecord ["Diary", ["Mission", "CSAT forces are holding a prototype vehicle on the island. However we don't know its exact location.<br/>
 NATO intelligence has informed us that some of the CSAT outposts on the island may have some information regarding the location of the prototype. So we'll need to start there."]];

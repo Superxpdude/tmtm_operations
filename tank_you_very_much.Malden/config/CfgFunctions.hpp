@@ -18,6 +18,8 @@ class SXP
 {
 	class mission
 	{
+		class intelCollect {};
+		class setupIntel {};
 		class updateTask {};
 	};
 };

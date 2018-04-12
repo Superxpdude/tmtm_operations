@@ -15,7 +15,7 @@ _this call XPT_fnc_initPlayerLocal; // DO NOT CHANGE THIS LINE
 	[parseText format ["<t align='right' size='1.6'><t font='PuristaBold' size='1.8'>%1<br/></t>%2<br/>%3</t>",
 		toUpper "Tank you very much", 
 		"by Superxpdude", 
-		"12:00:00"],
+		"06:00:00"],
 		true,
 		nil,
 		10

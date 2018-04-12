@@ -19,7 +19,9 @@ class SXP
 	class mission
 	{
 		class intelCollect {};
+		class setupFlagPole {};
 		class setupIntel {};
+		class setupVehicle {};
 		class updateTask {};
 	};
 };

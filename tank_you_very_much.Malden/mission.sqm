@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7852.481,96.851456,6554.7861};
-		dir[]={-0.46870321,-0.56673253,0.67774516};
-		up[]={-0.32237127,0.82386696,0.46615198};
-		aside[]={0.82255501,1.296401e-006,0.56885004};
+		pos[]={7812.6401,75.898003,6555.8184};
+		dir[]={-0.25579956,-0.62752438,0.73552281};
+		up[]={-0.20613605,0.77856529,0.5927245};
+		aside[]={0.94460088,1.2053206e-006,0.32851413};
 	};
 };
 binarizationWanted=0;
@@ -2303,7 +2303,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="AH-99 Blackfoot Gunner";
+						description="AH-99 Blackfoot Gunner@Whirlwind";
 						isPlayable=1;
 					};
 					id=316;
@@ -4833,7 +4833,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7805.8091,27.959314,6648.1948};
+						position[]={7805.8091,27.959303,6648.1948};
 						angles[]={0,2.8594775,0};
 					};
 					side="West";
@@ -4841,12 +4841,12 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="Squad Leader@Alpha";
+						description="Squad Leader@Bravo";
 						isPlayable=1;
 					};
 					id=118;
 					type="B_Soldier_SL_F";
-					atlOffset=9.5367432e-006;
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5478,7 +5478,7 @@ class Mission
 				name="grp_bravo";
 			};
 			id=117;
-			atlOffset=9.5367432e-006;
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5534,7 +5534,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7804.4766,28.309786,6652.6992};
+						position[]={7804.4771,28.309738,6652.6987};
 						angles[]={0,2.8594775,0};
 					};
 					side="West";
@@ -5542,12 +5542,11 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="Squad Leader@Alpha";
+						description="Squad Leader@Charlie";
 						isPlayable=1;
 					};
 					id=127;
 					type="B_Soldier_SL_F";
-					atlOffset=1.9073486e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6175,7 +6174,6 @@ class Mission
 				name="grp_charlie";
 			};
 			id=126;
-			atlOffset=1.9073486e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6231,7 +6229,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7789.8354,28.041225,6640.7168};
+						position[]={7789.835,28.041279,6640.7168};
 						angles[]={0,2.8594775,0};
 					};
 					side="West";
@@ -6239,12 +6237,11 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="Squad Leader@Alpha";
+						description="Squad Leader@Delta";
 						isPlayable=1;
 					};
 					id=136;
 					type="B_Soldier_SL_F";
-					atlOffset=-2.8610229e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6875,7 +6872,6 @@ class Mission
 				name="grp_delta";
 			};
 			id=135;
-			atlOffset=-2.8610229e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6931,7 +6927,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7788.3188,28.389553,6645.2822};
+						position[]={7788.3188,28.389915,6645.2817};
 						angles[]={0,2.8594775,0};
 					};
 					side="West";
@@ -6939,12 +6935,12 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="Squad Leader@Alpha";
+						description="Squad Leader@Echo";
 						isPlayable=1;
 					};
 					id=145;
 					type="B_Soldier_SL_F";
-					atlOffset=0.0075893402;
+					atlOffset=0.0079994202;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7578,7 +7574,7 @@ class Mission
 				name="grp_echo";
 			};
 			id=144;
-			atlOffset=0.0075893402;
+			atlOffset=0.0079994202;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16679,11 +16675,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7783.3496,25.407291,6597.0635};
+				position[]={7783.3501,25.407631,6597.063};
 			};
 			id=323;
 			type="ACE_moduleAddSpareParts";
-			atlOffset=0.042581558;
+			atlOffset=0.04299736;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22116,7 +22112,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="3";
+							value="300";
 						};
 					};
 				};

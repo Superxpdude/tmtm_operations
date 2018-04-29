@@ -75,6 +75,8 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "TFAR_rt1523g_sage";
 		
+		vestItems[] = {{"30Rnd_65x39_caseless_mag_Tracer", 7}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"MiniGrenade", 2}, {"Laserbatteries", 1}};
+		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemcTAB"};
 	};
 	
@@ -88,6 +90,8 @@ class loadouts
 		headgearClass = "H_HelmetSpecB_snakeskin";
 		facewearClass = "G_Aviator";
 		backpackClass = "TFAR_rt1523g_sage";
+		
+		vestItems[] = {{"30Rnd_65x39_caseless_mag_Tracer", 7}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"MiniGrenade", 2}, {"Laserbatteries", 1}};
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemcTAB"};
 		
@@ -273,7 +277,7 @@ class loadouts
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemAndroid", "NVGogglesB_grn_F"};
 		uniformItems[] = {{"ItemcTabHCam", 1}, {"ACE_EntrenchingTool", 1}, {"11Rnd_45ACP_Mag", 1}};
-		vestItems[] = {{"30Rnd_556x45_Stanag_Tracer_Red", 5}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"MiniGrenade", 2}};
+		vestItems[] = {{"30Rnd_556x45_Stanag_Tracer_Red", 5}, {"SmokeShell", 4}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"MiniGrenade", 2}, {"Laserbatteries", 1}};
 		backpackItems[] = {{"ToolKit", 1}};
 		
 		basicMedUniform[] = {{"ACE_fieldDressing", 10},{"ACE_epinephrine", 2},{"ACE_morphine", 4}};

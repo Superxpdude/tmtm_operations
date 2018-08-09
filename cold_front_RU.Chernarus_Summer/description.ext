@@ -1,10 +1,10 @@
 //-------------------- Mission Information
 
-author = "Superxpdude";					// Author name visible on loading screen
-briefingName = "COOP 52+1 - Warm Front: Russian Edition r1";				// Name visible in mission select screen
+author = "Superxpdude";					// Author name visible on loading screen. DO NOT EDIT IF USING BUILD SCRIPT
+briefingName = "COOP 52+1 - Warm Front: Russian Edition v1.1";				// Name visible in mission select screen. DO NOT EDIT IF USING BUILD SCRIPT
 overviewText = "Russian forces defend an artillery base from an impending BLUFOR invasion.";				// Description visible in mission select screen
 //overviewPicture = "";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
-onLoadName = "COOP 52+1 - Warm Front: Russian Edition";				// Name visible on loading screen
+onLoadName = "Warm Front";				// Name visible on loading screen
 onLoadMission = "A storm is coming";				// Description visible on loading screen
 loadScreen = "media\loadscreen.paa"; // Image visible on loading screen
 
@@ -15,33 +15,51 @@ class Header
 	maxPlayers = 53;			// Maximum amount of players the mission supports
 };
 
-//-------------------- Defines
-//#define DEFINEPVP 1			// Uncomment if the mission is a PvP mission
+//-------------------- Template Defines
+// Uncomment the following defines if you want to change away from the default values pictured here.
 
-//-------------------- DO NOT EDIT THIS SECTION
-#ifndef DEFINEPVP
-	SXP_isPVP = 0; 				// Set as 0 for COOP missions
-	disableChannels[] = {{0,false,true},{1,true,true},{2,true,true},{3,false,true},{4,true,true},{5,true,true}}; // Use this for COOPs
-#else
-	SXP_isPVP = 1;				// Set as 1 for PVP missions
-	disableChannels[] = {{0,false,true},{1,false,true},{2,true,true},{3,false,true},{4,true,true},{5,true,true}}; // Use this for TvTs
-#endif
+//#define XPT_DEFINEPVP 1			// Uncomment if the mission is a PvP mission
 
-//-------------------- Script Options
+// The following lines are used if you want to change the default text channel restriction for missions.
+// By default, COOP missions only allow group and global, PVP missions allow side chat as well.
+//#define XPT_TEXTCHANNELS_COOP disableChannels[] = {{0,false,true},{1,true,true},{2,true,true},{3,false,true},{4,true,true},{5,true,true}};
+//#define XPT_TEXTCHANNELS_PVP disableChannels[] = {{0,false,true},{1,false,true},{2,true,true},{3,false,true},{4,true,true},{5,true,true}};
 
-// The following variables have no relevance to the game if not used with the rest of the template scripts
-// Edit the values below to change template settings
-SXP_customLoadouts = 1;			// Set to 1 to enable loading custom loadouts for player units
-SXP_customVehicleCargo = 0;		// Set to 1 to enable custom vehicle inventories - Currently unused
-SXP_zeus_removeNVGs = 0;		// Set to 1 to remove NVGs from zeus-spawned units
-SXP_zeus_customLoadouts = 0;	// Set to 1 to enable loading custom loadouts for zeus-spawned units - Currently unused
- 
+// The following defines set default values for lobby parameters. Change as needed for the mission.
+#define XPT_MAPMARKERS 1			// 0 = Disabled, 1 = Enabled
+//#define XPT_JIPTELEPORT 1			// 0 = Disabled, 1 = Enabled. Currently unused
+//#define XPT_SAFESTART 1			// 0 = Disabled, 1 = Enabled. Currently unused.
+
+//#define XPT_DEBUGMODE 0			// 0 = Disabled, 1 = Enabled.
+
+#define XPT_DEFINE_CUSTOMLOADOUTS 1		// 0 = Disabled, 1 = Enabled. Enables the loadout system
+//#define XPT_DEFINE_VEHICLESETUP 1			// 0 = Disabled, 1 = Enabled. Currently unused.
+//#define XPT_DEFINE_STAGEDEFAULT "stage1"	// Use this to set the default mission stage. Does nothing if stages aren't used.
+
+// Curator settings
+//#define XPT_DEFINE_CURATOR_CUSTOMLOADOUTS 1		// 0 = Disabled, 1 = Enabled. Currently unused.
+//#define XPT_DEFINE_CURATOR_REMOVENVG 1			// 0 = Disabled, 1 = Enabled. Removes NVGs from zeus-spawned units.
+
+//-------------------- ACE 3 Defines
+// Uncomment the following defines if you want to change away from the default values pictured here.
+
+#define XPT_ACE3_MEDICALLEVEL 1					// 1 = Basic Medical, 2 = Advanced Medical
+//#define XPT_ACE3_PLAYERDAMAGETHRESHOLD 1			// Accepts values from 0.5 to 2 in 0.1 increments (0.5, 0.6, 0.7, etc.)
+//#define XPT_ACE3_AIDAMAGETHRESHOLD 1				// Accepts values from 0.5 to 2 in 0.1 increments (0.5, 0.6, 0.7, etc.)
+//#define XPT_ACE3_REVIVE_TIMER 300					// Revive timer duration in seconds. Accepts the following values: (30,60,90,120,180,240,300)
+
+//#define XPT_ACE3_PREVENTINSTANTDEATH_COOP 1		// Default PID setting for co-op missions. 0 = Disabled, 1 = Enabled
+//#define XPT_ACE3_REVIVE_COOP 1					// Default ACE revive setting for co-op misisons. 0 = Disabled, 1 = Enabled
+//#define XPT_ACE3_PREVENTINSTANTDEATH_PVP 0		// Default PID setting for PVP missions. 0 = Disabled, 1 = Enabled
+//#define XPT_ACE3_REVIVE_PVP 0						// Default ACE revive setting for PVP misisons. 0 = Disabled, 1 = Enabled
 
 //-------------------- Admin
 
-enableDebugConsole = 1;			// Leave this as 1
-allowFunctionsLog = 0;			// Disables functions from spamming the server RPT logs
-allowFunctionsRecompile = 0;	// Always leave this as 0
+enableDebugConsole[] = {
+	"76561198031434864"
+};														// Array of player UIDs that have debug console access.
+allowFunctionsLog = 0;									// Disables functions from spamming the server RPT logs
+allowFunctionsRecompile = 0;							// Always leave this as 0
 
 //-------------------- Misc
 
@@ -66,7 +84,7 @@ respawnButton = 1;				// Enable the respawn button for players
 
 //-------------------- Respawn Templates
 
-respawnTemplates[] = {"Counter"};				// Templates used for player respawning, applies to all sides
+respawnTemplates[] = {"Counter","Spectator"};				// Templates used for player respawning, applies to all sides
 //respawnTemplatesWest[] = {"MenuPosition", "Spectator"};		// Templates used for player respawning, applies to BLUFOR only
 //respawnTemplatesEast[] = {"MenuPosition", "Spectator"};		// Templates used for player respawning, applies to OPFOR only
 //respawnTemplatesGuer[] = {"MenuPosition", "Spectator"};		// Templates used for player respawning, applies to Independent only
@@ -88,50 +106,111 @@ wreckRemovalMaxTime = 1800;			// Remove wrecks after 30 minutes regardless of ho
 
 minPlayerDistance = 50;				// Don't remove a wreck or corpse if there's a player within 50 meters.
 
+//-------------------- Template Defines
+
+#include "template\config\XPT_Defines.hpp"
+
 //-------------------- Parameters
 
-#include "config\CfgParams.hpp"
+class params
+{
+	#include "template\config\CfgParams.hpp"
+	#include "config\CfgParams.hpp"
+};
 
 //-------------------- Functions
 
-#include "config\CfgFunctions.hpp"
+class CfgFunctions
+{
+	#include "template\config\CfgFunctions.hpp"
+	#include "config\CfgFunctions.hpp"
+};
 
 //-------------------- Notifications
 
-#include "config\CfgNotifications.hpp"
+class CfgNotifications
+{
+	#include "template\config\CfgNotifications.hpp"
+	#include "config\CfgNotifications.hpp"
+};
 
 //-------------------- Communication Menu
 
-#include "config\CfgCommunicationMenu.hpp"
+class CfgCommunicationMenu
+{
+	#include "template\config\CfgCommunicationMenu.hpp"
+	#include "config\CfgCommunicationMenu.hpp"
+};
 
 //-------------------- Debriefing
 
-#include "config\CfgDebriefing.hpp"
+class CfgDebriefing
+{
+	#include "config\CfgDebriefing.hpp"
+};
 
 //-------------------- Respawn Inventories
 
-#include "config\CfgRespawnInventory.hpp"
+class CfgRespawnInventory
+{
+	#include "config\CfgRespawnInventory.hpp"
+};
+
+//-------------------- Respawn Templates
+class CfgRespawnTemplates
+{
+	#include "template\config\CfgRespawnTemplates.hpp"
+	#include "config\CfgRespawnTemplates.hpp"
+};
 
 //-------------------- Unit Insignias
 
-#include "config\CfgUnitInsignia.hpp"
+class CfgUnitInsignia
+{
+	#include "template\config\CfgUnitInsignia.hpp"
+	#include "config\CfgUnitInsignia.hpp"
+};
 
 //-------------------- ORBAT
 
-#include "config\CfgORBAT.hpp"
+class CfgORBAT
+{
+	#include "config\CfgORBAT.hpp"
+};
 
 //-------------------- Task Enhancements
 
-#include "config\CfgTaskEnhancements.hpp"
+class CfgTaskEnhancements
+{
+	#include "config\CfgTaskEnhancements.hpp"
+};
 
 //-------------------- Task Descriptions
 
-#include "config\CfgTaskDescriptions.hpp"
+class CfgTaskDescriptions
+{
+	#include "config\CfgTaskDescriptions.hpp"
+};
+
+//-------------------- Mirage Coordinator
+
+#include "config\CfgAdmins.hpp"
 
 //-------------------- Custom config entries
-class CfgSuperXP
+
+class CfgXPT
 {
-	#include "config\SXPloadouts.hpp"
+	class stages
+	{
+		#include "template\config\XPT_stage_base.hpp" 	// This include must be first in the stage section
+		#include "config\stages\stage1.hpp"
+	};
+	
+	#include "config\XPTBriefings.hpp"
+	#include "config\XPTItemCargos.hpp"
+	#include "config\XPTLoadouts.hpp"
+	#include "config\XPTTaskUpdates.hpp"
+	#include "config\XPTVehicleSetup.hpp"
 };
 
 //-------------------- ACE3 Settings

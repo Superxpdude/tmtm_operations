@@ -5,18 +5,19 @@
 // https://community.bistudio.com/wiki/createDiaryRecord
 
 player createDiaryRecord ["Diary", ["Assets", "Your available assets for this mission are:<br/>
-	- 1x FV-720 Mora<br/>
-	- 2x AFV-4 Gorgon<br/>
-	- 5x HEMTT Transport<br/>
-	- 5x Hunter HMG<br/>
-	- 5x Hunter Unarmed<br/>
-	- 1x HEMTT Fuel<br/>
-	- 1x HEMTT Ammo<br/>
-	- 1x HEMTT Repair<br/>
-	- 1x M4 Scorcher (Static)
+	- 1x T-90A<br/>
+	- 2x BMP-3<br/>
+	- 5x Ural Transport<br/>
+	- 2x BRDM-2 ATGM<br/>
+	- 2x BRDM-2<br/>
+	- 6x UAZ Unarmed<br/>
+	- 1x Ural Fuel<br/>
+	- 1x Ural Ammo<br/>
+	- 1x Ural Repair<br/>
+	- 1x D-30 Artillery (Static)
 "]];
-player createDiaryRecord ["Diary", ["Mission", "Your primary mission is to defend Artillery Base Alpha from the invading CSAT forces.<br/><br/>
+player createDiaryRecord ["Diary", ["Mission", "Your primary mission is to defend Artillery Base Alpha from the invading enemy forces.<br/><br/>
 Your secondary objective is to defend the anti-aircraft radar in Gorka. Without this radar, we will have no advance warning of incoming enemy aircraft. Defend this if at all possible.
 "]];
-player createDiaryRecord ["Diary", ["Situation", "NATO forces currently occupy central Chernarus, and a Canadian task force has been deployed to protect Artillery Base Alpha (a critical fire base located near the town of Novy Sobor).<br/><br/>
-CSAT forces have been spotted preparing for an assault on the Artillery Base, aiming to destroy or occupy the compound. The Canadian forces have been tasked with repelling the CSAT invasion and protecting the Artillery base."]];
+player createDiaryRecord ["Diary", ["Situation", "Russian forces currently occupy central Chernarus, and a task force has been deployed to protect Artillery Base Alpha (a critical fire base located near the town of Novy Sobor).<br/><br/>
+Enemy forces have been spotted preparing for an assault on the Artillery Base, aiming to destroy or occupy the compound. The Russian forces have been tasked with repelling the enemy invasion and protecting the Artillery base."]];

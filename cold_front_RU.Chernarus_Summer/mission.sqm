@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=135;
+		nextID=165;
 	};
 	class Camera
 	{
-		pos[]={10080.879,323.57919,8611.2783};
-		dir[]={-0.43058366,-0.70295119,0.56631237};
-		up[]={-0.4254632,0.71119791,0.55957282};
-		aside[]={0.79611748,6.35162e-007,0.60531271};
+		pos[]={8047.6016,538.81451,9100.3281};
+		dir[]={0.70269078,-0.63594902,-0.31944844};
+		up[]={0.57895201,0.77167398,-0.26319191};
+		aside[]={-0.41389045,6.5285712e-007,-0.91043705};
 	};
 };
 binarizationWanted=0;
@@ -6748,7 +6748,7 @@ class Mission
 				};
 			};
 			id=1747;
-			atlOffset=-21.761444;
+			atlOffset=-21.75769;
 		};
 		class Item95
 		{
@@ -18467,8 +18467,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8197.4443,470.25922,9014.8789};
-				angles[]={6.2645183,4.5182276,6.2578578};
+				position[]={8197.4443,470.25925,9014.8789};
+				angles[]={6.2645102,4.5182209,6.2578607};
 			};
 			side="Empty";
 			flags=4;
@@ -18477,7 +18477,6 @@ class Mission
 			};
 			id=2565;
 			type="CUP_O_Ural_RU";
-			atlOffset=-3.0517578e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18495,7 +18494,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -18534,7 +18533,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -18574,7 +18573,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -18614,7 +18613,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -18654,7 +18653,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -18694,7 +18693,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -18852,7 +18851,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[""ToolKit""],[3]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[""ToolKit""],[3]],[[],[]]],false]";
 						};
 					};
 				};
@@ -18892,7 +18891,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[""ToolKit""],[3]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[""ToolKit""],[3]],[[],[]]],false]";
 						};
 					};
 				};
@@ -18931,7 +18930,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -18971,7 +18970,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -19010,7 +19009,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -19049,7 +19048,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -19089,7 +19088,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -19128,7 +19127,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -19167,7 +19166,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -19206,7 +19205,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -19246,7 +19245,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -19285,7 +19284,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[20,10,10,15,10,40,10,10,10,30,10,10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -24048,7 +24047,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24107,7 +24106,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24166,7 +24165,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24225,7 +24224,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24283,7 +24282,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24342,7 +24341,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24400,7 +24399,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24459,7 +24458,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24518,7 +24517,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24576,7 +24575,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24634,7 +24633,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24692,7 +24691,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24751,7 +24750,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""CUP_arifle_AK74M""],[4]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
+									value="[[[[],[]],[[""CUP_1Rnd_HE_GP25_M"",""CUP_PG7V_M"",""CUP_HandGrenade_RGD5"",""SmokeShell"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""hlc_30Rnd_545x39_t_ak"",""CUP_8Rnd_9x18_Makarov_M"",""SmokeShellBlue"",""SmokeShellRed"",""CUP_10Rnd_762x54_SVD_M"",""CUP_1Rnd_SmokeRed_GP25_M"",""CUP_1Rnd_SMOKE_GP25_M""],[40,20,20,30,20,80,20,20,20,60,20,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -24779,7 +24778,7 @@ class Mission
 				};
 			};
 			id=2685;
-			atlOffset=-78.906769;
+			atlOffset=-78.076447;
 		};
 		class Item486
 		{

@@ -14,3 +14,12 @@ class EX // Function TAG, used for the first part of the function name
 	};
 };
 */
+class SXP
+{
+	class mission
+	{
+		class setupUnit {};
+		class setupVehicle {};
+		class updateTask {};
+	};
+};

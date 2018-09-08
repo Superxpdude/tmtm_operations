@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=4;
+		nextID=6;
 	};
 	class Camera
 	{
-		pos[]={10557.818,142.32436,7018.146};
-		dir[]={-0.21314427,-0.59730333,0.77327251};
-		up[]={-0.15873455,0.80197757,0.57587922};
-		aside[]={0.96412128,-1.4246907e-006,0.26574984};
+		pos[]={10503.245,172.15985,7026.3267};
+		dir[]={0.57586366,-0.75062501,0.32433125};
+		up[]={0.65406197,0.66068828,0.36837211};
+		aside[]={0.49078581,-3.290188e-008,-0.87141687};
 	};
 };
 binarizationWanted=0;
@@ -153,6 +153,33 @@ randomSeed=12000557;
 class ScenarioData
 {
 	author="Superxpdude";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"BOOL"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		nAttributes=1;
+	};
 };
 class Mission
 {
@@ -1169,7 +1196,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10549.517,117.83689,7046.2588};
+						position[]={10549.517,117.83789,7046.2588};
 						angles[]={0.016004669,1.1325442,6.2711778};
 					};
 					side="West";
@@ -1180,7 +1207,6 @@ class Mission
 					};
 					id=65;
 					type="rhsusf_army_ucp_rifleman";
-					atlOffset=-0.00099945068;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1269,14 +1295,13 @@ class Mission
 				};
 			};
 			id=63;
-			atlOffset=-0.00099945068;
 		};
 		class Item9
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10549.546,119.78166,7046.2607};
+				position[]={10549.546,119.78266,7046.2607};
 				angles[]={0.016004669,1.1325442,6.2711778};
 			};
 			side="West";
@@ -1284,12 +1309,11 @@ class Mission
 			class Attributes
 			{
 				health=0.3856321;
-				fuel=0.017112894;
-				init="call{this engineOn true; this setPilotLight true;}";
+				fuel=0.0099999998;
+				init="call{[this, ""crashed_humvee""] call SXP_fnc_setupVehicle;}";
 			};
 			id=64;
 			type="rhsusf_m1043_w";
-			atlOffset=-0.00099945068;
 			class CustomAttributes
 			{
 				class Attribute0

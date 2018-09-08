@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=85;
+		nextID=90;
 	};
 	class LayerIndexProvider
 	{
-		nextID=2;
+		nextID=4;
 	};
 	class Camera
 	{
-		pos[]={10549.451,162.49663,7031.6431};
-		dir[]={-0.21546118,-0.36190647,0.90710467};
-		up[]={-0.083667703,0.93216109,0.35224843};
-		aside[]={0.97305351,2.2610766e-006,0.23112586};
+		pos[]={10557.818,142.32436,7018.146};
+		dir[]={-0.21314427,-0.59730333,0.77327251};
+		up[]={-0.15873455,0.80197757,0.57587922};
+		aside[]={0.96412128,-1.4246907e-006,0.26574984};
 	};
 };
 binarizationWanted=0;
@@ -955,10 +955,11 @@ class Mission
 					};
 					title="Crashed helicopter";
 					id=40;
+					atlOffset=-0.0001373291;
 				};
 			};
 			id=54;
-			atlOffset=0.54008484;
+			atlOffset=0.53994751;
 		};
 		class Item7
 		{

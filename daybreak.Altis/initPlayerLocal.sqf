@@ -1,16 +1,13 @@
 // initPlayerLocal.sqf
 // Executes on a client machine when they load the mission, regardless of if it's at mission start or JIP.
 // _this = [player:Object, didJIP:Boolean]
-_this params ["_player", "_jip"];
+params ["_player", "_jip"];
 
-// Initialise dynamic groups on the player side
-["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups;
+// Call the template initPlayerLocal function
+_this call XPT_fnc_initPlayerLocal; // DO NOT CHANGE THIS LINE
 
-// Create initial briefings for the players
+// Add any mission specific code after this point
 [] execVM "scripts\briefing.sqf";
-[] execVM "scripts\zeusMenu.sqf";
-
-// Add any mission-specific code after this point
 
 // Display the mission start text
 [] spawn {

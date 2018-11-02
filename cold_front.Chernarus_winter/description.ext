@@ -1,10 +1,10 @@
 //-------------------- Mission Information
 
 author = "Superxpdude"; // Author name visible on loading screen
-briefingName = "COOP 52+1 - Cold Front r1 (HC)"; // Name visible in mission select screen
+briefingName = "COOP 52+1 - Cold Front v1.1 (HC)"; // Name visible in mission select screen
 overviewText = "NATO forces defend an artillery base from an impending CSAT invasion."; // Description visible in mission select screen
 //overviewPicture = ""; // Image visible in mission select screen. Leave commented, still doesn't work properly.
-onLoadName = "COOP 52+1 - Cold Front"; // Name visible on loading screen
+onLoadName = "Cold Front"; // Name visible on loading screen
 onLoadMission = "A storm is coming"; // Description visible on loading screen
 loadScreen = "media\loadscreen.paa"; // Image visible on loading screen
 

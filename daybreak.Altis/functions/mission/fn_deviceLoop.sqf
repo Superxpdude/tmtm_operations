@@ -36,6 +36,8 @@ while {(missionNamespace getVariable ["deviceState", 0]) == 1} do {
 	if (_currentTime <= 0) exitWith {missionNamespace setVariable ["deviceState", 3, true]};
 	// Set the new _eventTime variable
 	_eventTime = diag_tickTime + ((_endTime - diag_tickTime) % _modulo);
+	// Update estimatedTimeLeft
+	estimatedTimeLeft (_endTime - diag_tickTime);
 	// Ensures that we don't get two earthquakes at the same time
 	sleep 1.5;
 };	

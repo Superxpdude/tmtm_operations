@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5836.8989,115.52049,10621.099};
-		dir[]={0.050367672,-0.86628574,0.49717191};
-		up[]={0.087312743,0.49957591,0.86186731};
-		aside[]={0.99499971,-1.8766441e-006,-0.10080036};
+		pos[]={5845.1509,106.01404,10581.381};
+		dir[]={-0.14855306,-0.5763374,0.8037039};
+		up[]={-0.10476477,0.81718129,0.56679201};
+		aside[]={0.98343629,-1.1634547e-006,0.18177591};
 	};
 };
 binarizationWanted=0;
@@ -13733,7 +13733,7 @@ class Mission
 			};
 			id=7031;
 			type="Box_IND_Wps_F";
-			atlOffset=0.0052108765;
+			atlOffset=0.0050354004;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13851,7 +13851,7 @@ class Mission
 			};
 			id=7033;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.19033813;
+			atlOffset=0.19015884;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13910,7 +13910,7 @@ class Mission
 			};
 			id=7034;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.18582535;
+			atlOffset=0.18564606;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13968,7 +13968,7 @@ class Mission
 			};
 			id=7035;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.20404816;
+			atlOffset=0.20386887;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14027,7 +14027,7 @@ class Mission
 			};
 			id=7036;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.19845963;
+			atlOffset=0.19828033;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14086,7 +14086,7 @@ class Mission
 			};
 			id=7037;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.18074799;
+			atlOffset=0.1805687;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14145,7 +14145,7 @@ class Mission
 			};
 			id=7038;
 			type="Box_IND_Wps_F";
-			atlOffset=0.0032691956;
+			atlOffset=0.0030899048;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14204,7 +14204,7 @@ class Mission
 			};
 			id=7040;
 			type="Box_IND_WpsLaunch_F";
-			atlOffset=0.049263;
+			atlOffset=0.04908371;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15178,7 +15178,7 @@ class Mission
 					};
 					id=7103;
 					type="I_Soldier_GL_F";
-					atlOffset=0.14043808;
+					atlOffset=0.14025879;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15287,7 +15287,7 @@ class Mission
 				dynamicSimulation=1;
 			};
 			id=7102;
-			atlOffset=0.14043808;
+			atlOffset=0.14025879;
 			class CustomAttributes
 			{
 				class Attribute0

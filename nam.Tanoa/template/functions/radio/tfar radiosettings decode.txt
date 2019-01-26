@@ -1,0 +1,30 @@
+// SW Radio Settings
+
+[0,7,["70.3","162.5","156.3","347.3","61.5","471.4","154.4","217.4","43.7"],0,"_bluefor",-1,0,"76561198031434864",false,true]
+
+Active Channel (0-7)
+Volume (0-9)
+Channel Frequencies
+Stereo Setting (0 = both, 1 = left, 2 = right)
+Encryption code
+Additional Channel (0-7, -1 to disable)
+Additional Stereo
+Owner PlayerUID
+Speakers
+*
+
+
+
+
+// LR Radio Settings
+[0,7,["30.7","52.6","35.5","54.0","45.0","64.1","46.9","64.9","47.5","74.5"],0,"_bluefor",-1,0,any,false,true]
+Active Channel (0-9)
+Volume (0-9)
+Channel Frequencies
+Stereo Setting
+Encryption Code
+Additional Channel (0-8, -1 to disable)
+Additional Stereo
+*
+Speakers
+*

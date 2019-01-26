@@ -4,6 +4,12 @@
 // Briefings are listed in the opposite order that they are written below. New diaryRecords are always placed at the top of the list.
 // https://community.bistudio.com/wiki/createDiaryRecord
 
+
+player createDiaryRecord ["Diary", ["Changelog", "Version 1.1:
+<br/> - Updated the mission to use the standard XP template.
+<br/><br/>Version 1.0:
+<br/> - Initial Release"]];
+
 player createDiaryRecord ["Diary", ["Assets", "Your available assets for this mission are:<br/>
 	- 1x HMMWV (Command Vehicle)<br/>
 	- 12x MTVR Transport<br/>

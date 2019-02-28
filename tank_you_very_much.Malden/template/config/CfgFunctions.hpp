@@ -48,7 +48,7 @@ class XPT
 		file = "template\functions\radio";
 		class radioHandleDeath {}; // Handles saving radio settings when the player dies
 		class radioHandleRespawn {}; // Handles applying radio settings when the player respawns
-		class radioInit {preInit = 1;}; // Function for configuring radio settings
+		class radioInit {postInit = 1;}; // Function for configuring radio settings
 	};
 	class stage
 	{
@@ -66,5 +66,12 @@ class XPT
 		class mapMarkersClient {}; // Client-side portion of the map-markers module
 		class mapMarkersServer {}; // Server-side portion of the map-markers module
 		class updateTask {}; // Function for handling mission task updates
+	};
+	class vehicle
+	{
+		file = "template\functions\vehicle";
+		class loadItemCargo {};
+		class vehicleSetup {};
+		class vehicleSetupTurret {};
 	};
 };

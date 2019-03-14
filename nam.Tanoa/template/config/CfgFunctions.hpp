@@ -18,7 +18,9 @@ class XPT
 	{
 		file = "template\functions\debug";
 		class debugCuratorFix {}; // Function to fix black screen in the curator interface
-		class errorReport {}; // Function for handling error reporting
+		class error {}; // Function used for handling errors
+		class errorLog {}; // Writes errors to the log and systemchat
+		class errorReport {}; // Old function for handling error reporting
 	};
 	class event
 	{
@@ -42,6 +44,7 @@ class XPT
 		file = "template\functions\loadout";
 		class loadCurrentInventory {}; // Uses loadInventory to apply a loadout to a unit
 		class loadInventory {}; // Function for loading a unit's inventory
+		class loadInventoryLegacy {}; // Old inventory function. Temporarily preserved for backwards compatibility.
 	};
 	class radio
 	{
@@ -61,6 +64,7 @@ class XPT
 		file = "template\functions\system";
 		class briefingCreate {}; // Function to create briefings from a config file
 		class briefingOnStart {postInit = 1;}; // Function to create mission briefings on mission start
+		class cbaParams {preInit = 1;}; // Function to handle converting lobby parameters to CBA settings
 		class curatorMenu {}; // Function for adding the briefing-based curator menu
 		class fpsMarkers {postInit = 1;}; // Function to place FPS indicators on the map
 		class mapMarkersClient {}; // Client-side portion of the map-markers module

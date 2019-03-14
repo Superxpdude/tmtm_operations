@@ -9,6 +9,8 @@
 	Returns: Nothing
 */
 
+#include "xpt_script_defines.hpp"
+
 // Define our variables
 params ["_unit"];
 private ["_loadout"];
@@ -24,19 +26,44 @@ if (isNil "_loadout") then {
 	_loadout = typeOf _unit;
 };
 
+
+// Determine the version of loadout that's being used. Run the matching inventory script.
+private _fn_checkInventoryVersion = {
+	private _subClasses = "true" configClasses (_this select 1);
+	private _class = if ((count _subClasses) > 0) then {selectRandom _subClasses} else {_this select 1};
+	if (isNil {((_class) >> "weapons") call BIS_fnc_getCfgData}) then {
+		_this call XPT_fnc_loadInventory;
+	} else {
+		_this call XPT_fnc_loadInventoryLegacy;
+	};
+};
+
+/*
+_subclasses = "true" configClasses _baseClass;
+if ((count _subclasses) > 0) then {
+	// If we have any subclasses, select a random one.
+	_class = selectRandom _subclasses;
+	_isSubclass = true;
+} else {
+	_class = _baseClass;
+};
+*/
 // Find the correct loadout for the unit. Report an error if no loadout is found
 switch true do {
 	case (isClass ((getMissionConfig "CfgXPT") >> XPT_stage_active >> "loadouts" >> _loadout)): {
-		[_unit, (getMissionConfig "CfgXPT") >> XPT_stage_active >> "loadouts" >> _loadout] call XPT_fnc_loadInventory;
+		//[_unit, (getMissionConfig "CfgXPT") >> XPT_stage_active >> "loadouts" >> _loadout] call XPT_fnc_loadInventory;
+		[_unit, (getMissionConfig "CfgXPT") >> XPT_stage_active >> "loadouts" >> _loadout] call _fn_checkInventoryVersion;
 	};
 	// Keep the old loadouts location in here for legacy reasons
 	case (isClass ((getMissionConfig "CfgXPT") >> "loadouts" >> _loadout)): {
-		[_unit, (getMissionConfig "CfgXPT") >> "loadouts" >> _loadout] call XPT_fnc_loadInventory;
+		//[_unit, (getMissionConfig "CfgXPT") >> "loadouts" >> _loadout] call XPT_fnc_loadInventory;
+		[_unit, (getMissionConfig "CfgXPT") >> "loadouts" >> _loadout] call _fn_checkInventoryVersion;
 	};
 	case (isClass ((getMissionConfig "CfgRespawnInventory") >> _loadout)): {
 		[_unit, (getMissionConfig "CfgRespawnInventory") >> _loadout] call BIS_fnc_loadInventory;
 	};
+	// If no loadout is found, report an error
 	default {
-		[[false, format ["[XPT-LOADOUT] Missing Loadout. Unit: ""%1"", Loadout: ""%2""", typeOf _unit, _loadout]]] remoteExec ["XPT_fnc_errorReport", 0];
+		[true, format ["No loadout defined for unit. Loadout: '%1' Unit: '%2'", _loadout, name _unit], 2] call XPT_fnc_error;
 	};
 };

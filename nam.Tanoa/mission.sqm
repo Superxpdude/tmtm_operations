@@ -5,25 +5,25 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=129;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=945;
+		nextID=947;
 	};
 	class MarkerIDProvider
 	{
-		nextID=12;
+		nextID=17;
 	};
 	class LayerIndexProvider
 	{
-		nextID=8;
+		nextID=10;
 	};
 	class Camera
 	{
-		pos[]={10808.093,405.95282,9493.7275};
-		dir[]={-0.4608331,-0.37570164,-0.80404204};
-		up[]={-0.18682188,0.92673981,-0.32595918};
-		aside[]={-0.86760145,-1.2479722e-007,0.49726206};
+		pos[]={11695.238,35.750916,3075.3945};
+		dir[]={0.28134462,-0.57805526,-0.76599866};
+		up[]={0.19930503,0.8159833,-0.54263371};
+		aside[]={-0.9387123,3.6566053e-007,-0.3447817};
 	};
 };
 binarizationWanted=0;
@@ -71,7 +71,8 @@ addons[]=
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Structures_F_Heli_Items_Airport",
 	"A3_Structures_F_Heli_Ind_Cargo",
-	"A3_Modules_F_Multiplayer"
+	"A3_Modules_F_Multiplayer",
+	"A3_Structures_F_Mil_Flags"
 };
 class AddonsMetaData
 {
@@ -410,7 +411,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=304;
+		items=306;
 		class Item0
 		{
 			dataType="Comment";
@@ -880,8 +881,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11667.911,7.2886977,3034.7739};
-				angles[]={0,5.4213338,0};
+				position[]={11667.911,7.2889261,3034.7734};
+				angles[]={0,5.4213414,0};
 			};
 			side="Empty";
 			flags=4;
@@ -892,7 +893,7 @@ class Mission
 			};
 			id=256;
 			type="CUP_B_HMMWV_Unarmed_USMC";
-			atlOffset=-0.0042285919;
+			atlOffset=-0.0040001869;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11749,7 +11750,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="Squad Leader@Foxtrot (EXTRA SQUAD)";
+						description="Squad Leader (EXTRA SQUAD)@Foxtrot (EXTRA SQUAD)";
 						isPlayable=1;
 					};
 					id=923;
@@ -13006,6 +13007,31 @@ class Mission
 				};
 				nAttributes=10;
 			};
+		};
+		class Item304
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11694.596,8.6668053,3043.137};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{[this] call SXP_fnc_setupFlagPole;}";
+			};
+			id=945;
+			type="Flag_US_F";
+			atlOffset=4.7683716e-007;
+		};
+		class Item305
+		{
+			dataType="Marker";
+			position[]={11696.353,4.6900001,3040.3291};
+			name="respawn_west";
+			type="Empty";
+			id=946;
 		};
 	};
 	class Connections

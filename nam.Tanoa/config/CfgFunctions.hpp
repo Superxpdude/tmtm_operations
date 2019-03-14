@@ -20,6 +20,7 @@ class SXP
 	class mission {
 		class endMission {};
 		class playMusic {};
+		class setupFlagPole {};
 		class updateTask {};
 	};
 };

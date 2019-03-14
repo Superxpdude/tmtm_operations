@@ -21,5 +21,5 @@ XPT_blacklistedMissionObjects = [];
 setTimeMultiplier 0.5;
 
 // Add the respawn positions
-[missionNamespace, "respawn_stgeorge", "Saint-George Airbase"] call BIS_fnc_addRespawnPosition;
-[missionNamespace, cmd_veh, "Command Vehicle"] call BIS_fnc_addRespawnPosition;
+//[missionNamespace, "respawn_stgeorge", "Saint-George Airbase"] call BIS_fnc_addRespawnPosition;
+//[missionNamespace, cmd_veh, "Command Vehicle"] call BIS_fnc_addRespawnPosition;
